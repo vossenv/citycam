@@ -1,0 +1,103 @@
+
+
+
+:root {
+    --background-url1: url("https://i.imgur.com/EsS7jid.jpg");
+    --background-url: url("https://external-preview.redd.it/X8sbOfKSqHJQmKt6wuzGGtCrV2ADHcgRNn3RWDFMfOQ.jpg?auto=webp&s=36936660b169ae53609b55c026b058ab1b22f2d7");
+
+    --btn-hover-color: #ff0017;
+    --btn-hover-size: 2px;
+    --title-glow-color: #6b6b6b;
+    --title-glow-size: 10px;
+}
+
+
+
+body {
+    color:white;
+    background: linear-gradient(  rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), var(--background-url) no-repeat fixed;
+    background-size: cover;
+}
+
+.title-text {
+    font-size: 48pt;
+
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    -webkit-filter: drop-shadow(0px 0px var(--title-glow-size) var(--title-glow-color));
+    filter:drop-shadow(0px 0px var(--title-glow-size) var(--title-glow-color)) ;
+
+}
+
+#t-banner {
+    margin: 100px 0 100px 0;
+
+}
+
+#search-bar-div {
+    margin-top: -10px;
+}
+
+
+
+#help-text {
+    margin-top: -10px;
+    text-align: left;
+}
+
+#results {
+    color:white;
+    padding: 25px;
+    text-align:left;
+    border-radius: 15px;
+
+}
+
+#search-footer {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+pre {
+
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#paging-div, #page-size {
+    display:inline-block;
+}
+
+.pagenum {
+    color:white;
+    text-decoration:underline;
+    font-size:18px;
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+.pagenum:hover {
+    color:#dc3545;
+    cursor:pointer;
+
+}
+
+
+.container {
+    min-width: 600px;
+    max-width: 1500px;
+    margin-bottom: 200px
+}
+
+
+@media all and (max-width: 768px) {
+
+    #search-button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Team Query</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/main.css}"/>
+</head>
+
+<div class="container">
+    <div>
+    <div id="t-banner" class="row text-center">
+        <div class="col-md-12">
+            <span class="title-text">Adobeverse Search</span>
+        </div>
+    </div>
+    <div id="search-bar-div" class="row">
+        <div class="col-md-12 text-center">
+            <div class="col-md-12">
+                <div class="row form-group ">
+                    <div class="col-md-10 ">
+                        <input id="search-bar" type="text" class="form-control"
+                               placeholder="enter keywords or phrases...">
+                    </div>
+                    <div class="col-md-2">
+                        <button id="search-button" type="button" class="pl-5 pr-5 btn btn-danger">Search</button>
+                    </div>
+                </div>
+                <div id="help-text">
+                    Use quotes and AND/OR terms to refine your search!
+                </div>
+            </div>
+            <br/><br/>
+            <pre id="results"></pre>
+        </div>
+    </div>
+    <div id="search-footer" class="row" style="display: none">
+        <div id="stats-div" class="col-md-6 text-left">
+        </div>
+        <div class="col-md-6 text-right">
+            <span id="paging-div"></span>&nbsp;&nbsp;
+            <label for="page-size">Results per page</label>
+            <select id="page-size" class="selectpicker">
+                <option selected="selected">1</option>
+                <option>5</option>
+                <option>10</option>
+                <option>25</option>
+                <option >50</option>
+                <option>100</option>
+            </select>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<span id="first-visit" style="display: none">true</span>
+<span id="current-page" style="display: none"></span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+<div>
+<script th:src="@{/static/js/main.js}"></script>
+</div>
+
+</html>
