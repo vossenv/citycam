@@ -23,7 +23,7 @@ public class CamSource extends EntityBase<String> {
     private String url;
 
     @NotNull
-    @Column(name = "title", columnDefinition = "VARCHAR(500)")
+    @Column(name = "title", unique = true, columnDefinition = "VARCHAR(500)")
     private String title;
 
     @NotNull

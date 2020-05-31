@@ -1,7 +1,5 @@
 package com.dm.citycam.citycam.data.service;
 
-import com.dm.citycam.citycam.config.ApiRequest;
-import com.dm.citycam.citycam.config.ListResponse;
 import com.dm.citycam.citycam.data.entity.EntityBase;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -15,22 +13,24 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceException;
 import javax.validation.ConstraintViolationException;
+import java.lang.reflect.Field;
+import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.NoSuchElementException;
 
 
 public abstract class GenService<T extends EntityBase, ID> {
 
-    //    private Class<T> persistentClass;
-    //       this.persistentClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
-
     private final EntityManager em;
     private final PagingAndSortingRepository<T, ID> repository;
+    private Class<T> persistentClass;
 
     public GenService(EntityManager em, PagingAndSortingRepository repository) {
         this.em = em;
         this.repository = repository;
+        this.persistentClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
     }
 
     public T save(T t) {
@@ -67,16 +67,49 @@ public abstract class GenService<T extends EntityBase, ID> {
         }
     }
 
+    public T patch(Map<String, Object> fields, ID id) throws IllegalAccessException {
+        return patch(fields, id, true);
+    }
+
+    public T patch(Map<String, Object> fields, ID id, boolean force) throws IllegalAccessException {
+
+        if (force && fields.isEmpty()){
+            throw new IllegalArgumentException("Cannot patch, no data provided!");
+        }
+
+        T entity = findById(id);
+
+        for (Field f : this.persistentClass.getDeclaredFields()) {
+            f.setAccessible(true);
+            Object v = fields.remove(f.getName());
+            if (null != v) {
+                f.set(entity, v);
+            }
+        }
+
+        if (force && fields.size() != 0) {
+            throw new IllegalArgumentException(
+                    String.format("Illegal fields for type %s: %s",
+                            this.persistentClass.getSimpleName(), fields.keySet().toString()));
+        }
+
+        return save(entity);
+    }
+
     public List<T> saveAll(List<T> toSave) {
         return (List<T>) repository.saveAll(toSave);
     }
 
     public List<T> findAll() {
-        return findAll(PageRequest.of(0,100));
+        return findAll(PageRequest.of(0, 100));
     }
 
-    public void clear(){
+    public void clear() {
         repository.deleteAll();
+    }
+
+    public long count() {
+        return repository.count();
     }
 
     public List<T> findAll(Pageable p) {
@@ -84,14 +117,6 @@ public abstract class GenService<T extends EntityBase, ID> {
         repository.findAll(p).iterator().forEachRemaining(results::add);
         return results;
     }
-
-    public ListResponse findAllPaged(ApiRequest request) {
-        ListResponse response = new ListResponse(request);
-        response.setResultsList(findAll(request.getPageable()));
-        response.setRowCount(repository.count());
-        return response;
-    }
-    
 
     private ID getEntityId(T t) {
         return (ID) em.getEntityManagerFactory().getPersistenceUnitUtil().getIdentifier(t);

@@ -31,10 +31,6 @@ public class ApiRequest {
     private Long requestTime = System.nanoTime();
     private List<String> errors = new ArrayList<>();
 
-    public ApiRequest(String query){
-        this.query = query;
-    }
-
     public ApiRequest(HttpServletRequest request) throws InvalidParameterException, UnsupportedEncodingException{
 
         Map<String, String> requestMap = Collections.list(request.getHeaderNames()).stream()

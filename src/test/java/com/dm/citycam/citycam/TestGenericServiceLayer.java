@@ -3,7 +3,7 @@ package com.dm.citycam.citycam;
 
 import com.dm.citycam.citycam.data.entity.CamSource;
 import com.dm.citycam.citycam.data.service.CamSourceService;
-import com.dm.citycam.citycam.exception.GenException;
+import com.dm.citycam.citycam.exception.APIError;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -29,7 +29,7 @@ class TestGenericServiceLayer {
 
     @FunctionalInterface
     interface ExceptionCheck<T> {
-        void execute(T t) throws GenException;
+        void execute(T t) throws APIError;
     }
 
     private void MatchException(ExceptionCheck ec, Object o, Class c) {

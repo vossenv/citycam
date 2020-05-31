@@ -132,9 +132,9 @@ C834,TRUE,44.96597,-93.270185,I-94: WB @ MN 65,in Minneapolis,https://video.dot.
 C835,TRUE,44.965644,-93.268747,I-94: WB @ Portland Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C835
 C836,TRUE,44.964563,-93.244077,I-94: EB @ Cedar Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C836
 C837,TRUE,44.964235,-93.23331,I-94: EB @ Riverside Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C837
-C837,TRUE,44.964235,-93.23331,I-94: EB @ Riverside Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8361
+C8361,TRUE,44.964235,-93.23331,I-94: EB @ Riverside Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8361
 C838,TRUE,44.96708,-93.221521,I-94: WB @ Huron Boulevard,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C838
-C838,TRUE,44.96708,-93.221521,I-94: WB @ Huron Boulevard,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C8381
+C8381,TRUE,44.96708,-93.221521,I-94: WB @ Huron Boulevard,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C8381
 C839,TRUE,44.964504,-93.215889,I-94: EB @ Franklin Ave,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C839
 C840,TRUE,44.95981,-93.208747,I-94: EB W @ MN 280,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C840
 C841,TRUE,44.959704,-93.202079,I-94: EB @ MN 280,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C841
@@ -146,7 +146,7 @@ C846,TRUE,44.951647,-93.145432,I-94: EB @ Lexington Ave,near Saint Paul,https://
 C3401,TRUE,44.946422,-93.104774,I-35E: EB @ Kellog Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3401
 C848,TRUE,44.951187,-93.116489,I-94: EB @ Western Ave,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C848
 C849,TRUE,44.949953,-93.1031,I-94: EB @ ohn Ireland Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C849
-C849,TRUE,44.949953,-93.1031,I-94: EB @ ohn Ireland Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C8481
+C8481,TRUE,44.949953,-93.1031,I-94: EB @ ohn Ireland Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C8481
 C850,TRUE,44.950267,-93.100312,I-94: EB @ Wabasha St,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C850
 C851,TRUE,44.95361,-93.092826,I-94: EB @ Jackson St,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C851
 C852,TRUE,44.953665,-93.092459,I-94: EB @ I-35E,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C852
@@ -337,7 +337,7 @@ C513,TRUE,44.895334,-93.248309,MN 62: EB @ TH 77,near Richfield,https://video.do
 C110,TRUE,44.890631,-93.267978,MN 62: EB @ Portland Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C110
 C115,TRUE,44.89076,-93.319042,MN 62: WB @ Xerxes Avenue,near Edina,https://video.dot.state.mn.us/video/image/metro/C115
 C116,TRUE,44.88693,-93.328705,MN 62: EB @ France Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C116
-C116,TRUE,44.88693,-93.328705,MN 62: EB @ France Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C1116
+C1116,TRUE,44.88693,-93.328705,MN 62: EB @ France Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C1116
 C117,TRUE,44.889535,-93.349796,MN 62: WB @ MN 100,in Edina,https://video.dot.state.mn.us/video/image/metro/C117
 C118,TRUE,44.887291,-93.369153,MN 62: EB @ racy Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C118
 C119,TRUE,44.889501,-93.387187,MN 62: EB @ Gleason Road,in Edina,https://video.dot.state.mn.us/video/image/metro/C119
@@ -464,7 +464,6 @@ C35-194,TRUE,46.79744,-92.08219,I-35: NB @ Leif Ericson Tunnel,near Duluth,https
 C35-195,TRUE,46.79774,-92.081322,I-35: SB @ Leif Ericson Tunnel,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-195
 C35-191,TRUE,46.79595,-92.085517,I-35: SB @ E of LE Tunnel,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-191
 C35-188,TRUE,46.79322,-92.090499,I-35: SB @ Between Tunnels,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-188
-C112,TRUE,44.889755,-93.292489,MN 62: WB @ Lyndale Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C112
 C114,TRUE,44.890674,-93.30838,MN 62: WB @ Penn Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C114
 C1272,TRUE,44.902066,-93.550966,MN 7: EB @ Christmas Lake Road,in Greenwood,https://video.dot.state.mn.us/video/image/metro/C1272
 C1271,TRUE,44.898072,-93.56762,MN 7: EB @ Oak Street,in Excelsior,https://video.dot.state.mn.us/video/image/metro/C1271
@@ -510,7 +509,6 @@ C798,TRUE,45.223723,-93.60542,I-94: WB W of MN 241,near Rogers,https://video.dot
 C800,TRUE,45.20991,-93.582742,I-94: WB E of MN 241,in Rogers,https://video.dot.state.mn.us/video/image/metro/C800
 C1483,TRUE,45.071879,-93.247152,MN 65: SB @ Medtronic Pkwy,in Fridley,https://video.dot.state.mn.us/video/image/metro/C1483
 C688,TRUE,45.129963,-93.39072,MN 610: WB @ US 169,in Osseo,https://video.dot.state.mn.us/video/image/metro/C688
-C669,TRUE,45.142634,-93.273218,MN 610: MN 610 @ MN 47,near Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C669
 C1312,TRUE,44.77699,-93.27792,MN 13: EB @ Nicollet Avenue,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C1312
 C1316,TRUE,44.778953,-93.343762,MN 13: WB @ Quentin Avenue,in Savage,https://video.dot.state.mn.us/video/image/metro/C1316
 C1504,TRUE,45.549926,-94.205165,MN 15: MN 15 NB @ 2nd Street,in Saint Cloud,https://video.dot.state.mn.us/video/image/metro/C1504
@@ -554,7 +552,6 @@ D6-C130,TRUE,44.071066,-93.251922,I-35: @ Lemond Rd,in Owatonna,https://video.do
 D6-C094,TRUE,44.511672,-93.287644,I-35: SB @ MP 74.3,in Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C094
 D6-C132,TRUE,44.040931,-93.248527,I-35: @ UP Railroad,near Owatonna,https://video.dot.state.mn.us/video/image/metro/D6-C132
 D6-C133,TRUE,44.026934,-93.24682,I-35: @ MP 37.9,1 mile south of the Owatonna area,https://video.dot.state.mn.us/video/image/metro/D6-C133
-D6-C004,TRUE,44.079676,-92.508404,US 52: @ 55th St NW,1 mile north of the Rochester area,https://video.dot.state.mn.us/video/image/metro/D6-C004
 D6-C017,TRUE,44.144402,-92.528261,US 52: @ Hwy 12W-112,in Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C017
 D6-C001,TRUE,44.168715,-92.549099,US 52: @ Hwy 12E,in Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C001
 C1503,TRUE,45.399068,-93.234236,MN 65: NB @ Hwy 24,near Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1503
@@ -606,7 +603,7 @@ C6101,TRUE,44.827429,-93.291721,I-35W: S of 98th Street,in Bloomington,https://v
 C6161,TRUE,44.891703,-93.275375,I-35W: N-S @ 58th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C6161
 C618,TRUE,44.912542,-93.274659,I-35W: @ 50th Street,near Richfield,https://video.dot.state.mn.us/video/image/metro/C618
 C6181,TRUE,44.91826,-93.27456,I-35W: @ 46th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6181
-C6181,TRUE,44.91826,-93.27456,I-35W: @ 46th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C620
+C620,TRUE,44.91826,-93.27456,I-35W: @ 46th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C620
 C6211,TRUE,44.935545,-93.274536,I-35W: N-S @ 38th Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6211
 C6221,TRUE,44.951754,-93.27333,I-35W: NB @ 33rd Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6221
 C1487,TRUE,45.108302,-93.243572,MN 65: NB @ Osborne Road,in Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C1487
@@ -635,7 +632,6 @@ C5015,TRUE,44.861818,-93.51189,MN 5: WB @ Dell Road,near Chanhassen,https://vide
 C5014,TRUE,44.861929,-93.522147,MN 5: WB @ MN 101 NB,near Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5014
 C5012,TRUE,44.857808,-93.536719,MN 5: EB @ Market Blvd,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5012
 C5016,TRUE,44.862084,-93.484779,MN 5: EB @ Eden Prarie Road,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C5016
-C6130,TRUE,44.86097,-93.29824,I-35W: N-S @ 86th Street,in Richfield,https://video.dot.state.ms.us/video/image/metro/C6130
 C775,TRUE,45.384512,-94.009599,I-94: EB W of Co Rd 8,near Clearwater,https://video.dot.state.mn.us/video/image/metro/C775
 C773,TRUE,45.401771,-94.038389,I-94: EB E of MN 24,in Clearwater,https://video.dot.state.mn.us/video/image/metro/C773
 C767,TRUE,45.465422,-94.131307,I-94: EB @ Opportunity Drive,near Saint Augusta,https://video.dot.state.mn.us/video/image/metro/C767
@@ -643,7 +639,6 @@ C771,TRUE,45.422834,-94.082734,I-94: EB W of MN 24,near Clearwater,https://video
 C780,TRUE,45.355456,-93.929676,I-94: EB E of Co Rd 8,near Becker,https://video.dot.state.mn.us/video/image/metro/C780
 C1202,TRUE,44.94921,-92.98599,MN 120: NB N of I-94,2 miles south of the Oakdale area,https://video.dot.state.mn.us/video/image/metro/C1202
 C1203,TRUE,44.952343,-92.984929,MN 120: SB @ Innovation Blvd,2 miles south of the Oakdale area,https://video.dot.state.mn.us/video/image/metro/C1203
-C1715,TRUE,45.028238,-93.04637,US 61: SB @ Beam Avenue,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C1715
 C713,TRUE,45.036024,-93.079106,I-694: WB @ Edgerton Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C713
 C675,TRUE,45.078898,-93.174689,US 10: @ CR 96,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C675
 C687,TRUE,45.130309,-93.408844,MN 610: EB @ Revere Lane,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C687
@@ -683,294 +678,7 @@ C1676,TRUE,44.844676,-92.979575,US 61: NB S of 70th Street,in Saint Paul Park,ht
 C1670,TRUE,44.799188,-92.900655,US 61: NB S of Innovation Rd,in Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1670
 C1668,TRUE,44.78823,-92.881129,US 61: NB @ Kingsborough Tr.,near Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1668
 C1669,TRUE,44.794669,-92.890426,US 61: NB N of Kingsborough Tr.,near Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1669
-Vid-000330002-00-00.jpg,TRUE,44.4783,-93.291808,I-35: Little Chicago,3 miles south of the Elko New Market area,https://mn.carsprogram.org/mncam/Vid-000330002-00-00.jpg
-Vid-000330002-00-00.jpg,TRUE,44.4783,-93.291808,I-35: Little Chicago,3 miles south of the Elko New Market area,https://mn.carsprogram.org/mncam/Vid-000330002-00-01.jpg
-Vid-000330002-00-00.jpg,TRUE,44.4783,-93.291808,I-35: Little Chicago,3 miles south of the Elko New Market area,https://mn.carsprogram.org/mncam/Vid-000330002-00-02.jpg
-Vid-000330002-00-00.jpg,TRUE,44.4783,-93.291808,I-35: Little Chicago,3 miles south of the Elko New Market area,https://mn.carsprogram.org/mncam/Vid-000330002-00-03.jpg
-Vid-000330003-00-00.jpg,TRUE,45.642933,-92.992131,I-35: Rush City,2 miles north of Harris,https://mn.carsprogram.org/mncam/Vid-000330003-00-00.jpg
-Vid-000330003-00-00.jpg,TRUE,45.642933,-92.992131,I-35: Rush City,2 miles north of Harris,https://mn.carsprogram.org/mncam/Vid-000330003-00-01.jpg
-Vid-000330003-00-00.jpg,TRUE,45.642933,-92.992131,I-35: Rush City,2 miles north of Harris,https://mn.carsprogram.org/mncam/Vid-000330003-00-02.jpg
-Vid-000330003-00-00.jpg,TRUE,45.642933,-92.992131,I-35: Rush City,2 miles north of Harris,https://mn.carsprogram.org/mncam/Vid-000330003-00-03.jpg
-Vid-000330006-00-00.jpg,TRUE,43.637599,-95.769883,I-90: Rushmore,in Rushmore,https://mn.carsprogram.org/mncam/Vid-000330006-00-00.jpg
-Vid-000330006-00-00.jpg,TRUE,43.637599,-95.769883,I-90: Rushmore,in Rushmore,https://mn.carsprogram.org/mncam/Vid-000330006-00-01.jpg
-Vid-000330006-00-00.jpg,TRUE,43.637599,-95.769883,I-90: Rushmore,in Rushmore,https://mn.carsprogram.org/mncam/Vid-000330006-00-02.jpg
-Vid-000330006-00-00.jpg,TRUE,43.637599,-95.769883,I-90: Rushmore,in Rushmore,https://mn.carsprogram.org/mncam/Vid-000330006-00-03.jpg
-Vid-000330007-00-00.jpg,TRUE,43.638144,-95.118833,I-90: Lakefield,near Lakefield,https://mn.carsprogram.org/mncam/Vid-000330007-00-00.jpg
-Vid-000330007-00-00.jpg,TRUE,43.638144,-95.118833,I-90: Lakefield,near Lakefield,https://mn.carsprogram.org/mncam/Vid-000330007-00-01.jpg
-Vid-000330007-00-00.jpg,TRUE,43.638144,-95.118833,I-90: Lakefield,near Lakefield,https://mn.carsprogram.org/mncam/Vid-000330007-00-02.jpg
-Vid-000330007-00-00.jpg,TRUE,43.638144,-95.118833,I-90: Lakefield,near Lakefield,https://mn.carsprogram.org/mncam/Vid-000330007-00-03.jpg
-Vid-000330008-00-00.jpg,TRUE,43.661907,-94.123174,I-90: Blue Earth,in Blue Earth,https://mn.carsprogram.org/mncam/Vid-000330008-00-00.jpg
-Vid-000330008-00-00.jpg,TRUE,43.661907,-94.123174,I-90: Blue Earth,in Blue Earth,https://mn.carsprogram.org/mncam/Vid-000330008-00-01.jpg
-Vid-000330008-00-00.jpg,TRUE,43.661907,-94.123174,I-90: Blue Earth,in Blue Earth,https://mn.carsprogram.org/mncam/Vid-000330008-00-02.jpg
-Vid-000330008-00-00.jpg,TRUE,43.661907,-94.123174,I-90: Blue Earth,in Blue Earth,https://mn.carsprogram.org/mncam/Vid-000330008-00-03.jpg
-Vid-000330011-00-00.jpg,TRUE,43.911443,-91.543733,I-90: Ridgeway,6 miles west of the Dakota area,https://mn.carsprogram.org/mncam/Vid-000330011-00-00.jpg
-Vid-000330011-00-00.jpg,TRUE,43.911443,-91.543733,I-90: Ridgeway,6 miles west of the Dakota area,https://mn.carsprogram.org/mncam/Vid-000330011-00-01.jpg
-Vid-000330011-00-00.jpg,TRUE,43.911443,-91.543733,I-90: Ridgeway,6 miles west of the Dakota area,https://mn.carsprogram.org/mncam/Vid-000330011-00-02.jpg
-Vid-000330011-00-00.jpg,TRUE,43.911443,-91.543733,I-90: Ridgeway,6 miles west of the Dakota area,https://mn.carsprogram.org/mncam/Vid-000330011-00-03.jpg
-Vid-000330012-00-00.jpg,TRUE,46.847088,-96.66813,I-94: Dilworth,near Dilworth,https://mn.carsprogram.org/mncam/Vid-000330012-00-00.jpg
-Vid-000330012-00-00.jpg,TRUE,46.847088,-96.66813,I-94: Dilworth,near Dilworth,https://mn.carsprogram.org/mncam/Vid-000330012-00-01.jpg
-Vid-000330012-00-00.jpg,TRUE,46.847088,-96.66813,I-94: Dilworth,near Dilworth,https://mn.carsprogram.org/mncam/Vid-000330012-00-02.jpg
-Vid-000330012-00-00.jpg,TRUE,46.847088,-96.66813,I-94: Dilworth,near Dilworth,https://mn.carsprogram.org/mncam/Vid-000330012-00-03.jpg
-Vid-000330014-00-00.jpg,TRUE,45.837571,-95.36634,I-94: Alexandria,near Alexandria,https://mn.carsprogram.org/mncam/Vid-000330014-00-00.jpg
-Vid-000330014-00-00.jpg,TRUE,45.837571,-95.36634,I-94: Alexandria,near Alexandria,https://mn.carsprogram.org/mncam/Vid-000330014-00-01.jpg
-Vid-000330014-00-00.jpg,TRUE,45.837571,-95.36634,I-94: Alexandria,near Alexandria,https://mn.carsprogram.org/mncam/Vid-000330014-00-02.jpg
-Vid-000330014-00-00.jpg,TRUE,45.837571,-95.36634,I-94: Alexandria,near Alexandria,https://mn.carsprogram.org/mncam/Vid-000330014-00-03.jpg
-Vid-000330015-00-00.jpg,TRUE,45.713388,-94.931531,I-94: Sauk Centre,near Sauk Centre,https://mn.carsprogram.org/mncam/Vid-000330015-00-00.jpg
-Vid-000330015-00-00.jpg,TRUE,45.713388,-94.931531,I-94: Sauk Centre,near Sauk Centre,https://mn.carsprogram.org/mncam/Vid-000330015-00-01.jpg
-Vid-000330015-00-00.jpg,TRUE,45.713388,-94.931531,I-94: Sauk Centre,near Sauk Centre,https://mn.carsprogram.org/mncam/Vid-000330015-00-02.jpg
-Vid-000330015-00-00.jpg,TRUE,45.713388,-94.931531,I-94: Sauk Centre,near Sauk Centre,https://mn.carsprogram.org/mncam/Vid-000330015-00-03.jpg
-Vid-000330018-00-00.jpg,TRUE,47.854436,-92.04838,MN 1: Ely,6 miles west of the Ely area,https://mn.carsprogram.org/mncam/Vid-000330018-00-00.jpg
-Vid-000330018-00-00.jpg,TRUE,47.854436,-92.04838,MN 1: Ely,6 miles west of the Ely area,https://mn.carsprogram.org/mncam/Vid-000330018-00-01.jpg
-Vid-000330018-00-00.jpg,TRUE,47.854436,-92.04838,MN 1: Ely,6 miles west of the Ely area,https://mn.carsprogram.org/mncam/Vid-000330018-00-02.jpg
-Vid-000330019-00-00.jpg,TRUE,46.68825,-93.954066,MN 6: Emily,1 mile south of the Emily area,https://mn.carsprogram.org/mncam/Vid-000330019-00-00.jpg
-Vid-000330019-00-00.jpg,TRUE,46.68825,-93.954066,MN 6: Emily,1 mile south of the Emily area,https://mn.carsprogram.org/mncam/Vid-000330019-00-01.jpg
-Vid-000330019-00-00.jpg,TRUE,46.68825,-93.954066,MN 6: Emily,1 mile south of the Emily area,https://mn.carsprogram.org/mncam/Vid-000330019-00-02.jpg
-Vid-000330020-00-00.jpg,TRUE,44.949093,-95.409557,MN 7: Clara City,near Clara City,https://mn.carsprogram.org/mncam/Vid-000330020-00-00.jpg
-Vid-000330020-00-00.jpg,TRUE,44.949093,-95.409557,MN 7: Clara City,near Clara City,https://mn.carsprogram.org/mncam/Vid-000330020-00-01.jpg
-Vid-000330020-00-00.jpg,TRUE,44.949093,-95.409557,MN 7: Clara City,near Clara City,https://mn.carsprogram.org/mncam/Vid-000330020-00-02.jpg
-Vid-000330021-00-00.jpg,TRUE,44.906205,-93.986862,MN 7: New Germany,in New Germany,https://mn.carsprogram.org/mncam/Vid-000330021-00-00.jpg
-Vid-000330021-00-00.jpg,TRUE,44.906205,-93.986862,MN 7: New Germany,in New Germany,https://mn.carsprogram.org/mncam/Vid-000330021-00-01.jpg
-Vid-000330021-00-00.jpg,TRUE,44.906205,-93.986862,MN 7: New Germany,in New Germany,https://mn.carsprogram.org/mncam/Vid-000330021-00-02.jpg
-Vid-000330023-00-00.jpg,TRUE,48.572177,-96.914933,MN 11: Donaldson,in Donaldson,https://mn.carsprogram.org/mncam/Vid-000330023-00-00.jpg
-Vid-000330023-00-00.jpg,TRUE,48.572177,-96.914933,MN 11: Donaldson,in Donaldson,https://mn.carsprogram.org/mncam/Vid-000330023-00-01.jpg
-Vid-000330023-00-00.jpg,TRUE,48.572177,-96.914933,MN 11: Donaldson,in Donaldson,https://mn.carsprogram.org/mncam/Vid-000330023-00-02.jpg
-Vid-000330024-00-00.jpg,TRUE,48.819493,-95.960648,MN 11: Badger,near Badger,https://mn.carsprogram.org/mncam/Vid-000330024-00-00.jpg
-Vid-000330024-00-00.jpg,TRUE,48.819493,-95.960648,MN 11: Badger,near Badger,https://mn.carsprogram.org/mncam/Vid-000330024-00-01.jpg
-Vid-000330024-00-00.jpg,TRUE,48.819493,-95.960648,MN 11: Badger,near Badger,https://mn.carsprogram.org/mncam/Vid-000330024-00-02.jpg
-Vid-000330024-00-00.jpg,TRUE,48.819493,-95.960648,MN 11: Badger,near Badger,https://mn.carsprogram.org/mncam/Vid-000330024-00-03.jpg
-Vid-000330024-00-00.jpg,TRUE,48.819493,-95.960648,MN 11: Badger,near Badger,https://mn.carsprogram.org/mncam/Vid-000330024-00-04.jpg
-Vid-000330024-00-00.jpg,TRUE,48.819493,-95.960648,MN 11: Badger,near Badger,https://mn.carsprogram.org/mncam/Vid-000330024-00-05.jpg
-Vid-000330025-00-00.jpg,TRUE,48.62753,-94.067618,MN 11: Birchdale,23 miles east of the Baudette area,https://mn.carsprogram.org/mncam/Vid-000330025-00-00.jpg
-Vid-000330025-00-00.jpg,TRUE,48.62753,-94.067618,MN 11: Birchdale,23 miles east of the Baudette area,https://mn.carsprogram.org/mncam/Vid-000330025-00-01.jpg
-Vid-000330025-00-00.jpg,TRUE,48.62753,-94.067618,MN 11: Birchdale,23 miles east of the Baudette area,https://mn.carsprogram.org/mncam/Vid-000330025-00-02.jpg
-Vid-000330026-00-00.jpg,TRUE,48.601689,-93.373717,MN 11: International Falls,in Ranier,https://mn.carsprogram.org/mncam/Vid-000330026-00-00.jpg
-Vid-000330026-00-00.jpg,TRUE,48.601689,-93.373717,MN 11: International Falls,in Ranier,https://mn.carsprogram.org/mncam/Vid-000330026-00-01.jpg
-Vid-000330026-00-00.jpg,TRUE,48.601689,-93.373717,MN 11: International Falls,in Ranier,https://mn.carsprogram.org/mncam/Vid-000330026-00-02.jpg
-Vid-000330026-00-00.jpg,TRUE,48.601689,-93.373717,MN 11: International Falls,in Ranier,https://mn.carsprogram.org/mncam/Vid-000330026-00-03.jpg
-Vid-000330027-00-00.jpg,TRUE,44.270101,-96.320506,US 14: Lake Benton,in Lake Benton,https://mn.carsprogram.org/mncam/Vid-000330027-00-00.jpg
-Vid-000330027-00-00.jpg,TRUE,44.270101,-96.320506,US 14: Lake Benton,in Lake Benton,https://mn.carsprogram.org/mncam/Vid-000330027-00-01.jpg
-Vid-000330027-00-00.jpg,TRUE,44.270101,-96.320506,US 14: Lake Benton,in Lake Benton,https://mn.carsprogram.org/mncam/Vid-000330027-00-02.jpg
-Vid-000330028-00-00.jpg,TRUE,44.023807,-92.708501,US 14: Byron,near Kasson,https://mn.carsprogram.org/mncam/Vid-000330028-00-00.jpg
-Vid-000330028-00-00.jpg,TRUE,44.023807,-92.708501,US 14: Byron,near Kasson,https://mn.carsprogram.org/mncam/Vid-000330028-00-01.jpg
-Vid-000330028-00-00.jpg,TRUE,44.023807,-92.708501,US 14: Byron,near Kasson,https://mn.carsprogram.org/mncam/Vid-000330028-00-02.jpg
-Vid-000330028-00-00.jpg,TRUE,44.023807,-92.708501,US 14: Byron,near Kasson,https://mn.carsprogram.org/mncam/Vid-000330028-00-03.jpg
-Vid-000330029-00-00.jpg,TRUE,44.458713,-96.43525,MN 19: Hendricks,near Hendricks,https://mn.carsprogram.org/mncam/Vid-000330029-00-00.jpg
-Vid-000330029-00-00.jpg,TRUE,44.458713,-96.43525,MN 19: Hendricks,near Hendricks,https://mn.carsprogram.org/mncam/Vid-000330029-00-01.jpg
-Vid-000330029-00-00.jpg,TRUE,44.458713,-96.43525,MN 19: Hendricks,near Hendricks,https://mn.carsprogram.org/mncam/Vid-000330029-00-02.jpg
-Vid-000330031-00-00.jpg,TRUE,44.543033,-94.41415,MN 19: Winthrop,near Winthrop,https://mn.carsprogram.org/mncam/Vid-000330031-00-00.jpg
-Vid-000330031-00-00.jpg,TRUE,44.543033,-94.41415,MN 19: Winthrop,near Winthrop,https://mn.carsprogram.org/mncam/Vid-000330031-00-01.jpg
-Vid-000330031-00-00.jpg,TRUE,44.543033,-94.41415,MN 19: Winthrop,near Winthrop,https://mn.carsprogram.org/mncam/Vid-000330031-00-02.jpg
-Vid-000330032-00-00.jpg,TRUE,44.691606,-95.613897,MN 23: Hanley Falls,in Hanley Falls,https://mn.carsprogram.org/mncam/Vid-000330032-00-00.jpg
-Vid-000330032-00-00.jpg,TRUE,44.691606,-95.613897,MN 23: Hanley Falls,in Hanley Falls,https://mn.carsprogram.org/mncam/Vid-000330032-00-01.jpg
-Vid-000330032-00-00.jpg,TRUE,44.691606,-95.613897,MN 23: Hanley Falls,in Hanley Falls,https://mn.carsprogram.org/mncam/Vid-000330032-00-02.jpg
-Vid-000330032-00-00.jpg,TRUE,44.691606,-95.613897,MN 23: Hanley Falls,in Hanley Falls,https://mn.carsprogram.org/mncam/Vid-000330032-00-03.jpg
-Vid-000330035-00-00.jpg,TRUE,45.558098,-96.493867,MN 28: Graceville,near Graceville,https://mn.carsprogram.org/mncam/Vid-000330035-00-00.jpg
-Vid-000330035-00-00.jpg,TRUE,45.558098,-96.493867,MN 28: Graceville,near Graceville,https://mn.carsprogram.org/mncam/Vid-000330035-00-01.jpg
-Vid-000330035-00-00.jpg,TRUE,45.558098,-96.493867,MN 28: Graceville,near Graceville,https://mn.carsprogram.org/mncam/Vid-000330035-00-02.jpg
-Vid-000330036-00-00.jpg,TRUE,45.488467,-95.561947,MN 29: Starbuck,5 miles south of the Starbuck area,https://mn.carsprogram.org/mncam/Vid-000330036-00-00.jpg
-Vid-000330036-00-00.jpg,TRUE,45.488467,-95.561947,MN 29: Starbuck,5 miles south of the Starbuck area,https://mn.carsprogram.org/mncam/Vid-000330036-00-01.jpg
-Vid-000330036-00-00.jpg,TRUE,45.488467,-95.561947,MN 29: Starbuck,5 miles south of the Starbuck area,https://mn.carsprogram.org/mncam/Vid-000330036-00-02.jpg
-Vid-000330037-00-00.jpg,TRUE,44.056955,-95.597325,MN 30: Dovray,near Dovray,https://mn.carsprogram.org/mncam/Vid-000330037-00-00.jpg
-Vid-000330037-00-00.jpg,TRUE,44.056955,-95.597325,MN 30: Dovray,near Dovray,https://mn.carsprogram.org/mncam/Vid-000330037-00-01.jpg
-Vid-000330037-00-00.jpg,TRUE,44.056955,-95.597325,MN 30: Dovray,near Dovray,https://mn.carsprogram.org/mncam/Vid-000330037-00-02.jpg
-Vid-000330039-00-00.jpg,TRUE,43.719162,-91.436888,MN 44: Hokah,1 mile west of the Hokah area,https://mn.carsprogram.org/mncam/Vid-000330039-00-00.jpg
-Vid-000330039-00-00.jpg,TRUE,43.719162,-91.436888,MN 44: Hokah,1 mile west of the Hokah area,https://mn.carsprogram.org/mncam/Vid-000330039-00-01.jpg
-Vid-000330039-00-00.jpg,TRUE,43.719162,-91.436888,MN 44: Hokah,1 mile west of the Hokah area,https://mn.carsprogram.org/mncam/Vid-000330039-00-02.jpg
-Vid-000330040-00-00.jpg,TRUE,47.603566,-94.126516,MN 46: Squaw Lake,in Squaw Lake,https://mn.carsprogram.org/mncam/Vid-000330040-00-00.jpg
-Vid-000330040-00-00.jpg,TRUE,47.603566,-94.126516,MN 46: Squaw Lake,in Squaw Lake,https://mn.carsprogram.org/mncam/Vid-000330040-00-01.jpg
-Vid-000330040-00-00.jpg,TRUE,47.603566,-94.126516,MN 46: Squaw Lake,in Squaw Lake,https://mn.carsprogram.org/mncam/Vid-000330040-00-02.jpg
-Vid-000330042-00-00.jpg,TRUE,45.432552,-94.932383,MN 55: Regal,near Belgrade,https://mn.carsprogram.org/mncam/Vid-000330042-00-00.jpg
-Vid-000330042-00-00.jpg,TRUE,45.432552,-94.932383,MN 55: Regal,near Belgrade,https://mn.carsprogram.org/mncam/Vid-000330042-00-01.jpg
-Vid-000330042-00-00.jpg,TRUE,45.432552,-94.932383,MN 55: Regal,near Belgrade,https://mn.carsprogram.org/mncam/Vid-000330042-00-02.jpg
-Vid-000330043-00-00.jpg,TRUE,47.274183,-95.933332,US 59: Mahnomen,near Mahnomen,https://mn.carsprogram.org/mncam/Vid-000330043-00-00.jpg
-Vid-000330043-00-00.jpg,TRUE,47.274183,-95.933332,US 59: Mahnomen,near Mahnomen,https://mn.carsprogram.org/mncam/Vid-000330043-00-01.jpg
-Vid-000330043-00-00.jpg,TRUE,47.274183,-95.933332,US 59: Mahnomen,near Mahnomen,https://mn.carsprogram.org/mncam/Vid-000330043-00-02.jpg
-Vid-000330044-00-00.jpg,TRUE,44.074998,-94.368233,MN 60: Madelia,near Madelia,https://mn.carsprogram.org/mncam/Vid-000330044-00-00.jpg
-Vid-000330044-00-00.jpg,TRUE,44.074998,-94.368233,MN 60: Madelia,near Madelia,https://mn.carsprogram.org/mncam/Vid-000330044-00-01.jpg
-Vid-000330044-00-00.jpg,TRUE,44.074998,-94.368233,MN 60: Madelia,near Madelia,https://mn.carsprogram.org/mncam/Vid-000330044-00-02.jpg
-Vid-000330044-00-00.jpg,TRUE,44.074998,-94.368233,MN 60: Madelia,near Madelia,https://mn.carsprogram.org/mncam/Vid-000330044-00-03.jpg
-Vid-000330045-00-00.jpg,TRUE,46.79463,-92.156523,US 53: Anderson Road,in Duluth,https://mn.carsprogram.org/mncam/Vid-000330045-00-00.jpg
-Vid-000330045-00-00.jpg,TRUE,46.79463,-92.156523,US 53: Anderson Road,in Duluth,https://mn.carsprogram.org/mncam/Vid-000330045-00-01.jpg
-Vid-000330045-00-00.jpg,TRUE,46.79463,-92.156523,US 53: Anderson Road,in Duluth,https://mn.carsprogram.org/mncam/Vid-000330045-00-02.jpg
-Vid-000330048-00-00.jpg,TRUE,46.911783,-94.722812,MN 64: Chamberlain,3 miles south of the Akeley area,https://mn.carsprogram.org/mncam/Vid-000330048-00-00.jpg
-Vid-000330048-00-00.jpg,TRUE,46.911783,-94.722812,MN 64: Chamberlain,3 miles south of the Akeley area,https://mn.carsprogram.org/mncam/Vid-000330048-00-01.jpg
-Vid-000330048-00-00.jpg,TRUE,46.911783,-94.722812,MN 64: Chamberlain,3 miles south of the Akeley area,https://mn.carsprogram.org/mncam/Vid-000330048-00-02.jpg
-Vid-000330049-00-00.jpg,TRUE,46.339485,-93.261823,MN 27: McGrath,21 miles east of the Isle area,https://mn.carsprogram.org/mncam/Vid-000330049-00-00.jpg
-Vid-000330049-00-00.jpg,TRUE,46.339485,-93.261823,MN 27: McGrath,21 miles east of the Isle area,https://mn.carsprogram.org/mncam/Vid-000330049-00-01.jpg
-Vid-000330049-00-00.jpg,TRUE,46.339485,-93.261823,MN 27: McGrath,21 miles east of the Isle area,https://mn.carsprogram.org/mncam/Vid-000330049-00-02.jpg
-Vid-000330052-00-00.jpg,TRUE,48.2072,-94.553531,MN 72: Waskish,16 miles north of the Kelliher area,https://mn.carsprogram.org/mncam/Vid-000330052-00-00.jpg
-Vid-000330052-00-00.jpg,TRUE,48.2072,-94.553531,MN 72: Waskish,16 miles north of the Kelliher area,https://mn.carsprogram.org/mncam/Vid-000330052-00-01.jpg
-Vid-000330052-00-00.jpg,TRUE,48.2072,-94.553531,MN 72: Waskish,16 miles north of the Kelliher area,https://mn.carsprogram.org/mncam/Vid-000330052-00-02.jpg
-Vid-000330053-00-00.jpg,TRUE,46.043133,-96.493935,US 75: Tenney,in Tenney,https://mn.carsprogram.org/mncam/Vid-000330053-00-00.jpg
-Vid-000330053-00-00.jpg,TRUE,46.043133,-96.493935,US 75: Tenney,in Tenney,https://mn.carsprogram.org/mncam/Vid-000330053-00-01.jpg
-Vid-000330053-00-00.jpg,TRUE,46.043133,-96.493935,US 75: Tenney,in Tenney,https://mn.carsprogram.org/mncam/Vid-000330053-00-02.jpg
-Vid-000330055-00-00.jpg,TRUE,48.4364,-95.730945,MN 89: Gatzke,11 miles north of the Grygla area,https://mn.carsprogram.org/mncam/Vid-000330055-00-00.jpg
-Vid-000330055-00-00.jpg,TRUE,48.4364,-95.730945,MN 89: Gatzke,11 miles north of the Grygla area,https://mn.carsprogram.org/mncam/Vid-000330055-00-01.jpg
-Vid-000330055-00-00.jpg,TRUE,48.4364,-95.730945,MN 89: Gatzke,11 miles north of the Grygla area,https://mn.carsprogram.org/mncam/Vid-000330055-00-02.jpg
-Vid-000330056-00-00.jpg,TRUE,48.970515,-97.201716,MN 171: St. Vincent,in Saint Vincent,https://mn.carsprogram.org/mncam/Vid-000330056-00-00.jpg
-Vid-000330056-00-00.jpg,TRUE,48.970515,-97.201716,MN 171: St. Vincent,in Saint Vincent,https://mn.carsprogram.org/mncam/Vid-000330056-00-01.jpg
-Vid-000330056-00-00.jpg,TRUE,48.970515,-97.201716,MN 171: St. Vincent,in Saint Vincent,https://mn.carsprogram.org/mncam/Vid-000330056-00-02.jpg
-Vid-000330057-00-00.jpg,TRUE,47.295755,-96.73165,MN 200: Halstad,1 mile east of the Hendrum area,https://mn.carsprogram.org/mncam/Vid-000330057-00-00.jpg
-Vid-000330057-00-00.jpg,TRUE,47.295755,-96.73165,MN 200: Halstad,1 mile east of the Hendrum area,https://mn.carsprogram.org/mncam/Vid-000330057-00-01.jpg
-Vid-000330057-00-00.jpg,TRUE,47.295755,-96.73165,MN 200: Halstad,1 mile east of the Hendrum area,https://mn.carsprogram.org/mncam/Vid-000330057-00-02.jpg
-Vid-000330058-00-00.jpg,TRUE,44.935956,-96.441965,US 212: Marietta,16 miles west of the Dawson area,https://mn.carsprogram.org/mncam/Vid-000330058-00-00.jpg
-Vid-000330058-00-00.jpg,TRUE,44.935956,-96.441965,US 212: Marietta,16 miles west of the Dawson area,https://mn.carsprogram.org/mncam/Vid-000330058-00-01.jpg
-Vid-000330058-00-00.jpg,TRUE,44.935956,-96.441965,US 212: Marietta,16 miles west of the Dawson area,https://mn.carsprogram.org/mncam/Vid-000330058-00-02.jpg
-Vid-000330059-00-00.jpg,TRUE,47.88038,-96.917403,US 2: East Grand Forks,2 miles east of the East Grand Forks area,https://mn.carsprogram.org/mncam/Vid-000330059-00-00.jpg
-Vid-000330059-00-00.jpg,TRUE,47.88038,-96.917403,US 2: East Grand Forks,2 miles east of the East Grand Forks area,https://mn.carsprogram.org/mncam/Vid-000330059-00-01.jpg
-Vid-000330059-00-00.jpg,TRUE,47.88038,-96.917403,US 2: East Grand Forks,2 miles east of the East Grand Forks area,https://mn.carsprogram.org/mncam/Vid-000330059-00-02.jpg
-Vid-000330059-00-00.jpg,TRUE,47.88038,-96.917403,US 2: East Grand Forks,2 miles east of the East Grand Forks area,https://mn.carsprogram.org/mncam/Vid-000330059-00-03.jpg
-Vid-000330059-00-00.jpg,TRUE,47.88038,-96.917403,US 2: East Grand Forks,2 miles east of the East Grand Forks area,https://mn.carsprogram.org/mncam/Vid-000330059-00-04.jpg
-Vid-000330060-00-00.jpg,TRUE,47.380128,-94.586983,US 2: Cass Lake,in Cass Lake,https://mn.carsprogram.org/mncam/Vid-000330060-00-00.jpg
-Vid-000330060-00-00.jpg,TRUE,47.380128,-94.586983,US 2: Cass Lake,in Cass Lake,https://mn.carsprogram.org/mncam/Vid-000330060-00-01.jpg
-Vid-000330060-00-00.jpg,TRUE,47.380128,-94.586983,US 2: Cass Lake,in Cass Lake,https://mn.carsprogram.org/mncam/Vid-000330060-00-02.jpg
-Vid-000330062-00-00.jpg,TRUE,46.412774,-95.054367,US 10: Verndale,near Verndale,https://mn.carsprogram.org/mncam/Vid-000330062-00-00.jpg
-Vid-000330062-00-00.jpg,TRUE,46.412774,-95.054367,US 10: Verndale,near Verndale,https://mn.carsprogram.org/mncam/Vid-000330062-00-01.jpg
-Vid-000330062-00-00.jpg,TRUE,46.412774,-95.054367,US 10: Verndale,near Verndale,https://mn.carsprogram.org/mncam/Vid-000330062-00-02.jpg
-Vid-000330062-00-00.jpg,TRUE,46.412774,-95.054367,US 10: Verndale,near Verndale,https://mn.carsprogram.org/mncam/Vid-000330062-00-03.jpg
-Vid-000330063-00-00.jpg,TRUE,45.766185,-94.233253,US 10: Rice,in Rice,https://mn.carsprogram.org/mncam/Vid-000330063-00-00.jpg
-Vid-000330063-00-00.jpg,TRUE,45.766185,-94.233253,US 10: Rice,in Rice,https://mn.carsprogram.org/mncam/Vid-000330063-00-01.jpg
-Vid-000330063-00-00.jpg,TRUE,45.766185,-94.233253,US 10: Rice,in Rice,https://mn.carsprogram.org/mncam/Vid-000330063-00-02.jpg
-Vid-000330063-00-00.jpg,TRUE,45.766185,-94.233253,US 10: Rice,in Rice,https://mn.carsprogram.org/mncam/Vid-000330063-00-03.jpg
-Vid-000330064-00-00.jpg,TRUE,43.515089,-91.885172,US 52: Canton,near Canton,https://mn.carsprogram.org/mncam/Vid-000330064-00-00.jpg
-Vid-000330064-00-00.jpg,TRUE,43.515089,-91.885172,US 52: Canton,near Canton,https://mn.carsprogram.org/mncam/Vid-000330064-00-01.jpg
-Vid-000330064-00-00.jpg,TRUE,43.515089,-91.885172,US 52: Canton,near Canton,https://mn.carsprogram.org/mncam/Vid-000330064-00-02.jpg
-Vid-000330065-00-00.jpg,TRUE,47.211175,-92.487973,US 53: Cotton,15 miles south of the Eveleth area,https://mn.carsprogram.org/mncam/Vid-000330065-00-00.jpg
-Vid-000330065-00-00.jpg,TRUE,47.211175,-92.487973,US 53: Cotton,15 miles south of the Eveleth area,https://mn.carsprogram.org/mncam/Vid-000330065-00-01.jpg
-Vid-000330065-00-00.jpg,TRUE,47.211175,-92.487973,US 53: Cotton,15 miles south of the Eveleth area,https://mn.carsprogram.org/mncam/Vid-000330065-00-02.jpg
-Vid-000330066-00-00.jpg,TRUE,48.294217,-92.970074,US 53: Ash Lake,14 miles north of the Orr area,https://mn.carsprogram.org/mncam/Vid-000330066-00-00.jpg
-Vid-000330066-00-00.jpg,TRUE,48.294217,-92.970074,US 53: Ash Lake,14 miles north of the Orr area,https://mn.carsprogram.org/mncam/Vid-000330066-00-01.jpg
-Vid-000330066-00-00.jpg,TRUE,48.294217,-92.970074,US 53: Ash Lake,14 miles north of the Orr area,https://mn.carsprogram.org/mncam/Vid-000330066-00-02.jpg
-Vid-000330067-00-00.jpg,TRUE,47.768969,-96.000761,US 59: Brooks,near Brooks,https://mn.carsprogram.org/mncam/Vid-000330067-00-00.jpg
-Vid-000330067-00-00.jpg,TRUE,47.768969,-96.000761,US 59: Brooks,near Brooks,https://mn.carsprogram.org/mncam/Vid-000330067-00-01.jpg
-Vid-000330067-00-00.jpg,TRUE,47.768969,-96.000761,US 59: Brooks,near Brooks,https://mn.carsprogram.org/mncam/Vid-000330067-00-02.jpg
-Vid-000330068-00-00.jpg,TRUE,44.284654,-91.989038,US 61: Kellogg,in Kellogg,https://mn.carsprogram.org/mncam/Vid-000330068-00-00.jpg
-Vid-000330068-00-00.jpg,TRUE,44.284654,-91.989038,US 61: Kellogg,in Kellogg,https://mn.carsprogram.org/mncam/Vid-000330068-00-01.jpg
-Vid-000330068-00-00.jpg,TRUE,44.284654,-91.989038,US 61: Kellogg,in Kellogg,https://mn.carsprogram.org/mncam/Vid-000330068-00-02.jpg
-Vid-000330068-00-00.jpg,TRUE,44.284654,-91.989038,US 61: Kellogg,in Kellogg,https://mn.carsprogram.org/mncam/Vid-000330068-00-03.jpg
-Vid-000330070-00-00.jpg,TRUE,44.083375,-95.120162,US 71: Jeffers,1 mile north of the Jeffers area,https://mn.carsprogram.org/mncam/Vid-000330070-00-00.jpg
-Vid-000330070-00-00.jpg,TRUE,44.083375,-95.120162,US 71: Jeffers,1 mile north of the Jeffers area,https://mn.carsprogram.org/mncam/Vid-000330070-00-01.jpg
-Vid-000330070-00-00.jpg,TRUE,44.083375,-95.120162,US 71: Jeffers,1 mile north of the Jeffers area,https://mn.carsprogram.org/mncam/Vid-000330070-00-02.jpg
-Vid-000330072-00-00.jpg,TRUE,44.153941,-94.033983,US 169: Mankato,in Skyline,https://mn.carsprogram.org/mncam/Vid-000330072-00-00.jpg
-Vid-000330072-00-00.jpg,TRUE,44.153941,-94.033983,US 169: Mankato,in Skyline,https://mn.carsprogram.org/mncam/Vid-000330072-00-01.jpg
-Vid-000330072-00-00.jpg,TRUE,44.153941,-94.033983,US 169: Mankato,in Skyline,https://mn.carsprogram.org/mncam/Vid-000330072-00-02.jpg
-Vid-000330073-00-00.jpg,TRUE,44.36555,-93.963253,US 169: St. Peter,near Saint Peter,https://mn.carsprogram.org/mncam/Vid-000330073-00-00.jpg
-Vid-000330073-00-00.jpg,TRUE,44.36555,-93.963253,US 169: St. Peter,near Saint Peter,https://mn.carsprogram.org/mncam/Vid-000330073-00-01.jpg
-Vid-000330073-00-00.jpg,TRUE,44.36555,-93.963253,US 169: St. Peter,near Saint Peter,https://mn.carsprogram.org/mncam/Vid-000330073-00-02.jpg
-Vid-000330073-00-00.jpg,TRUE,44.36555,-93.963253,US 169: St. Peter,near Saint Peter,https://mn.carsprogram.org/mncam/Vid-000330073-00-03.jpg
-Vid-000330075-00-00.jpg,TRUE,45.87595,-93.663331,US 169: Milaca,4 miles north of the Milaca area,https://mn.carsprogram.org/mncam/Vid-000330075-00-00.jpg
-Vid-000330075-00-00.jpg,TRUE,45.87595,-93.663331,US 169: Milaca,4 miles north of the Milaca area,https://mn.carsprogram.org/mncam/Vid-000330075-00-01.jpg
-Vid-000330075-00-00.jpg,TRUE,45.87595,-93.663331,US 169: Milaca,4 miles north of the Milaca area,https://mn.carsprogram.org/mncam/Vid-000330075-00-02.jpg
-Vid-000330075-00-00.jpg,TRUE,45.87595,-93.663331,US 169: Milaca,4 miles north of the Milaca area,https://mn.carsprogram.org/mncam/Vid-000330075-00-03.jpg
-Vid-000330076-00-00.jpg,TRUE,45.984952,-92.948586,I-35: Hinckley,near Hinckley,https://mn.carsprogram.org/mncam/Vid-000330076-00-00.jpg
-Vid-000330076-00-00.jpg,TRUE,45.984952,-92.948586,I-35: Hinckley,near Hinckley,https://mn.carsprogram.org/mncam/Vid-000330076-00-01.jpg
-Vid-000330076-00-00.jpg,TRUE,45.984952,-92.948586,I-35: Hinckley,near Hinckley,https://mn.carsprogram.org/mncam/Vid-000330076-00-02.jpg
-Vid-000330076-00-00.jpg,TRUE,45.984952,-92.948586,I-35: Hinckley,near Hinckley,https://mn.carsprogram.org/mncam/Vid-000330076-00-03.jpg
-Vid-000330076-00-00.jpg,TRUE,45.984952,-92.948586,I-35: Hinckley,near Hinckley,https://mn.carsprogram.org/mncam/Vid-000330076-00-04.jpg
-Vid-000330076-00-00.jpg,TRUE,45.984952,-92.948586,I-35: Hinckley,near Hinckley,https://mn.carsprogram.org/mncam/Vid-000330076-00-05.jpg
-Vid-000330078-00-00.jpg,TRUE,44.543828,-93.624833,MN 19: New Prague,near New Prague,https://mn.carsprogram.org/mncam/Vid-000330078-00-00.jpg
-Vid-000330078-00-00.jpg,TRUE,44.543828,-93.624833,MN 19: New Prague,near New Prague,https://mn.carsprogram.org/mncam/Vid-000330078-00-01.jpg
-Vid-000330078-00-00.jpg,TRUE,44.543828,-93.624833,MN 19: New Prague,near New Prague,https://mn.carsprogram.org/mncam/Vid-000330078-00-02.jpg
-Vid-000330078-00-00.jpg,TRUE,44.543828,-93.624833,MN 19: New Prague,near New Prague,https://mn.carsprogram.org/mncam/Vid-000330078-00-03.jpg
-Vid-000330091-00-00.jpg,TRUE,47.445109,-92.887406,US 169: Mitchell Bridge,near Chisholm,https://mn.carsprogram.org/mncam/Vid-000330091-00-00.jpg
-Vid-000330091-00-00.jpg,TRUE,47.445109,-92.887406,US 169: Mitchell Bridge,near Chisholm,https://mn.carsprogram.org/mncam/Vid-000330091-00-01.jpg
-Vid-000330091-00-00.jpg,TRUE,47.445109,-92.887406,US 169: Mitchell Bridge,near Chisholm,https://mn.carsprogram.org/mncam/Vid-000330091-00-02.jpg
-Vid-000330091-00-00.jpg,TRUE,47.445109,-92.887406,US 169: Mitchell Bridge,near Chisholm,https://mn.carsprogram.org/mncam/Vid-000330091-00-03.jpg
-Vid-000330095-00-00.jpg,TRUE,43.9201,-93.27695,I-35: Hope,near Ellendale,https://mn.carsprogram.org/mncam/Vid-000330095-00-00.jpg
-Vid-000330095-00-00.jpg,TRUE,43.9201,-93.27695,I-35: Hope,near Ellendale,https://mn.carsprogram.org/mncam/Vid-000330095-00-01.jpg
-Vid-000330095-00-00.jpg,TRUE,43.9201,-93.27695,I-35: Hope,near Ellendale,https://mn.carsprogram.org/mncam/Vid-000330095-00-02.jpg
-Vid-000330095-00-00.jpg,TRUE,43.9201,-93.27695,I-35: Hope,near Ellendale,https://mn.carsprogram.org/mncam/Vid-000330095-00-03.jpg
-Vid-000330096-00-00.jpg,TRUE,46.847258,-96.777433,I-94: Red River Bridge,in Moorhead,https://mn.carsprogram.org/mncam/Vid-000330096-00-00.jpg
-Vid-000330096-00-00.jpg,TRUE,46.847258,-96.777433,I-94: Red River Bridge,in Moorhead,https://mn.carsprogram.org/mncam/Vid-000330096-00-01.jpg
-Vid-000330096-00-00.jpg,TRUE,46.847258,-96.777433,I-94: Red River Bridge,in Moorhead,https://mn.carsprogram.org/mncam/Vid-000330096-00-02.jpg
-Vid-000330096-00-00.jpg,TRUE,46.847258,-96.777433,I-94: Red River Bridge,in Moorhead,https://mn.carsprogram.org/mncam/Vid-000330096-00-03.jpg
-Vid-000158000-00-00.jpg,TRUE,46.716614,-92.249258,I-35: Thompson Hill,near Proctor,https://mn.carsprogram.org/mncam/Vid-000158000-00-00.jpg
-Vid-000158000-00-00.jpg,TRUE,46.716614,-92.249258,I-35: Thompson Hill,near Proctor,https://mn.carsprogram.org/mncam/Vid-000158000-00-01.jpg
-Vid-000158000-00-00.jpg,TRUE,46.716614,-92.249258,I-35: Thompson Hill,near Proctor,https://mn.carsprogram.org/mncam/Vid-000158000-00-02.jpg
-Vid-000158003-00-00.jpg,TRUE,46.923741,-92.411904,US 53: Twig,8 miles north of the Hermantown area,https://mn.carsprogram.org/mncam/Vid-000158003-00-00.jpg
-Vid-000158003-00-00.jpg,TRUE,46.923741,-92.411904,US 53: Twig,8 miles north of the Hermantown area,https://mn.carsprogram.org/mncam/Vid-000158003-00-01.jpg
-Vid-000158003-00-00.jpg,TRUE,46.923741,-92.411904,US 53: Twig,8 miles north of the Hermantown area,https://mn.carsprogram.org/mncam/Vid-000158003-00-02.jpg
-Vid-000158010-00-00.jpg,TRUE,46.62785,-92.531727,I-35: Atkinson Bridge,2 miles south of the Carlton area,https://mn.carsprogram.org/mncam/Vid-000158010-00-00.jpg
-Vid-000158010-00-00.jpg,TRUE,46.62785,-92.531727,I-35: Atkinson Bridge,2 miles south of the Carlton area,https://mn.carsprogram.org/mncam/Vid-000158010-00-01.jpg
-Vid-000158010-00-00.jpg,TRUE,46.62785,-92.531727,I-35: Atkinson Bridge,2 miles south of the Carlton area,https://mn.carsprogram.org/mncam/Vid-000158010-00-02.jpg
-Vid-000330050-00-00.jpg,TRUE,46.977835,-93.273383,MN 65: Jacobson,24 miles south of the Calumet area,https://mn.carsprogram.org/mncam/Vid-000330050-00-00.jpg
-Vid-000330050-00-00.jpg,TRUE,46.977835,-93.273383,MN 65: Jacobson,24 miles south of the Calumet area,https://mn.carsprogram.org/mncam/Vid-000330050-00-01.jpg
-Vid-000330050-00-00.jpg,TRUE,46.977835,-93.273383,MN 65: Jacobson,24 miles south of the Calumet area,https://mn.carsprogram.org/mncam/Vid-000330050-00-02.jpg
-Vid-000330030-00-00.jpg,TRUE,44.5446,-94.995678,US 71: Morton,in Morton,https://mn.carsprogram.org/mncam/Vid-000330030-00-00.jpg
-Vid-000330030-00-00.jpg,TRUE,44.5446,-94.995678,US 71: Morton,in Morton,https://mn.carsprogram.org/mncam/Vid-000330030-00-01.jpg
-Vid-000330030-00-00.jpg,TRUE,44.5446,-94.995678,US 71: Morton,in Morton,https://mn.carsprogram.org/mncam/Vid-000330030-00-02.jpg
-Vid-000330022-00-00.jpg,TRUE,44.905903,-93.8698,MN 25: Mayer,in Mayer,https://mn.carsprogram.org/mncam/Vid-000330022-00-00.jpg
-Vid-000330022-00-00.jpg,TRUE,44.905903,-93.8698,MN 25: Mayer,in Mayer,https://mn.carsprogram.org/mncam/Vid-000330022-00-01.jpg
-Vid-000330022-00-00.jpg,TRUE,44.905903,-93.8698,MN 25: Mayer,in Mayer,https://mn.carsprogram.org/mncam/Vid-000330022-00-02.jpg
-Vid-000330010-00-00.jpg,TRUE,43.955175,-92.205133,I-90: Eyota,near Eyota,https://mn.carsprogram.org/mncam/Vid-000330010-00-00.jpg
-Vid-000330010-00-00.jpg,TRUE,43.955175,-92.205133,I-90: Eyota,near Eyota,https://mn.carsprogram.org/mncam/Vid-000330010-00-01.jpg
-Vid-000330010-00-00.jpg,TRUE,43.955175,-92.205133,I-90: Eyota,near Eyota,https://mn.carsprogram.org/mncam/Vid-000330010-00-02.jpg
-Vid-000330010-00-00.jpg,TRUE,43.955175,-92.205133,I-90: Eyota,near Eyota,https://mn.carsprogram.org/mncam/Vid-000330010-00-03.jpg
-Vid-000330010-00-00.jpg,TRUE,43.955175,-92.205133,I-90: Eyota,near Eyota,https://mn.carsprogram.org/mncam/Vid-000330010-00-04.jpg
-Vid-000330010-00-00.jpg,TRUE,43.955175,-92.205133,I-90: Eyota,near Eyota,https://mn.carsprogram.org/mncam/Vid-000330010-00-05.jpg
-Vid-000330034-00-00.jpg,TRUE,46.143519,-94.103853,MN 25: Lastrup,4 miles north of the Lastrup area,https://mn.carsprogram.org/mncam/Vid-000330034-00-00.jpg
-Vid-000330034-00-00.jpg,TRUE,46.143519,-94.103853,MN 25: Lastrup,4 miles north of the Lastrup area,https://mn.carsprogram.org/mncam/Vid-000330034-00-01.jpg
-Vid-000330034-00-00.jpg,TRUE,46.143519,-94.103853,MN 25: Lastrup,4 miles north of the Lastrup area,https://mn.carsprogram.org/mncam/Vid-000330034-00-02.jpg
-Vid-000330038-00-00.jpg,TRUE,44.059968,-93.494384,US 14: Waseca,in Waseca,https://mn.carsprogram.org/mncam/Vid-000330038-00-00.jpg
-Vid-000330038-00-00.jpg,TRUE,44.059968,-93.494384,US 14: Waseca,in Waseca,https://mn.carsprogram.org/mncam/Vid-000330038-00-01.jpg
-Vid-000330038-00-00.jpg,TRUE,44.059968,-93.494384,US 14: Waseca,in Waseca,https://mn.carsprogram.org/mncam/Vid-000330038-00-02.jpg
-Vid-000330038-00-00.jpg,TRUE,44.059968,-93.494384,US 14: Waseca,in Waseca,https://mn.carsprogram.org/mncam/Vid-000330038-00-03.jpg
-Vid-000330038-00-00.jpg,TRUE,44.059968,-93.494384,US 14: Waseca,in Waseca,https://mn.carsprogram.org/mncam/Vid-000330038-00-04.jpg
-Vid-000330038-00-00.jpg,TRUE,44.059968,-93.494384,US 14: Waseca,in Waseca,https://mn.carsprogram.org/mncam/Vid-000330038-00-05.jpg
-Vid-000330069-00-00.jpg,TRUE,43.902367,-92.482502,US 63: Stewartville,near Stewartville,https://mn.carsprogram.org/mncam/Vid-000330069-00-00.jpg
-Vid-000330069-00-00.jpg,TRUE,43.902367,-92.482502,US 63: Stewartville,near Stewartville,https://mn.carsprogram.org/mncam/Vid-000330069-00-01.jpg
-Vid-000330069-00-00.jpg,TRUE,43.902367,-92.482502,US 63: Stewartville,near Stewartville,https://mn.carsprogram.org/mncam/Vid-000330069-00-02.jpg
-Vid-000330069-00-00.jpg,TRUE,43.902367,-92.482502,US 63: Stewartville,near Stewartville,https://mn.carsprogram.org/mncam/Vid-000330069-00-03.jpg
-Vid-000330071-00-00.jpg,TRUE,48.1347,-93.87775,US 71: Margie,1 mile south of the Big Falls area,https://mn.carsprogram.org/mncam/Vid-000330071-00-00.jpg
-Vid-000330071-00-00.jpg,TRUE,48.1347,-93.87775,US 71: Margie,1 mile south of the Big Falls area,https://mn.carsprogram.org/mncam/Vid-000330071-00-01.jpg
-Vid-000330071-00-00.jpg,TRUE,48.1347,-93.87775,US 71: Margie,1 mile south of the Big Falls area,https://mn.carsprogram.org/mncam/Vid-000330071-00-02.jpg
-Vid-000330013-00-00.jpg,TRUE,46.490406,-96.290735,I-94: Rothsay,in Rothsay,https://mn.carsprogram.org/mncam/Vid-000330013-00-00.jpg
-Vid-000330013-00-00.jpg,TRUE,46.490406,-96.290735,I-94: Rothsay,in Rothsay,https://mn.carsprogram.org/mncam/Vid-000330013-00-01.jpg
-Vid-000330013-00-00.jpg,TRUE,46.490406,-96.290735,I-94: Rothsay,in Rothsay,https://mn.carsprogram.org/mncam/Vid-000330013-00-02.jpg
-Vid-000330013-00-00.jpg,TRUE,46.490406,-96.290735,I-94: Rothsay,in Rothsay,https://mn.carsprogram.org/mncam/Vid-000330013-00-03.jpg
-Vid-000330000-00-00.jpg,TRUE,43.508317,-93.354493,I-35: Twin Lakes,2 miles south of the Twin Lakes area,https://mn.carsprogram.org/mncam/Vid-000330000-00-00.jpg
-Vid-000330000-00-00.jpg,TRUE,43.508317,-93.354493,I-35: Twin Lakes,2 miles south of the Twin Lakes area,https://mn.carsprogram.org/mncam/Vid-000330000-00-01.jpg
-Vid-000330000-00-00.jpg,TRUE,43.508317,-93.354493,I-35: Twin Lakes,2 miles south of the Twin Lakes area,https://mn.carsprogram.org/mncam/Vid-000330000-00-02.jpg
-Vid-000330000-00-00.jpg,TRUE,43.508317,-93.354493,I-35: Twin Lakes,2 miles south of the Twin Lakes area,https://mn.carsprogram.org/mncam/Vid-000330000-00-03.jpg
-Vid-000330005-00-00.jpg,TRUE,43.60839,-96.37,I-90: Beaver Creek,in Beaver Creek,https://mn.carsprogram.org/mncam/Vid-000330005-00-00.jpg
-Vid-000330005-00-00.jpg,TRUE,43.60839,-96.37,I-90: Beaver Creek,in Beaver Creek,https://mn.carsprogram.org/mncam/Vid-000330005-00-01.jpg
-Vid-000330005-00-00.jpg,TRUE,43.60839,-96.37,I-90: Beaver Creek,in Beaver Creek,https://mn.carsprogram.org/mncam/Vid-000330005-00-02.jpg
-Vid-000330005-00-00.jpg,TRUE,43.60839,-96.37,I-90: Beaver Creek,in Beaver Creek,https://mn.carsprogram.org/mncam/Vid-000330005-00-03.jpg
-Vid-000330005-00-00.jpg,TRUE,43.60839,-96.37,I-90: Beaver Creek,in Beaver Creek,https://mn.carsprogram.org/mncam/Vid-000330005-00-04.jpg
-Vid-000330005-00-00.jpg,TRUE,43.60839,-96.37,I-90: Beaver Creek,in Beaver Creek,https://mn.carsprogram.org/mncam/Vid-000330005-00-05.jpg
-Vid-000330033-00-00.jpg,TRUE,45.616128,-94.02206,MN 23: Foley,3 miles east of the Sauk Rapids area,https://mn.carsprogram.org/mncam/Vid-000330033-00-00.jpg
-Vid-000330033-00-00.jpg,TRUE,45.616128,-94.02206,MN 23: Foley,3 miles east of the Sauk Rapids area,https://mn.carsprogram.org/mncam/Vid-000330033-00-01.jpg
-Vid-000330033-00-00.jpg,TRUE,45.616128,-94.02206,MN 23: Foley,3 miles east of the Sauk Rapids area,https://mn.carsprogram.org/mncam/Vid-000330033-00-02.jpg
-Vid-000330033-00-00.jpg,TRUE,45.616128,-94.02206,MN 23: Foley,3 miles east of the Sauk Rapids area,https://mn.carsprogram.org/mncam/Vid-000330033-00-03.jpg
-Vid-000330009-00-00.jpg,TRUE,43.726571,-92.681017,I-90: Dexter,in Dexter,https://mn.carsprogram.org/mncam/Vid-000330009-00-00.jpg
-Vid-000330009-00-00.jpg,TRUE,43.726571,-92.681017,I-90: Dexter,in Dexter,https://mn.carsprogram.org/mncam/Vid-000330009-00-01.jpg
-Vid-000330009-00-00.jpg,TRUE,43.726571,-92.681017,I-90: Dexter,in Dexter,https://mn.carsprogram.org/mncam/Vid-000330009-00-02.jpg
-Vid-000330009-00-00.jpg,TRUE,43.726571,-92.681017,I-90: Dexter,in Dexter,https://mn.carsprogram.org/mncam/Vid-000330009-00-03.jpg
-Vid-000330017-00-00.jpg,TRUE,47.874437,-94.432038,MN 1: Shooks,4 miles west of the Northome area,https://mn.carsprogram.org/mncam/Vid-000330017-00-00.jpg
-Vid-000330017-00-00.jpg,TRUE,47.874437,-94.432038,MN 1: Shooks,4 miles west of the Northome area,https://mn.carsprogram.org/mncam/Vid-000330017-00-01.jpg
-Vid-000330017-00-00.jpg,TRUE,47.874437,-94.432038,MN 1: Shooks,4 miles west of the Northome area,https://mn.carsprogram.org/mncam/Vid-000330017-00-02.jpg
-Vid-000330017-00-00.jpg,TRUE,47.874437,-94.432038,MN 1: Shooks,4 miles west of the Northome area,https://mn.carsprogram.org/mncam/Vid-000330017-00-03.jpg
-Vid-000330046-00-00.jpg,TRUE,44.6009,-92.698245,US 61: Red Wing,1 mile north of the Red Wing area,https://mn.carsprogram.org/mncam/Vid-000330046-00-00.jpg
-Vid-000330046-00-00.jpg,TRUE,44.6009,-92.698245,US 61: Red Wing,1 mile north of the Red Wing area,https://mn.carsprogram.org/mncam/Vid-000330046-00-01.jpg
-Vid-000330046-00-00.jpg,TRUE,44.6009,-92.698245,US 61: Red Wing,1 mile north of the Red Wing area,https://mn.carsprogram.org/mncam/Vid-000330046-00-02.jpg
-Vid-000330046-00-00.jpg,TRUE,44.6009,-92.698245,US 61: Red Wing,1 mile north of the Red Wing area,https://mn.carsprogram.org/mncam/Vid-000330046-00-03.jpg
-Vid-000330051-00-00.jpg,TRUE,47.840549,-93.485266,MN 1: Effie,3 miles east of the Effie area,https://mn.carsprogram.org/mncam/Vid-000330051-00-00.jpg
-Vid-000330051-00-00.jpg,TRUE,47.840549,-93.485266,MN 1: Effie,3 miles east of the Effie area,https://mn.carsprogram.org/mncam/Vid-000330051-00-01.jpg
-Vid-000330051-00-00.jpg,TRUE,47.840549,-93.485266,MN 1: Effie,3 miles east of the Effie area,https://mn.carsprogram.org/mncam/Vid-000330051-00-02.jpg
-Vid-000330054-00-00.jpg,TRUE,46.40365,-95.601975,MN 78: Ottertail,near Ottertail,https://mn.carsprogram.org/mncam/Vid-000330054-00-00.jpg
-Vid-000330054-00-00.jpg,TRUE,46.40365,-95.601975,MN 78: Ottertail,near Ottertail,https://mn.carsprogram.org/mncam/Vid-000330054-00-01.jpg
-Vid-000330054-00-00.jpg,TRUE,46.40365,-95.601975,MN 78: Ottertail,near Ottertail,https://mn.carsprogram.org/mncam/Vid-000330054-00-02.jpg
-Vid-000330061-00-00.jpg,TRUE,46.877041,-96.111812,US 10: Lake Park,in Lake Park,https://mn.carsprogram.org/mncam/Vid-000330061-00-00.jpg
-Vid-000330061-00-00.jpg,TRUE,46.877041,-96.111812,US 10: Lake Park,in Lake Park,https://mn.carsprogram.org/mncam/Vid-000330061-00-01.jpg
-Vid-000330061-00-00.jpg,TRUE,46.877041,-96.111812,US 10: Lake Park,in Lake Park,https://mn.carsprogram.org/mncam/Vid-000330061-00-02.jpg
-Vid-000330061-00-00.jpg,TRUE,46.877041,-96.111812,US 10: Lake Park,in Lake Park,https://mn.carsprogram.org/mncam/Vid-000330061-00-03.jpg
-Vid-000330074-00-00.jpg,TRUE,44.571684,-93.842581,US 169: Henderson,1 mile north of the Henderson area,https://mn.carsprogram.org/mncam/Vid-000330074-00-00.jpg
-Vid-000330074-00-00.jpg,TRUE,44.571684,-93.842581,US 169: Henderson,1 mile north of the Henderson area,https://mn.carsprogram.org/mncam/Vid-000330074-00-01.jpg
-Vid-000330074-00-00.jpg,TRUE,44.571684,-93.842581,US 169: Henderson,1 mile north of the Henderson area,https://mn.carsprogram.org/mncam/Vid-000330074-00-02.jpg
-Vid-000330074-00-00.jpg,TRUE,44.571684,-93.842581,US 169: Henderson,1 mile north of the Henderson area,https://mn.carsprogram.org/mncam/Vid-000330074-00-03.jpg
-Vid-000330077-00-00.jpg,TRUE,48.789546,-95.05095,MN 11: Roosevelt,near Roosevelt,https://mn.carsprogram.org/mncam/Vid-000330077-00-00.jpg
-Vid-000330077-00-00.jpg,TRUE,48.789546,-95.05095,MN 11: Roosevelt,near Roosevelt,https://mn.carsprogram.org/mncam/Vid-000330077-00-01.jpg
-Vid-000330077-00-00.jpg,TRUE,48.789546,-95.05095,MN 11: Roosevelt,near Roosevelt,https://mn.carsprogram.org/mncam/Vid-000330077-00-02.jpg
+,TRUE,44.4783,-93.291808,I-35: Little Chicago,3 miles south of the Elko New Market area,https://mn.carsprogram.org/mncam/Vid-000330002-00-00.jpg
 C10-01,TRUE,46.873804,-96.768229,US 10: Main St SB @ 8th St,null,https://video.dot.state.mn.us/video/image/metro/C10-01
 C3622,TRUE,45.036281,-92.863244,MN 36: WB @ Manning Avenue,near Stillwater,https://video.dot.state.mn.us/video/image/metro/C3622
 C3609,TRUE,45.011587,-93.02273,MN 36: EB @ White Bear Ave.,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3609
@@ -1033,34 +741,17 @@ C1263,TRUE,44.971233,-93.166978,MN 51: SB @ Energy Park Dr,in Falcon Heights,htt
 C5153,TRUE,44.999104,-93.166488,MN 51: NB @ Roselawn Avenue,in Falcon Heights,https://video.dot.state.mn.us/video/image/metro/C5153
 C1675,TRUE,44.833309,-92.964971,US 61: NB @ 80th Street,in Saint Paul Park,https://video.dot.state.mn.us/video/image/metro/C1675
 C2151,TRUE,44.949239,-93.347823,MN 100: SB @ Minnetonka Blvd.,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C2151
-Vid-000330004-00-00.jpg,TRUE,46.212073,-92.837804,I-35: Askov,near Askov,https://mn.carsprogram.org/mncam/Vid-000330004-00-00.jpg
-Vid-000330004-00-00.jpg,TRUE,46.212073,-92.837804,I-35: Askov,near Askov,https://mn.carsprogram.org/mncam/Vid-000330004-00-01.jpg
-Vid-000330004-00-00.jpg,TRUE,46.212073,-92.837804,I-35: Askov,near Askov,https://mn.carsprogram.org/mncam/Vid-000330004-00-02.jpg
 C1727,TRUE,45.08534,-93.009656,US 61: SB US 61 @ 4th Street,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1727
 C562,TRUE,44.952673,-93.082464,US 52: NB US 52 @ I-94 WB,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C562
-Vid-000330001-00-00.jpg,TRUE,44.906579,-94.1191,MN 7: Silver Lake,near Silver Lake,https://mn.carsprogram.org/mncam/Vid-000330001-00-00.jpg
-Vid-000330001-00-00.jpg,TRUE,44.906579,-94.1191,MN 7: Silver Lake,near Silver Lake,https://mn.carsprogram.org/mncam/Vid-000330001-00-01.jpg
-Vid-000330001-00-00.jpg,TRUE,44.906579,-94.1191,MN 7: Silver Lake,near Silver Lake,https://mn.carsprogram.org/mncam/Vid-000330001-00-02.jpg
-Vid-000330041-00-00.jpg,TRUE,44.409241,-92.858022,US 52: Cannon Falls,4 miles south of the Cannon Falls area,https://mn.carsprogram.org/mncam/Vid-000330041-00-00.jpg
-Vid-000330041-00-00.jpg,TRUE,44.409241,-92.858022,US 52: Cannon Falls,4 miles south of the Cannon Falls area,https://mn.carsprogram.org/mncam/Vid-000330041-00-01.jpg
-Vid-000330041-00-00.jpg,TRUE,44.409241,-92.858022,US 52: Cannon Falls,4 miles south of the Cannon Falls area,https://mn.carsprogram.org/mncam/Vid-000330041-00-02.jpg
 C008,TRUE,45.010274,-93.065778,MN 36: EB @ Arcade Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C008
 C3050,TRUE,44.876224,-93.08078,MN 3: S of Hwy 110,in Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C3050
 C3051,TRUE,44.879388,-93.080349,MN 3: SB N of Hwy 110,near Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C3051
-C4949,TRUE,44.845816,-93.124582,MN 149: SB S Jct Hwy 55,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C4949
 C9041,TRUE,44.969749,-93.444023,I-394: EB @ Plymouth Road,near Wayzata,https://video.dot.state.mn.us/video/image/metro/C9041
 C9051,TRUE,44.973436,-93.410309,I-394: WB W of Shelard Pkwy.,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C9051
 C1666,TRUE,44.777808,-92.863998,US 61: NB @ Hwy 95,near Hastings,https://video.dot.state.mn.us/video/image/metro/C1666
 C535-168,TRUE,46.734459,-92.097069,I-535: @ Blatnik Approach I,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-168
 C535-160,TRUE,46.733368,-92.096918,I-535: @ Blatnik Approach,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-160
 C1541,TRUE,44.984412,-93.390722,MN 55: WB @ Boone Avenue,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1541
-Vid-000330047-00-00.jpg,TRUE,47.974066,-89.684983,MN 61: Grand Portage,32 miles east of the Grand Marais area,https://mn.carsprogram.org/mncam/Vid-000330047-00-00.jpg
-Vid-000330047-00-00.jpg,TRUE,47.974066,-89.684983,MN 61: Grand Portage,32 miles east of the Grand Marais area,https://mn.carsprogram.org/mncam/Vid-000330047-00-01.jpg
-Vid-000330047-00-00.jpg,TRUE,47.974066,-89.684983,MN 61: Grand Portage,32 miles east of the Grand Marais area,https://mn.carsprogram.org/mncam/Vid-000330047-00-02.jpg
-Vid-000330093-00-00.jpg,TRUE,46.669231,-92.31818,MN 210: Jay Cooke,near Thomson,https://mn.carsprogram.org/mncam/Vid-000330093-00-00.jpg
-Vid-000330093-00-00.jpg,TRUE,46.669231,-92.31818,MN 210: Jay Cooke,near Thomson,https://mn.carsprogram.org/mncam/Vid-000330093-00-01.jpg
-Vid-000330093-00-00.jpg,TRUE,46.669231,-92.31818,MN 210: Jay Cooke,near Thomson,https://mn.carsprogram.org/mncam/Vid-000330093-00-02.jpg
-Vid-000330093-00-00.jpg,TRUE,46.669231,-92.31818,MN 210: Jay Cooke,near Thomson,https://mn.carsprogram.org/mncam/Vid-000330093-00-03.jpg
 C1725,TRUE,45.07913,-93.015787,US 61: SB @ Co Rd 96,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1725
 C1230,TRUE,45.016497,-92.98477,MN 120: SB at 7th Avenue,in Birchwood Village,https://video.dot.state.mn.us/video/image/metro/C1230
 C1731,TRUE,45.123522,-93.003147,US 61: NB @ CR J,near Dellwood,https://video.dot.state.mn.us/video/image/metro/C1731
@@ -1074,21 +765,13 @@ C2-216,TRUE,46.720908,-92.118612,US 2: US 2 at Roundabout,1 mile south of Duluth
 D6-C091,TRUE,44.57345,-93.299142,I-35: SB @ MP 76.80,in Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C091
 D6-C092,TRUE,44.562046,-93.299052,I-35: SB @ MP 76.10,in Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C092
 D6-C093,TRUE,44.550978,-93.298289,I-35: NB @ MP 75.3,near Lakeville,https://video.dot.state.mn.us/video/image/metro/D6-C093
-D6-C094,TRUE,44.536758,-93.30172,I-35: SB @ MP 74.3,near Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C094
 D6-C096,TRUE,44.511672,-93.287644,I-35: SB @ MP 73.20,near Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C096
 D6-C097,TRUE,44.506226,-93.289665,I-35: SB @ MP 71.90,in Burnsville,https://video.dot.state.mn.us/video/image/metro/D6-C097
-D6-C096,TRUE,44.511672,-93.287644,I-35: NB @ MP 72.30,near Lakeville,https://video.dot.state.mn.us/video/image/metro/D6-C096
 D6-C098,TRUE,44.486196,-93.291354,I-35: NB @ MP 70.70,in Burnsville,https://video.dot.state.mn.us/video/image/metro/D6-C098
 D6-C099,TRUE,44.47012,-93.291489,I-35: NB @ MP 69.6,3 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C099
 D6-C0100,TRUE,44.448064,-93.291578,I-35: NB @ MP 68.10,5 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C0100
-D6-C101,TRUE,44.428779,-93.291919,I-35: NB @ MP 66.70,3 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C101
-D6-C102,TRUE,44.413825,-93.292261,I-35: NB @ MP 65.70,5 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C102
-D6-C104,TRUE,44.390552,-93.292355,I-35: NB @ MP 64.00,in Burnsville,https://video.dot.state.mn.us/video/image/metro/D6-C104
-D6-C108,TRUE,44.35828,-93.292719,I-35: NB @ MP 62.0,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C108
 C9071,TRUE,44.973099,-93.383207,I-394: WB W of Winnerka Ave.,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C9071
 C9081,TRUE,44.970891,-93.370915,I-394: @ Louisiana Ave.,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C9081
-D6-c104,TRUE,44.390552,-93.292355,I-35: @ MP 64.00,near Lakeville,https://video.dot.state.mn.us/video/image/metro/D6-c104
-D6-C104,TRUE,44.390552,-93.292355,I-35: @ MP 64.00,near Lakeville,https://video.dot.state.mn.us/video/image/metro/D6-C104
 C341,TRUE,45.151721,-93.391675,US 169: @ 109th Ave,in Champlin,https://video.dot.state.mn.us/video/image/metro/C341
 C1438,TRUE,45.010871,-93.457169,I-494: SB @ Hwy 55,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1438
 C9404,TRUE,46.845475,-96.670313,I-94: EB W of Hwy 336,near Dilworth,https://video.dot.state.mn.us/video/image/metro/C9404
@@ -1121,12 +804,9 @@ C312,TRUE,44.781911,-93.467783,US 169: NB @ Canterbury Road,in Shakopee,https://
 C7011,TRUE,45.070017,-93.285506,I-694: WB @ Hwy 252,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C7011
 C8181,TRUE,45.070376,-93.307982,I-94: EB @ Shingle Creek Pkwy,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C8181
 C9181,TRUE,44.975384,-93.281158,I-394: EB @ Linden Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C9181
-C8381,TRUE,44.966881,-93.220188,I-94: WB @ Huron Street,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C8381
-C8481,TRUE,44.951182,-93.107768,I-94: WB @ John Ireland Blvd.,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C8481
 C8261,TRUE,44.980563,-93.286629,I-94: S of Hwy. 55,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8261
 C8251,TRUE,44.991548,-93.285989,I-94: WB @ Plymouth Avenue,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8251
 C8220,TRUE,45.02478,-93.28402,I-94: WB @ Dowling Avenue,near Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C8220
-C8220,TRUE,45.024066,-93.285074,I-94: EB @ Dowling Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C8220
 C682,TRUE,45.138637,-93.489127,MN 610: WB E of I-94,near Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C682
 C683,TRUE,45.138336,-93.471933,MN 610: WB @ Maple Grove Pkwy,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C683
 C684,TRUE,45.138494,-93.460219,MN 610: WB E of Fernbrok Ln,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C684
