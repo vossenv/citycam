@@ -33,12 +33,12 @@ public class RequestInfo {
     private Integer pageCount = 0;
     private Integer next = 0;
     private Integer prev = 0;
-    private long rowCount = 0;
     private String nextURL = "";
     private String prevURL = "";
     private String firstURL = "";
     private String lastURL = "";
     private String lastCall = "";
+    private long rowCount = 0;
     private Boolean incDisabled = false;
     private HttpHeaders headers = new HttpHeaders();
     private Pageable pageable = PageRequest.of(0, 100);
@@ -53,10 +53,10 @@ public class RequestInfo {
         (Collections.list(request.getParameterNames()))
                 .forEach(p -> requestMap.put(p, request.getParameter(p)));
 
-        this.clientIP = getClientIpAddress(request);
-        this.URL = request.getRequestURL().toString();
-        this.incDisabled = requestMap.containsKey("disabled");
-        this.query = requestMap.containsKey("query") ? decode(requestMap.get("query"), "UTF-8") : this.query;
+        clientIP = getClientIpAddress(request);
+        URL = request.getRequestURL().toString();
+        incDisabled = requestMap.containsKey("disabled");
+        query = requestMap.containsKey("query") ? decode(requestMap.get("query"), "UTF-8") : this.query;
         String page = requestMap.containsKey("page") ? requestMap.get("page") : String.valueOf(this.page + 1);
         String size = requestMap.containsKey("size") ? requestMap.get("size") : String.valueOf(this.size);
         this.size = validateParameter("size", size, 1, 1000);
@@ -67,6 +67,7 @@ public class RequestInfo {
         }
 
         this.pageable = PageRequest.of(this.page, this.size);
+        headers.add("Client-IP", clientIP);
 
     }
 

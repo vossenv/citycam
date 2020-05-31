@@ -49,7 +49,7 @@ public class CamSourceController {
 
     @PostMapping(value = {"/"})
     public Object update(@Valid @RequestBody CamSource source) {
-        return ResponseEntity.ok(assembler.toModel(cs.save(cs.updateExisting(source))));
+        return ResponseEntity.ok(assembler.toModel(cs.save(source)));
     }
 
     @PatchMapping(value = {"/{id}"})
