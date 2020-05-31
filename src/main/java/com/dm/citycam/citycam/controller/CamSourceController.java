@@ -1,8 +1,7 @@
 package com.dm.citycam.citycam.controller;
 
 
-import com.dm.citycam.citycam.config.ApiRequest;
-import com.dm.citycam.citycam.config.ListResponseHeaders;
+import com.dm.citycam.citycam.config.RequestInfo;
 import com.dm.citycam.citycam.data.entity.CamSource;
 import com.dm.citycam.citycam.data.representation.CamSourceModel;
 import com.dm.citycam.citycam.data.representation.CamSourceModelAssembler;
@@ -34,11 +33,12 @@ public class CamSourceController {
     @GetMapping(value = {"", "/"})
     public Object findAll(HttpServletRequest request) throws InvalidParameterException, UnsupportedEncodingException {
 
-        ApiRequest r = new ApiRequest(request);
-        CollectionModel<CamSourceModel> cm = assembler.toCollectionModel(cs.findAll(r.getPageable()));
+        RequestInfo r = new RequestInfo(request);
+        r.updatePageParameters(cs.count());
+        CollectionModel<CamSourceModel> cm = assembler.toCollectionModel(cs.findAll(r.getPageable()), r);
         return ResponseEntity
                 .ok()
-                .headers(ListResponseHeaders.from(r, cs.count()))
+                .headers(r.getHeaders())
                 .body(cm);
     }
 
@@ -56,6 +56,13 @@ public class CamSourceController {
     public Object patch(
             @PathVariable("id") UUID id, @RequestBody Map<String, Object> source) throws IllegalAccessException {
         return ResponseEntity.ok(assembler.toModel(cs.patch(source, id)));
+    }
+
+
+    @GetMapping(value = {"/{id}/delete"})
+    public Object deleteGet(@PathVariable("id") UUID id) throws EntityNotFoundException {
+        cs.deleteById(id);
+        return ResponseEntity.ok("Success");
     }
 
     @DeleteMapping(value = {"/{id}"})
@@ -87,8 +94,7 @@ public class CamSourceController {
     @PatchMapping(value = {"/title/{title}"})
     public Object patchByTitle(
             @PathVariable String title, @RequestBody Map<String, Object> source) throws IllegalAccessException {
-        CamSource camSource = cs.findByTitle(title);
-        return ResponseEntity.ok(assembler.toModel(cs.patch(source, camSource.getId())));
+        return ResponseEntity.ok(assembler.toModel(cs.patch(source, cs.findByTitle(title).getId())));
     }
 
 
