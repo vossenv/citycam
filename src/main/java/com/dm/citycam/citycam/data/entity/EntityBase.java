@@ -29,21 +29,20 @@ public class EntityBase<U> {
             name = "UUID",
             strategy = "org.hibernate.id.UUIDGenerator"
     )
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     private UUID id;
 
     @CreatedDate
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    @Column(name = "created_date", updatable = false)
+    @Column(name = "created_date", nullable = false,  updatable = false, columnDefinition = "datetime default CURRENT_TIMESTAMP")
     private LocalDateTime createdDate = LocalDateTime.now();
 
     @LastModifiedDate
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    @Column(name = "last_modified_date")
+    @Column(name = "last_modified_date", nullable = false, columnDefinition = "datetime default CURRENT_TIMESTAMP")
     private LocalDateTime lastModifiedDate = LocalDateTime.now();
 
-    @NotNull
-    @Column(name = "enabled")
+    @Column(name = "enabled", nullable = false, columnDefinition = "TINYINT default 1")
     private Boolean enabled = true;
 
 }

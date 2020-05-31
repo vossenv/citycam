@@ -31,6 +31,7 @@ dependencies {
 	implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.0'
 	implementation 'org.apache.commons:commons-lang3:3.10'
 	implementation 'javax.inject:javax.inject:1'
+	implementation("com.opencsv:opencsv:5.2")
 
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'

@@ -67,6 +67,10 @@ public abstract class GenService<T extends EntityBase, ID> {
         }
     }
 
+    public List<T> saveAll(List<T> toSave) {
+        return (List<T>) repository.saveAll(toSave);
+    }
+
     public List<T> findAll() {
         return findAll(PageRequest.of(0,100));
     }

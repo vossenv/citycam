@@ -33,8 +33,14 @@ public class CamSource extends EntityBase<String> {
     @Column(name = "description", columnDefinition = "VARCHAR(500)")
     private String description;
 
-    @Column(name = "coordinates", columnDefinition = "VARCHAR(500)")
-    private String coordinates;
+    @Column(name = "location", columnDefinition = "VARCHAR(500)")
+    private String location;
+
+    @Column(name = "latitude", columnDefinition = "DECIMAL(10,5)")
+    private double latitude;
+
+    @Column(name = "longitude", columnDefinition = "DECIMAL(10,5)")
+    private double longitude;
 
 //    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 //    @Column(name = "last_ping")
