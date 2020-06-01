@@ -29,7 +29,7 @@ class TestGenericServiceLayer {
 
     @FunctionalInterface
     interface ExceptionCheck<T> {
-        void execute(T t) throws APIError;
+        void execute(T t);
     }
 
     private void MatchException(ExceptionCheck ec, Object o, Class c) {
@@ -45,6 +45,7 @@ class TestGenericServiceLayer {
     @BeforeEach
     public void before() {
         CamSource c = new CamSource();
+        c.setId("cam001");
         c.setTitle("title");
         c.setUrl("https://example/com");
         cs.save(c);
@@ -57,9 +58,9 @@ class TestGenericServiceLayer {
 
     @Test
     void TestFind() {
-        ExceptionCheck<UUID> ec = (e) -> cs.findById(e);
+        ExceptionCheck<String> ec = (e) -> cs.findById(e);
         assertEquals(1, cs.findAll().size());
-        MatchException(ec, UUID.randomUUID(), EntityNotFoundException.class);
+        MatchException(ec, "ABCDE", EntityNotFoundException.class);
         MatchException(ec, null, IllegalArgumentException.class);
     }
 
@@ -90,7 +91,7 @@ class TestGenericServiceLayer {
         assertEquals(cs.save(c).getCreatedDate(), createdOriginal);
 
         int cursize = cs.findAll().size();
-        c.setId(UUID.randomUUID());
+        c.setId("randomID");
         c.setDescription("Different");
         c = cs.save(c);
         assertTrue(cs.existsById(c.getId()));
@@ -102,7 +103,7 @@ class TestGenericServiceLayer {
 
         CamSource c = cs.findAll().get(0);
         c.setDescription("An update!");
-        Thread.sleep(500);
+        Thread.sleep(1500);
         c = cs.save(c);
 
         CamSource cur = cs.findById(c.getId());
@@ -112,13 +113,13 @@ class TestGenericServiceLayer {
     @Test
     void TestDelete() {
 
-        UUID id = cs.findAll().get(0).getId();
+        String id = cs.findAll().get(0).getId();
         cs.deleteById(id);
         assertFalse(cs.existsById(id));
 
-        ExceptionCheck<UUID> ec = (e) -> cs.deleteById(e);
+        ExceptionCheck<String> ec = (e) -> cs.deleteById(e);
         MatchException(ec, id, EntityNotFoundException.class);
-        MatchException(ec, UUID.randomUUID(), EntityNotFoundException.class);
+        MatchException(ec, "randomID", EntityNotFoundException.class);
         MatchException(ec, null, IllegalArgumentException.class);
 
     }

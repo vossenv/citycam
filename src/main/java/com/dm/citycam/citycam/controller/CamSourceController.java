@@ -17,7 +17,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.io.UnsupportedEncodingException;
 import java.util.Map;
-import java.util.UUID;
 
 @RestController
 @CrossOrigin
@@ -43,8 +42,8 @@ public class CamSourceController {
     }
 
     @GetMapping("/{id}")
-    public Object get(@PathVariable UUID id) throws EntityNotFoundException {
-        return ResponseEntity.ok(assembler.toModel(cs.findById(id)));
+    public Object get(@PathVariable String id) throws EntityNotFoundException {
+        return ResponseEntity.ok(assembler.toModel(cs.findById(id.toLowerCase())));
     }
 
     @PostMapping(value = {"/"})
@@ -54,48 +53,13 @@ public class CamSourceController {
 
     @PatchMapping(value = {"/{id}"})
     public Object patch(
-            @PathVariable("id") UUID id, @RequestBody Map<String, Object> source) throws IllegalAccessException {
-        return ResponseEntity.ok(assembler.toModel(cs.patch(source, id)));
+            @PathVariable("id") String id, @RequestBody Map<String, Object> source) throws IllegalAccessException {
+        return ResponseEntity.ok(assembler.toModel(cs.patch(source, id.toLowerCase())));
     }
-
 
     @GetMapping(value = {"/{id}/delete"})
-    public Object deleteGet(@PathVariable("id") UUID id) throws EntityNotFoundException {
-        cs.deleteById(id);
+    public Object deleteGet(@PathVariable("id") String id) throws EntityNotFoundException {
+        cs.deleteById(id.toLowerCase());
         return ResponseEntity.ok("Success");
     }
-
-    @DeleteMapping(value = {"/{id}"})
-    public Object delete(@PathVariable("id") UUID id) throws EntityNotFoundException {
-        cs.deleteById(id);
-        return ResponseEntity.ok("Success");
-    }
-
-    //
-    // Mappings for TITLE based query
-    //
-
-    @GetMapping("/title/{title}")
-    public Object getByTitle(@PathVariable String title) throws EntityNotFoundException {
-        return ResponseEntity.ok(assembler.toModel(cs.findByTitle(title)));
-    }
-
-    @DeleteMapping(value = {"/title/{title}"})
-    public Object deleteByTitle(@PathVariable("title") String title) throws EntityNotFoundException {
-        cs.deleteById(cs.findByTitle(title).getId());
-        return ResponseEntity.ok("Success");
-    }
-
-    @PostMapping(value = {"/title"})
-    public Object updateByTitle(@Valid @RequestBody CamSource source) {
-        return ResponseEntity.ok(assembler.toModel(cs.save(cs.updateExisting(source))));
-    }
-
-    @PatchMapping(value = {"/title/{title}"})
-    public Object patchByTitle(
-            @PathVariable String title, @RequestBody Map<String, Object> source) throws IllegalAccessException {
-        return ResponseEntity.ok(assembler.toModel(cs.patch(source, cs.findByTitle(title).getId())));
-    }
-
-
 }
