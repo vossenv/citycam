@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
-import java.util.UUID;
 
 @Component
 public class CamSourceService extends GenService<CamSource, String> {
@@ -33,11 +32,11 @@ public class CamSourceService extends GenService<CamSource, String> {
         }
     }
 
-    public CamSource updateExisting(CamSource source){
+    public CamSource updateExisting(CamSource source) {
         try {
             CamSource existing = findByTitle(source.getTitle());
             source.setId(existing.getId());
-        } catch (EntityNotFoundException e){
+        } catch (EntityNotFoundException e) {
             // Do nothing
         }
         return source;

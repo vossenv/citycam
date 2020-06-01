@@ -27,6 +27,8 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+indexpath/
+logs/
 
 ### VS Code ###
 .vscode/

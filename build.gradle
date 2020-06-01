@@ -12,6 +12,8 @@ configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
 	}
+	compile.exclude module: 'spring-boot-starter-logging'
+	compile.exclude module: 'logback-classic'
 }
 
 repositories {
@@ -20,18 +22,26 @@ repositories {
 
 dependencies {
 
-	implementation 'io.vavr:vavr:0.10.0'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
-	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.0'
-	implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.0'
+//	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.0'
+//	implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.0'
 	implementation 'org.apache.commons:commons-lang3:3.10'
 	implementation 'javax.inject:javax.inject:1'
 	implementation("com.opencsv:opencsv:5.2")
+
+	implementation 'org.hibernate:hibernate-search-orm:5.11.1.Final'                // Hibernate Search
+	implementation 'org.hibernate:hibernate-core:5.4.2.Final'                       // Hibernate Search
+
+	// Logging
+	implementation  'org.apache.logging.log4j:log4j-api'
+	implementation  'org.apache.logging.log4j:log4j-core'
+	implementation  'org.springframework.boot:spring-boot-starter-log4j2'
+	implementation  'com.lmax:disruptor'
 
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'

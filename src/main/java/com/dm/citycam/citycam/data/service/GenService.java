@@ -1,6 +1,11 @@
 package com.dm.citycam.citycam.data.service;
 
+import com.dm.citycam.citycam.config.RequestInfo;
+import com.dm.citycam.citycam.data.entity.CamSource;
 import com.dm.citycam.citycam.data.entity.EntityBase;
+import com.dm.citycam.citycam.exception.SearchFailedException;
+import com.dm.citycam.citycam.search.FullTextSearch;
+import com.dm.citycam.citycam.search.SearchParameters;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.dao.InvalidDataAccessApiUsageException;
@@ -9,6 +14,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.TransactionSystemException;
 
+import javax.annotation.PostConstruct;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceException;
@@ -21,7 +28,7 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 
 
-public abstract class GenService<T extends EntityBase, ID> {
+public abstract class GenService<T, ID> {
 
     private final EntityManager em;
     private final PagingAndSortingRepository<T, ID> repository;
@@ -32,6 +39,46 @@ public abstract class GenService<T extends EntityBase, ID> {
         this.repository = repository;
         this.persistentClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
     }
+
+    @Inject
+    private FullTextSearch<T> fullTextSearch;
+
+    @PostConstruct
+    void setClass() {
+        this.fullTextSearch.setEntityType(persistentClass);
+    }
+
+
+
+//    public List<T> basicSearch(String query) throws SearchFailedException {
+//        SearchRequest s = new SearchRequest(query);
+//        s.setIncDisabled(true);
+//        return (List<T>) search(s).getResultsList();
+//    }
+
+    public void search(RequestInfo request) throws SearchFailedException {
+        try {
+            long startTime = System.nanoTime();
+            //SearchResponse response = new SearchResponse(request);
+            SearchParameters sp = new SearchParameters.Builder()
+                    .withQuery(request.getQuery())
+                    .incDisabled(request.getIncDisabled())
+                    .withPageable(request.getPageable())
+                    .build();
+
+            List<T> csl = fullTextSearch.search(sp);
+
+            System.out.println();
+//            response.setRowCount(fullTextSearch.count(sp));
+//            response.setResultsList(fullTextSearch.search(sp));
+//            response.setSearchTime((System.nanoTime() - startTime) * 1.0e-9);
+            //           return response;
+        } catch (Exception e) {
+            throw (e instanceof SearchFailedException) ? (SearchFailedException) e
+                    : new SearchFailedException(ExceptionUtils.getRootCauseMessage(e));
+        }
+    }
+
 
     public T save(T t) {
         try {

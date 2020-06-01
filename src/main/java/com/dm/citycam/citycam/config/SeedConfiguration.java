@@ -4,8 +4,8 @@ import com.dm.citycam.citycam.data.entity.CamSource;
 import com.dm.citycam.citycam.data.service.CamSourceService;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
@@ -17,7 +17,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 
-@Configuration
+@Component
 public class SeedConfiguration {
 
     @Inject
@@ -26,7 +26,6 @@ public class SeedConfiguration {
     @Inject
     CamSourceService cs;
 
-    @PostConstruct
     public void seed() throws URISyntaxException, IOException {
 
         String seed = env.getProperty("csv.seed");
