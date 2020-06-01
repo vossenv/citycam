@@ -1,12 +1,12 @@
 package com.dm.citycam.citycam.data.entity;
 
-import com.dm.citycam.citycam.search.fieldbridge.LocalDateFieldBridge;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.FieldBridge;
 import org.hibernate.search.annotations.Indexed;
+import org.hibernate.search.bridge.builtin.DoubleBridge;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -50,7 +50,8 @@ public class CamSource extends EntityBase<String> {
     @Column(name = "location", columnDefinition = "VARCHAR(500)")
     private String location;
 
-    //@Field
+    @Field
+    @FieldBridge(impl = DoubleBridge.class)
     @Column(name = "latitude", columnDefinition = "DECIMAL(10,5)")
     private double latitude;
 
