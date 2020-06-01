@@ -39,7 +39,7 @@ public class CamSource extends EntityBase<String> {
     private String title;
 
     @Field
-    @Column(name = "alive")
+    @Column(name = "alive", columnDefinition = "TINYINT")
     private Boolean alive = true;
 
     @Field
@@ -55,7 +55,8 @@ public class CamSource extends EntityBase<String> {
     @Column(name = "latitude", columnDefinition = "DECIMAL(10,5)")
     private double latitude;
 
-    //@Field
+    @Field
+    @FieldBridge(impl = DoubleBridge.class)
     @Column(name = "longitude", columnDefinition = "DECIMAL(10,5)")
     private double longitude;
 

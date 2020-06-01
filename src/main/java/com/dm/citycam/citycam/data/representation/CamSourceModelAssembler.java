@@ -32,11 +32,11 @@ public class CamSourceModelAssembler extends RepresentationModelAssemblerSupport
     @SneakyThrows
     public CollectionModel<CamSourceModel> toCollectionModel(Iterable<? extends CamSource> entities, RequestInfo request) {
         CollectionModel<CamSourceModel> camSourceModels = super.toCollectionModel(entities);
-        camSourceModels.add(Link.of(request.getLastCall()).withSelfRel());
-        camSourceModels.add(Link.of(request.getNextURL()).withRel("next"));
-        camSourceModels.add(Link.of(request.getPrevURL()).withRel("previous"));
-        camSourceModels.add(Link.of(request.getFirstURL()).withRel("first"));
-        camSourceModels.add(Link.of(request.getLastURL()).withRel("last"));
+        camSourceModels.add(new Link(request.getLastCall()).withSelfRel());
+        camSourceModels.add(new Link(request.getNextURL()).withRel("next"));
+        camSourceModels.add(new Link(request.getPrevURL()).withRel("previous"));
+        camSourceModels.add(new Link(request.getFirstURL()).withRel("first"));
+        camSourceModels.add(new Link(request.getLastURL()).withRel("last"));
         return camSourceModels;
     }
 }
