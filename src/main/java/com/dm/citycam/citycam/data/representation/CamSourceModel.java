@@ -12,12 +12,8 @@ import org.springframework.hateoas.RepresentationModel;
 @Getter
 @NoArgsConstructor
 public class CamSourceModel extends RepresentationModel<CamSourceModel> {
-
-
     CamSource camSource;
-
     CamSourceModel(CamSource e) {
         this.camSource = e;
     }
-
 }

@@ -42,7 +42,6 @@ public class SeedConfiguration {
         System.out.println("Beginning CSV load... " + p.toString());
         CsvToBean<CamSource> csvToBean = new CsvToBeanBuilder(Files.newBufferedReader(p))
                 .withType(CamSource.class)
-
                 .withIgnoreLeadingWhiteSpace(true)
                 .build();
         List<CamSource> cl = csvToBean.parse();

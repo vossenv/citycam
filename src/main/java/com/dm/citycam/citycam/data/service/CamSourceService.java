@@ -11,7 +11,7 @@ import javax.persistence.EntityNotFoundException;
 import java.util.UUID;
 
 @Component
-public class CamSourceService extends GenService<CamSource, UUID> {
+public class CamSourceService extends GenService<CamSource, String> {
 
     CamSourceRepository cr;
 
