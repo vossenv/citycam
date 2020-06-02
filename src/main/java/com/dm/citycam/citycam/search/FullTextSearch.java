@@ -34,12 +34,16 @@ public class FullTextSearch<T> {
         this.fullTextEm = Search.getFullTextEntityManager(emf.createEntityManager());
     }
 
-    public List<T> search(String query, int page, int limit) throws SearchFailedException {
-        return search(new SearchParameters(query, page, limit));
+    public List<T> search(String query) throws SearchFailedException {
+        return search(new SearchParameters(query, 0, 1000));
     }
 
-    public int count(String query, int page, int limit) throws SearchFailedException {
-        return count(new SearchParameters(query, page, limit));
+    public List<T> search(String query, int page, int size) throws SearchFailedException {
+        return search(new SearchParameters(query, page, size));
+    }
+
+    public int count(String query) throws SearchFailedException {
+        return count(new SearchParameters(query, 0, 1));
     }
 
     public List<T> search(SearchParameters sp) throws SearchFailedException {

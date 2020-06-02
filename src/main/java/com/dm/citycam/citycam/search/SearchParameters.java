@@ -17,9 +17,15 @@ public class SearchParameters {
     private SearchFilter filter = SearchFilter.ENABLED_ONLY;
     private int fuzzyLen = 3;
 
-    public SearchParameters(String query, int page, int limit){
+    public SearchParameters(String query, int page, int size){
         this.query = query;
-        this.pageable = PageRequest.of(page, limit);
+        this.pageable = PageRequest.of(page, size);
+    }
+
+    public SearchParameters(String query, int fuzzyLen){
+        this.query = query;
+        this.fuzzyLen = fuzzyLen;
+        this.pageable = PageRequest.of(0, 10000);
     }
 
 }
