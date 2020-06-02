@@ -56,7 +56,7 @@ public class CamSourceController {
         r.updateResults(sr.getResultTotalCount(), sr.getSearchTime());
         return ResponseEntity.ok()
                 .headers(r.getHeaders())
-                .body(assembler.toCollectionModel(sr.getResultList()));
+                .body(assembler.toCollectionModel(sr.getResultList(), r));
     }
 
     @GetMapping("/{id}")
