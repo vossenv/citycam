@@ -1,11 +1,9 @@
 package com.dm.citycam.citycam.data.service;
 
-import com.dm.citycam.citycam.config.RequestInfo;
-import com.dm.citycam.citycam.data.entity.CamSource;
-import com.dm.citycam.citycam.data.entity.EntityBase;
 import com.dm.citycam.citycam.exception.SearchFailedException;
 import com.dm.citycam.citycam.search.FullTextSearch;
 import com.dm.citycam.citycam.search.SearchParameters;
+import com.dm.citycam.citycam.search.SearchResult;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.dao.InvalidDataAccessApiUsageException;
@@ -32,9 +30,9 @@ public abstract class GenService<T, ID> {
 
     private final EntityManager em;
     private final PagingAndSortingRepository<T, ID> repository;
-    private Class<T> persistentClass;
+    private final Class<T> persistentClass;
 
-    public GenService(EntityManager em, PagingAndSortingRepository repository) {
+    public GenService(EntityManager em, PagingAndSortingRepository<T, ID> repository) {
         this.em = em;
         this.repository = repository;
         this.persistentClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
@@ -49,30 +47,19 @@ public abstract class GenService<T, ID> {
     }
 
 
-
 //    public List<T> basicSearch(String query) throws SearchFailedException {
-//        SearchRequest s = new SearchRequest(query);
-//        s.setIncDisabled(true);
-//        return (List<T>) search(s).getResultsList();
+
 //    }
 
-    public void search(RequestInfo request) throws SearchFailedException {
+    public SearchResult<T> search(SearchParameters searchParameters) throws SearchFailedException {
         try {
             long startTime = System.nanoTime();
-            //SearchResponse response = new SearchResponse(request);
-            SearchParameters sp = new SearchParameters.Builder()
-                    .withQuery(request.getQuery())
-                    .incDisabled(request.getIncDisabled())
-                    .withPageable(request.getPageable())
-                    .build();
+            return new SearchResult<T>(
+                    fullTextSearch.count(searchParameters),
+                    fullTextSearch.search(searchParameters),
+                    (System.nanoTime() - startTime) * 1.0e-9
+            );
 
-            List<T> csl = fullTextSearch.search(sp);
-
-            System.out.println();
-//            response.setRowCount(fullTextSearch.count(sp));
-//            response.setResultsList(fullTextSearch.search(sp));
-//            response.setSearchTime((System.nanoTime() - startTime) * 1.0e-9);
-            //           return response;
         } catch (Exception e) {
             throw (e instanceof SearchFailedException) ? (SearchFailedException) e
                     : new SearchFailedException(ExceptionUtils.getRootCauseMessage(e));
@@ -120,7 +107,7 @@ public abstract class GenService<T, ID> {
 
     public T patch(Map<String, Object> fields, ID id, boolean force) throws IllegalAccessException {
 
-        if (force && fields.isEmpty()){
+        if (force && fields.isEmpty()) {
             throw new IllegalArgumentException("Cannot patch, no data provided!");
         }
 

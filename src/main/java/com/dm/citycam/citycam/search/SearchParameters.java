@@ -12,72 +12,14 @@ import org.springframework.data.domain.Pageable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class SearchParameters {
+    private String query = "";
+    private Pageable pageable = PageRequest.of(0, 100);
+    private SearchFilter filter = SearchFilter.ENABLED_ONLY;
+    private int fuzzyLen = 3;
 
-    private String query;
-    private Pageable pageable;
-    private String filter;
-    private int fuzziness;
-
-    public static class Builder {
-        private String query = "";
-        private Pageable pageable = PageRequest.of(0, 100);
-        private String filter = "";
-        private int fuzziness = 3;
-
-        public Builder() {
-        }
-
-        public Builder(String query) {
-            this.query = query;
-        }
-
-        public Builder withPageable(Pageable pageable) {
-            this.pageable = pageable;
-            return this;
-        }
-
-        public Builder withQuery(String query) {
-            this.query = query;
-            return this;
-        }
-
-        public Builder withFilter(String filter) {
-            this.filter = filter;
-            return this;
-        }
-
-        public Builder withfuzziness(int fuzziness) {
-            this.fuzziness = fuzziness;
-            return this;
-        }
-
-        public Builder incDisabled(boolean disabled) {
-            this.filter = !disabled ? "enabled:true" : this.filter;
-            return this;
-        }
-
-        public Builder enabledOnly() {
-            this.filter = "enabled:true";
-            return this;
-        }
-
-        public Builder disabledOnly() {
-            this.filter = "enabled:false";
-            return this;
-        }
-
-        public Builder withPageSize(int size) {
-            this.pageable = PageRequest.of(0, size);
-            return this;
-        }
-
-        public SearchParameters build() {
-            SearchParameters s = new SearchParameters();
-            s.filter = this.filter;
-            s.fuzziness = this.fuzziness;
-            s.pageable = this.pageable;
-            s.query = this.query;
-            return s;
-        }
+    public SearchParameters(String query, int page, int limit){
+        this.query = query;
+        this.pageable = PageRequest.of(page, limit);
     }
+
 }

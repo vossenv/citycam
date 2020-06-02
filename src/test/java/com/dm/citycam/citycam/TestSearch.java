@@ -4,6 +4,7 @@ package com.dm.citycam.citycam;
 import com.dm.citycam.citycam.config.RequestInfo;
 import com.dm.citycam.citycam.data.service.CamSourceService;
 import com.dm.citycam.citycam.exception.SearchFailedException;
+import com.dm.citycam.citycam.search.SearchFilter;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
@@ -27,7 +28,9 @@ class TestSearch {
         ri.setQuery("");
         ri.setIncDisabled(true);
 
-        cs.search(ri);
+        SearchFilter z = SearchFilter.ENABLED_ONLY;
+        String g = z.getFilter();
+        //cs.search(ri);
 
         System.out.println();
     }

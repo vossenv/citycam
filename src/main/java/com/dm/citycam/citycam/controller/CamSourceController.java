@@ -7,6 +7,9 @@ import com.dm.citycam.citycam.data.representation.CamSourceModel;
 import com.dm.citycam.citycam.data.representation.CamSourceModelAssembler;
 import com.dm.citycam.citycam.data.service.CamSourceService;
 import com.dm.citycam.citycam.exception.InvalidParameterException;
+import com.dm.citycam.citycam.exception.SearchFailedException;
+import com.dm.citycam.citycam.search.SearchParameters;
+import com.dm.citycam.citycam.search.SearchResult;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +18,6 @@ import javax.inject.Inject;
 import javax.persistence.EntityNotFoundException;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
-import java.io.UnsupportedEncodingException;
 import java.util.Map;
 
 @RestController
@@ -30,15 +32,31 @@ public class CamSourceController {
     CamSourceModelAssembler assembler;
 
     @GetMapping(value = {"", "/"})
-    public Object findAll(HttpServletRequest request) throws InvalidParameterException, UnsupportedEncodingException {
+    public Object findAll(HttpServletRequest request) throws InvalidParameterException {
 
         RequestInfo r = new RequestInfo(request);
-        r.updatePageParameters(cs.count());
+        r.updateResults(cs.count());
         CollectionModel<CamSourceModel> cm = assembler.toCollectionModel(cs.findAll(r.getPageable()), r);
         return ResponseEntity
                 .ok()
                 .headers(r.getHeaders())
                 .body(cm);
+    }
+
+    @GetMapping(value = {"/search"})
+    public Object search(HttpServletRequest request) throws InvalidParameterException, SearchFailedException {
+
+        RequestInfo r = new RequestInfo(request);
+        SearchResult<CamSource> sr = cs.search(new SearchParameters(
+                r.getQuery(),
+                r.getPageable(),
+                r.getFilter(),
+                r.getPrecision()));
+
+        r.updateResults(sr.getResultTotalCount(), sr.getSearchTime());
+        return ResponseEntity.ok()
+                .headers(r.getHeaders())
+                .body(assembler.toCollectionModel(sr.getResultList()));
     }
 
     @GetMapping("/{id}")

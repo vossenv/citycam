@@ -24,8 +24,8 @@ public class LanguageProcessor {
     @Setter
     private int minFuzzyLen = 3;
 
-    public LanguageProcessor(int fuzziness) {
-        this.minFuzzyLen = fuzziness;
+    public LanguageProcessor(int minFuzzyLen) {
+        this.minFuzzyLen = minFuzzyLen;
     }
 
     public LanguageProcessor() {

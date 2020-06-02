@@ -25,8 +25,8 @@ import static java.util.Arrays.stream;
 @Transactional
 public class FullTextSearch<T> {
 
-    private Class entityType;
-    private FullTextEntityManager fullTextEm;
+    private Class<?> entityType;
+    private final FullTextEntityManager fullTextEm;
     private MultiFieldQueryParser queryParser;
 
     @Inject
@@ -34,12 +34,12 @@ public class FullTextSearch<T> {
         this.fullTextEm = Search.getFullTextEntityManager(emf.createEntityManager());
     }
 
-    public List<T> search(String query) throws SearchFailedException {
-        return search(new SearchParameters.Builder(query).build());
+    public List<T> search(String query, int page, int limit) throws SearchFailedException {
+        return search(new SearchParameters(query, page, limit));
     }
 
-    public int count(String query) throws SearchFailedException {
-        return count(new SearchParameters.Builder(query).build());
+    public int count(String query, int page, int limit) throws SearchFailedException {
+        return count(new SearchParameters(query, page, limit));
     }
 
     public List<T> search(SearchParameters sp) throws SearchFailedException {
@@ -53,13 +53,13 @@ public class FullTextSearch<T> {
     private FullTextQuery parseQuery(SearchParameters parameters) throws SearchFailedException {
 
         String query = parameters.getQuery();
-        String filter = parameters.getFilter();
+        String filter = parameters.getFilter().getFilter();
         Pageable p = parameters.getPageable();
         Assert.notNull(query, "Query must not be null");
 
         try {
-            query = new LanguageProcessor(parameters.getFuzziness()).format(query);
-            query = (!filter.trim().isEmpty()) ? "(" + query + ") AND " + filter : query;
+            query = new LanguageProcessor(parameters.getFuzzyLen()).format(query);
+            query = (!filter.trim().isEmpty()) ? String.format("(%s) AND %s", query, filter) : query;
 
             Query r = queryParser.parse(query);
             FullTextQuery jpaQuery = fullTextEm.createFullTextQuery(r, entityType);
@@ -71,7 +71,7 @@ public class FullTextSearch<T> {
         }
     }
 
-    public void setEntityType(Class entityType) {
+    public void setEntityType(Class<?> entityType) {
         Assert.notNull(entityType, "Entity type must not be null");
         queryParser = new MultiFieldQueryParser(getEntityFields(entityType), fullTextEm.getSearchFactory().getAnalyzer(entityType));
         queryParser.setAllowLeadingWildcard(true);
@@ -79,7 +79,7 @@ public class FullTextSearch<T> {
 
     }
 
-    private String[] getEntityFields(Class c) {
+    private String[] getEntityFields(Class<?> c) {
         Set<String> fieldNames = new HashSet<>();
         while (c != null) {
             stream(c.getDeclaredFields()).map(Field::getName).forEach(fieldNames::add);

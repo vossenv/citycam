@@ -2,6 +2,7 @@ package com.dm.citycam.citycam.config;
 
 
 import com.dm.citycam.citycam.exception.InvalidParameterException;
+import com.dm.citycam.citycam.search.SearchFilter;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.domain.PageRequest;
@@ -12,12 +13,11 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import javax.persistence.EntityNotFoundException;
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import static com.dm.citycam.citycam.config.Meta.getClientIpAddress;
 import static java.lang.Math.min;
 import static java.net.URLDecoder.decode;
 
@@ -38,14 +38,15 @@ public class RequestInfo {
     private String firstURL = "";
     private String lastURL = "";
     private String lastCall = "";
+    private Integer precision = 3;
+    private Double searchTime = -1.0;
     private long rowCount = 0;
-    private Boolean incDisabled = false;
+    private SearchFilter filter = SearchFilter.ENABLED_ONLY;
     private HttpHeaders headers = new HttpHeaders();
     private Pageable pageable = PageRequest.of(0, 100);
     private Long requestTime = System.nanoTime();
-    private List<String> errors = new ArrayList<>();
 
-    public RequestInfo(HttpServletRequest request) throws InvalidParameterException, UnsupportedEncodingException {
+    public RequestInfo(HttpServletRequest request) throws InvalidParameterException {
 
         Map<String, String> requestMap = Collections.list(request.getHeaderNames()).stream()
                 .collect(Collectors.toMap(Object::toString, request::getHeader));
@@ -55,24 +56,33 @@ public class RequestInfo {
 
         clientIP = getClientIpAddress(request);
         URL = request.getRequestURL().toString();
-        incDisabled = requestMap.containsKey("disabled");
-        query = requestMap.containsKey("query") ? decode(requestMap.get("query"), "UTF-8") : this.query;
-        String page = requestMap.containsKey("page") ? requestMap.get("page") : String.valueOf(this.page + 1);
-        String size = requestMap.containsKey("size") ? requestMap.get("size") : String.valueOf(this.size);
-        this.size = validateParameter("size", size, 1, 1000);
-        this.page = validateParameter("page", page, 1, Integer.MAX_VALUE) - 1;
+        filter = parseSearchFilter(requestMap.get("filter"));
 
-        if (errors.size() > 0) {
-            throw new InvalidParameterException(errors);
+        try {
+            query = requestMap.containsKey("query") ? decode(requestMap.get("query"), "UTF-8") : this.query;
+        } catch (UnsupportedEncodingException e) {
+            throw new InvalidParameterException("Unsupported encoding: ", e);
         }
 
+        String page = requestMap.containsKey("page") ? requestMap.get("page") : String.valueOf(this.page + 1);
+        String size = requestMap.containsKey("size") ? requestMap.get("size") : String.valueOf(this.size);
+        String precision = requestMap.containsKey("precision") ? requestMap.get("precision") : String.valueOf(this.precision);
+        this.size = validateBoundedIntParameter("size", size, 1, 1000);
+        this.page = validateBoundedIntParameter("page", page, 1, 5000) - 1;
+        this.precision = validateBoundedIntParameter("precision", precision, 0, 5);
         this.pageable = PageRequest.of(this.page, this.size);
         headers.add("Client-IP", clientIP);
 
     }
 
-    public void updatePageParameters(long rowCount) {
+    public void updateResults(long rowCount) {
+        updateResults(rowCount, -1.0);
+    }
+
+    public void updateResults(long rowCount, double searchTime) {
         this.rowCount = rowCount;
+        this.searchTime = searchTime;
+
         pageCount = (int) Math.ceil((double) rowCount / (double) size);
         next = min((page + 2), pageCount);
         prev = Integer.max(page, 1);
@@ -102,42 +112,40 @@ public class RequestInfo {
         headers.add("Next-Page", nextURL);
         headers.add("Result-Count", String.valueOf(rowCount));
         headers.add("Page-Count", String.valueOf(pageCount));
+        headers.add("Total-Time-Seconds", String.valueOf((System.nanoTime() - requestTime) * 1.0e-9));
 
+        if (searchTime != -1.0) {
+            // this means we did a SEARCH and not a find all
+            headers.add("Search-Time-Seconds", String.valueOf(searchTime));
+            headers.add("Search-Precision", String.valueOf(precision));
+            headers.add("Original-Query", query);
+        }
     }
 
-    private int validateParameter(String type, String param, int min, int max) {
+    private SearchFilter parseSearchFilter(String filter) throws InvalidParameterException {
+
+        if (null == filter || filter.isEmpty() || filter.equals("enabled")) {
+            return SearchFilter.ENABLED_ONLY;
+        } else if (filter.equals("disabled")) {
+            return SearchFilter.DISABLED_ONLY;
+        } else if (filter.equals("all")) {
+            return SearchFilter.INCLUDE_DISABLED;
+        }
+
+        throw new InvalidParameterException(String.format("Cannot parse filter '%s'.  " +
+                "Must be one of: (disabled, enabled, all)", filter));
+    }
+
+    private int validateBoundedIntParameter(String type, String param, int min, int max) throws InvalidParameterException {
         try {
             int p = Integer.parseInt(param);
-            if (p < min || p > max) {
-                errors.add("Valid range exceeded for " + type + ".  Expected range: " + min + " and " + max + ", Got: " + p);
-                return 0;
-            } else return p;
+            if (min <= p && p <= max) return p;
         } catch (NumberFormatException e) {
-            errors.add("Error parsing " + type + ": '" + param + "'.  Please enter a valid integer between " + min + " and " + max);
-            return 0;
+            // No action
         }
+
+        throw new InvalidParameterException(String.format("Valid range exceeded for '%s'.  " +
+                "Expected range: from %d to %d, Got: %s", type, min, max, param));
     }
 
-    private static final String[] IP_HEADER_CANDIDATES = {
-            "X-Forwarded-For",
-            "Proxy-Client-IP",
-            "WL-Proxy-Client-IP",
-            "HTTP_X_FORWARDED_FOR",
-            "HTTP_X_FORWARDED",
-            "HTTP_X_CLUSTER_CLIENT_IP",
-            "HTTP_CLIENT_IP",
-            "HTTP_FORWARDED_FOR",
-            "HTTP_FORWARDED",
-            "HTTP_VIA",
-            "REMOTE_ADDR"};
-
-    public static String getClientIpAddress(HttpServletRequest request) {
-        for (String header : IP_HEADER_CANDIDATES) {
-            String ip = request.getHeader(header);
-            if (ip != null && ip.length() != 0 && !"unknown".equalsIgnoreCase(ip)) {
-                return ip;
-            }
-        }
-        return request.getRemoteAddr();
-    }
 }
