@@ -66,15 +66,15 @@ class TestSearch {
 //        challengeService.deleteById(c.getCamSourceId());
 //    }
 //
-    @Test
-    void indexDeletedItem() throws Exception {
-        CamSource c = camSourceService.findAll().get(0);
-        SearchParameters params = new SearchParameters(c.getId(),20);
-        assertEquals(fullTextSearch.search(params).size(), 1);
-        camSourceService.deleteById(c.getId());
-        assertEquals(fullTextSearch.search(params).size(), 0);
-
-    }
+//    @Test
+//    void indexDeletedItem() throws Exception {
+//        CamSource c = camSourceService.findAll().get(0);
+//        SearchParameters params = new SearchParameters(c.getId(),20);
+//        assertEquals(fullTextSearch.search(params).size(), 1);
+//        camSourceService.deleteById(c.getId());
+//        assertEquals(fullTextSearch.search(params).size(), 0);
+//
+//    }
 
     @Test
     void testResultCount() throws Exception {

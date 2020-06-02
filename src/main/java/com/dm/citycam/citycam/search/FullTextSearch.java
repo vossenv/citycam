@@ -7,6 +7,7 @@ import org.apache.lucene.search.Query;
 import org.hibernate.search.jpa.FullTextEntityManager;
 import org.hibernate.search.jpa.FullTextQuery;
 import org.hibernate.search.jpa.Search;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.Assert;
@@ -35,15 +36,15 @@ public class FullTextSearch<T> {
     }
 
     public List<T> search(String query) throws SearchFailedException {
-        return search(new SearchParameters(query, 0, 1000));
+        return search(new SearchParameters.Create().query(query).get());
     }
 
     public List<T> search(String query, int page, int size) throws SearchFailedException {
-        return search(new SearchParameters(query, page, size));
+        return search(new SearchParameters.Create().query(query).pageable(PageRequest.of(page, size)).get());
     }
 
     public int count(String query) throws SearchFailedException {
-        return count(new SearchParameters(query, 0, 1));
+        return count(new SearchParameters.Create().query(query).get());
     }
 
     public List<T> search(SearchParameters sp) throws SearchFailedException {
@@ -62,7 +63,7 @@ public class FullTextSearch<T> {
         Assert.notNull(query, "Query must not be null");
 
         try {
-            query = new LanguageProcessor(parameters.getFuzzyLen()).format(query);
+            query = new LanguageProcessor(parameters.getPrecision()).format(query);
             query = (!filter.trim().isEmpty()) ? String.format("(%s) AND %s", query, filter) : query;
 
             Query r = queryParser.parse(query);
