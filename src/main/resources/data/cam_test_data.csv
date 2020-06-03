@@ -1,0 +1,828 @@
+id,enabled,title,alive,latitude,longitude,location,description,url
+c602,TRUE,C602,TRUE,44.681663,-93.293237,I-35: NB @ Co Rd 60,near Lakeville,https://video.dot.state.mn.us/video/image/metro/C602
+c603,TRUE,C603,TRUE,44.69779,-93.288089,I-35: NB @ Co Rd 50,near Lakeville,https://video.dot.state.mn.us/video/image/metro/C603
+c604,TRUE,C604,TRUE,44.714457,-93.283389,I-35: NB @ Co Rd 46,near Lakeville,https://video.dot.state.mn.us/video/image/metro/C604
+c605,TRUE,C605,TRUE,44.73057,-93.282948,I-35: SB @ Crystal Lake Road,near Burnsville,https://video.dot.state.mn.us/video/image/metro/C605
+c606,TRUE,C606,TRUE,44.745697,-93.282924,I-35W: NB @ Co Rd 42,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C606
+c607,TRUE,C607,TRUE,44.759903,-93.288926,I-35W: SB @ Burnsville Pkwy,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C607
+c608,TRUE,C608,TRUE,44.774848,-93.288263,I-35W: SB @ MN 13,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C608
+c609,TRUE,C609,TRUE,44.784303,-93.288477,I-35W: NB @ Cliff Road,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C609
+c610,FALSE,C610,TRUE,44.806888,-93.291114,I-35W: SB @ 110th Street,i am disabled,https://video.dot.state.mn.us/video/image/metro/C610
+c611,FALSE,C611,TRUE,44.826,-93.291427,I-35W: NB @ 98th Street,i am disabled,https://video.dot.state.mn.us/video/image/metro/C611
+c612,TRUE,C612,TRUE,44.833345,-93.294793,I-35W: SB @ 94th Street,in Bloomington,https://video.dot.state.mn.us/video/image/metro/C612
+c6131,TRUE,C6131,TRUE,44.855321,-93.298008,I-35W: SB @ 82nd Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C6131
+c614,TRUE,C614,TRUE,44.865608,-93.298723,I-35W: SB @ 76th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C614
+c615,TRUE,C615,TRUE,44.882587,-93.295837,I-35W: NB @ 66th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C615
+c112,TRUE,C112,TRUE,44.890084,-93.290259,I-35W: NB @ Lyndale Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C112
+c616,TRUE,C616,TRUE,44.89284,-93.274913,I-35W: NB E Jct MN 62,in Richfield,https://video.dot.state.mn.us/video/image/metro/C616
+c619,TRUE,C619,TRUE,44.918989,-93.274543,I-35W: N-S @ 46th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C619
+c621,TRUE,C621,TRUE,44.927018,-93.274556,I-35W: SB @ 42nd Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C621
+c622,TRUE,C622,TRUE,44.939711,-93.274557,I-35W: SB @ 35th Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C622
+c623,TRUE,C623,TRUE,44.949254,-93.274616,I-35W: SB @ Lake Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C623
+c624,TRUE,C624,TRUE,44.955568,-93.270158,I-35W: NB @ 26th Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C624
+c625,TRUE,C625,TRUE,44.96621,-93.255116,I-35W: SB @ Chicago Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C625
+c626,TRUE,C626,TRUE,44.966678,-93.254411,I-35W: NB @ Hiawatha Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C626
+c627,TRUE,C627,TRUE,44.971721,-93.251375,I-35W: SB @ 3rd Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C627
+c628,TRUE,C628,TRUE,44.975839,-93.246687,I-35W: NB @ Washington Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C628
+c629,TRUE,C629,TRUE,44.983985,-93.241997,I-35W: SB @ 4th Street,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C629
+c630,TRUE,C630,TRUE,44.9912,-93.236328,I-35W: NB @ Hennepin Avenue,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C630
+c6301,TRUE,C6301,TRUE,44.996199,-93.238441,I-35W: SB @ Broadway Street,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C6301
+c631,TRUE,C631,TRUE,45.002591,-93.215463,I-35W: SB @ Johnson Street,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C631
+c632,TRUE,C632,TRUE,45.001222,-93.21894,I-35W: SB @ Stinson Blvd,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C632
+c633,TRUE,C633,TRUE,45.003123,-93.214229,I-35W: SB @ Industrial Blvd,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C633
+c634,TRUE,C634,TRUE,45.01062,-93.189339,I-35W: SB @ MN 280,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C634
+c635,TRUE,C635,TRUE,45.021083,-93.189285,I-35W: SB @ Co Rd C,in Saint Anthony,https://video.dot.state.mn.us/video/image/metro/C635
+c636,TRUE,C636,TRUE,45.040166,-93.189496,I-35W: NB @ MN 88,in Saint Anthony,https://video.dot.state.mn.us/video/image/metro/C636
+c637,TRUE,C637,TRUE,45.057455,-93.18733,I-35W: NB @ Co Rd E2,in New Brighton,https://video.dot.state.mn.us/video/image/metro/C637
+c638,TRUE,C638,TRUE,45.079242,-93.185489,I-35W: NB @ MN 96,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C638
+c639,TRUE,C639,TRUE,45.092019,-93.188034,I-35W: NB @ Co Rd 10,in Mounds View,https://video.dot.state.mn.us/video/image/metro/C639
+c640,TRUE,C640,TRUE,45.108222,-93.188211,I-35W: SB @ Co Rd I,in Mounds View,https://video.dot.state.mn.us/video/image/metro/C640
+c641,TRUE,C641,TRUE,45.115603,-93.188311,I-35W: SB @ MN 10,in Mounds View,https://video.dot.state.mn.us/video/image/metro/C641
+c642,TRUE,C642,TRUE,45.127665,-93.188407,I-35W: SB @ Lake Drive,in Lexington,https://video.dot.state.mn.us/video/image/metro/C642
+c643,TRUE,C643,TRUE,45.142613,-93.185296,I-35W: SB @ 95th Avenue,in Lexington,https://video.dot.state.mn.us/video/image/metro/C643
+c644,TRUE,C644,TRUE,45.159571,-93.162815,I-35W: SB at Lexington Ave,in Circle Pines,https://video.dot.state.mn.us/video/image/metro/C644
+c645,TRUE,C645,TRUE,45.167907,-93.143305,I-35W: NB @ Sunset Road,in Circle Pines,https://video.dot.state.mn.us/video/image/metro/C645
+c646,TRUE,C646,TRUE,45.172538,-93.124855,I-35W: NB S of Co Rd 23,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C646
+c647,TRUE,C647,TRUE,45.18076,-93.11066,I-35W: SB @ Co Rd 23,in Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C647
+c648,TRUE,C648,TRUE,45.192584,-93.072845,I-35W: NB @ Co Rd 14,in Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C648
+c649,TRUE,C649,TRUE,45.199481,-93.052959,I-35W: NB N of Co Rd 14,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C649
+c650,TRUE,C650,TRUE,45.21444,-93.034558,I-35W: NB S of I-35E,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C650
+c010,TRUE,C010,TRUE,44.744,-93.276168,I-35E: SB @ Co Rd 42,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C010
+c011,TRUE,C011,TRUE,44.753577,-93.261042,I-35E: NB @ McAndrews Road,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C011
+c012,TRUE,C012,TRUE,44.759279,-93.247756,I-35E: SB @ Co Rd 11,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C012
+c013,TRUE,C013,TRUE,44.766687,-93.235615,I-35E: SB S of MN 77,near Burnsville,https://video.dot.state.mn.us/video/image/metro/C013
+c014,TRUE,C014,TRUE,44.777166,-93.218915,I-35E: NB @ MN 77,near Apple Valley,https://video.dot.state.mn.us/video/image/metro/C014
+c015,TRUE,C015,TRUE,44.789887,-93.201594,I-35E: SB @ Cliff Road,near Eagan,https://video.dot.state.mn.us/video/image/metro/C015
+c016,TRUE,C016,TRUE,44.804671,-93.190188,I-35E: SB @ Diffley Road,in Eagan,https://video.dot.state.mn.us/video/image/metro/C016
+c017,TRUE,C017,TRUE,44.811524,-93.182541,I-35E: SB @ Deerwood Drive,in Eagan,https://video.dot.state.mn.us/video/image/metro/C017
+c018,TRUE,C018,TRUE,44.822796,-93.172574,I-35E: NB @ Pilot Knob Road,in Eagan,https://video.dot.state.mn.us/video/image/metro/C018
+c019,TRUE,C019,TRUE,44.833879,-93.163334,I-35E: SB @ Yankee Doodle Road,in Eagan,https://video.dot.state.mn.us/video/image/metro/C019
+c022,TRUE,C022,TRUE,44.874804,-93.143097,I-35E: SB @ Wagon Wheel Trail,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C022
+c023,TRUE,C023,TRUE,44.88356,-93.13861,I-35E: SB @ MN 110,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C023
+c024,TRUE,C024,TRUE,44.888744,-93.131906,I-35E: SB N of MN 110,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C024
+c025,TRUE,C025,TRUE,44.893157,-93.13093,I-35E: SB S of MN 13,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C025
+c026,TRUE,C026,TRUE,44.900848,-93.135548,I-35E: SB @ MN 13,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C026
+c027,TRUE,C027,TRUE,44.910965,-93.143844,I-35E: SB @ Shepard Road,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C027
+c028,TRUE,C028,TRUE,44.915015,-93.144323,I-35E: SB @ W. 7th Street,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C028
+c029,TRUE,C029,TRUE,44.926627,-93.144829,I-35E: SB @ Randolph Avenue,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C029
+c030,TRUE,C030,TRUE,44.9296,-93.142914,I-35E: SB @ Jefferson Avenue,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C030
+c031,TRUE,C031,TRUE,44.93168,-93.131097,I-35E: SB @ Victoria Street,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C031
+c032,TRUE,C032,TRUE,44.934662,-93.125873,I-35E: SB @ St. Clair Avenue,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C032
+c033,TRUE,C033,TRUE,44.939532,-93.116432,I-35E: SB @ Grand Avenue,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C033
+c034,TRUE,C034,TRUE,44.946926,-93.104096,I-35E: SB @ Kellogg Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C034
+c035,TRUE,C035,TRUE,44.95594,-93.090824,I-35E: NB @ University Avenue,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C035
+c036,TRUE,C036,TRUE,44.966203,-93.090931,I-35E: SB @ Cayuga Street,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C036
+c037,TRUE,C037,TRUE,44.977367,-93.088575,I-35E: NB @ Maryland Avenue,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C037
+c038,TRUE,C038,TRUE,44.99195,-93.089181,I-35E: NB @ Larpenteur Avenue,near Little Canada,https://video.dot.state.mn.us/video/image/metro/C038
+c039,TRUE,C039,TRUE,45.005002,-93.089452,I-35E: SB @ Roselawn Avenue,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C039
+c040,TRUE,C040,TRUE,45.023276,-93.089536,I-35E: NB @ Little Canada Road,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C040
+c041,TRUE,C041,TRUE,45.050103,-93.058883,I-35E: SB @ Co Rd E,in Vadnais Heights,https://video.dot.state.mn.us/video/image/metro/C041
+c042,TRUE,C042,TRUE,45.070162,-93.053723,I-35E: SB S of Co Rd 96,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C042
+c043,TRUE,C043,TRUE,45.079128,-93.052697,I-35E: NB @ Co Rd 96,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C043
+c044,TRUE,C044,TRUE,45.09381,-93.051985,I-35E: SB N of Co Rd 96,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C044
+c045,TRUE,C045,TRUE,45.110834,-93.049314,I-35E: NB N of Co Rd H2,near North Oaks,https://video.dot.state.mn.us/video/image/metro/C045
+c046,TRUE,C046,TRUE,45.124075,-93.049554,I-35E: SB @ Co Rd J,near North Oaks,https://video.dot.state.mn.us/video/image/metro/C046
+c047,TRUE,C047,TRUE,45.131864,-93.043408,I-35E: N of Co Rd J,near North Oaks,https://video.dot.state.mn.us/video/image/metro/C047
+c048,TRUE,C048,TRUE,45.137564,-93.038719,I-35E: NB @ 64th Street,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C048
+c049,TRUE,C049,TRUE,45.145704,-93.032227,I-35E: NB @ Tart Lake Road,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C049
+c050,TRUE,C050,TRUE,45.164031,-93.031109,I-35E: SB @ Main Street,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C050
+c051,TRUE,C051,TRUE,45.17379,-93.029657,I-35E: NB N of Main Street,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C051
+c053,TRUE,C053,TRUE,45.196114,-93.029633,I-35E: NB @ 80th Street,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C053
+c054,TRUE,C054,TRUE,45.210895,-93.029005,I-35E: NB S of I-35W,near Lino Lakes,https://video.dot.state.mn.us/video/image/metro/C054
+c1628,TRUE,C1628,TRUE,44.9737,-93.249497,I-35W: NB @ Washington Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C1628
+c1629,TRUE,C1629,TRUE,44.981958,-93.243571,I-35W: NB @ University Avenue,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C1629
+c766,TRUE,C766,TRUE,45.476273,-94.138899,I-94: WB E of Co Rd 75,near Saint Augusta,https://video.dot.state.mn.us/video/image/metro/C766
+c772,TRUE,C772,TRUE,45.412076,-94.057932,I-94: WB @ MN 24,in Clearwater,https://video.dot.state.mn.us/video/image/metro/C772
+c774,TRUE,C774,TRUE,45.393779,-94.023435,I-94: EB E of MN 24,near Clearwater,https://video.dot.state.mn.us/video/image/metro/C774
+c777,TRUE,C777,TRUE,45.367559,-93.97375,I-94: EB @ Co Rd 8,1 mile east of the Clearwater area,https://video.dot.state.mn.us/video/image/metro/C777
+c786,TRUE,C786,TRUE,45.298581,-93.800438,I-94: EB @ MN 25,in Monticello,https://video.dot.state.mn.us/video/image/metro/C786
+c788,TRUE,C788,TRUE,45.289022,-93.758236,I-94: EB @ Co Rd 18,near Monticello,https://video.dot.state.mn.us/video/image/metro/C788
+c794,TRUE,C794,TRUE,45.251681,-93.683666,I-94: WB E of MnRoad,in Albertville,https://video.dot.state.mn.us/video/image/metro/C794
+c795,TRUE,C795,TRUE,45.24085,-93.662403,I-94: EB @ Co Rd 19,in Albertville,https://video.dot.state.mn.us/video/image/metro/C795
+c796,TRUE,C796,TRUE,45.238172,-93.64948,I-94: EB @ Co Rd 37,in Albertville,https://video.dot.state.mn.us/video/image/metro/C796
+c799,TRUE,C799,TRUE,45.217999,-93.596006,I-94: WB @ MN 241,near Rogers,https://video.dot.state.mn.us/video/image/metro/C799
+c801,TRUE,C801,TRUE,45.20405,-93.573154,I-94: EB W of MN 101,in Rogers,https://video.dot.state.mn.us/video/image/metro/C801
+c802,TRUE,C802,TRUE,45.194583,-93.552075,I-94: WB @ MN 101,in Rogers,https://video.dot.state.mn.us/video/image/metro/C802
+c803,TRUE,C803,TRUE,45.184746,-93.538427,I-94: EB E of MN 101,in Rogers,https://video.dot.state.mn.us/video/image/metro/C803
+c804,TRUE,C804,TRUE,45.174317,-93.527225,I-94: WB W Junction of Co Rd 81,near Rogers,https://video.dot.state.mn.us/video/image/metro/C804
+c805,TRUE,C805,TRUE,45.161475,-93.5185,I-94: EB @ Brockton Lane,near Dayton,https://video.dot.state.mn.us/video/image/metro/C805
+c806,TRUE,C806,TRUE,45.149858,-93.501915,I-94: WB W of 101st Avenue,near Dayton,https://video.dot.state.mn.us/video/image/metro/C806
+c807,TRUE,C807,TRUE,45.138091,-93.494681,I-94: EB @ 101st Avenue,near Maple Grove,https://video.dot.state.mn.us/video/image/metro/C807
+c808,TRUE,C808,TRUE,45.12482,-93.484128,I-94: WB @ 95th Avenue,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C808
+c809,TRUE,C809,TRUE,45.111354,-93.471568,I-94: EB @ Elm Creek,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C809
+c810,TRUE,C810,TRUE,45.104745,-93.460519,I-94: WB @ Weaver Lake Rd,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C810
+c811,TRUE,C811,TRUE,45.091868,-93.446575,I-94: EB @ I-494,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C811
+c812,TRUE,C812,TRUE,45.089612,-93.432052,I-94: WB @ Hemlock Lane,near Maple Grove,https://video.dot.state.mn.us/video/image/metro/C812
+c813,TRUE,C813,TRUE,45.082884,-93.401934,I-94: EB @ US 169,near Osseo,https://video.dot.state.mn.us/video/image/metro/C813
+c814,TRUE,C814,TRUE,45.079794,-93.392319,I-94: EB @ Boone Avenue,near Osseo,https://video.dot.state.mn.us/video/image/metro/C814
+c815,TRUE,C815,TRUE,45.077952,-93.372704,I-94: EB @ Co Rd 81,near Brooklyn Park,https://video.dot.state.mn.us/video/image/metro/C815
+c816,TRUE,C816,TRUE,45.076186,-93.355781,I-94: EB @ Zane Avenue,near Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C816
+c817,TRUE,C817,TRUE,45.075786,-93.332279,I-94: WB @ Brooklyn Boulevard,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C817
+c818,TRUE,C818,TRUE,45.07404,-93.3186,I-94: WB @ Xerxes Avenue,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C818
+c819,TRUE,C819,TRUE,45.068856,-93.298833,I-94: EB @ Humboldt Avenue,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C819
+c820,TRUE,C820,TRUE,45.05819,-93.287419,I-94: EB @ 57th Avenue,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C820
+c821,TRUE,C821,TRUE,45.044019,-93.284752,I-94: EB @ 49th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C821
+c822,TRUE,C822,TRUE,45.03141,-93.287576,I-94: EB @ 42nd Avenue,near Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C822
+c823,TRUE,C823,TRUE,45.012971,-93.282736,I-94: WB @ Lowry Avenue,near Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C823
+c824,TRUE,C824,TRUE,44.998657,-93.283029,I-94: WB @ Broadway Avenue,near Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C824
+c825,TRUE,C825,TRUE,44.988377,-93.288704,I-94: SB @ 7th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C825
+c832,TRUE,C832,TRUE,44.964379,-93.2853,I-94: EB @ Hennepin and Lyndale,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C832
+c833,TRUE,C833,TRUE,44.966232,-93.277538,I-94: EB @ Nicollet Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C833
+c834,TRUE,C834,TRUE,44.96597,-93.270185,I-94: WB @ MN 65,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C834
+c835,TRUE,C835,TRUE,44.965644,-93.268747,I-94: WB @ Portland Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C835
+c836,TRUE,C836,TRUE,44.964563,-93.244077,I-94: EB @ Cedar Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C836
+c837,TRUE,C837,TRUE,44.964235,-93.23331,I-94: EB @ Riverside Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C837
+c8361,TRUE,C8361,TRUE,44.964235,-93.23331,I-94: EB @ Riverside Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8361
+c838,TRUE,C838,TRUE,44.96708,-93.221521,I-94: WB @ Huron Boulevard,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C838
+c8381,TRUE,C8381,TRUE,44.96708,-93.221521,I-94: WB @ Huron Boulevard,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C8381
+c839,TRUE,C839,TRUE,44.964504,-93.215889,I-94: EB @ Franklin Ave,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C839
+c840,TRUE,C840,TRUE,44.95981,-93.208747,I-94: EB W @ MN 280,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C840
+c841,TRUE,C841,TRUE,44.959704,-93.202079,I-94: EB @ MN 280,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C841
+c842,TRUE,C842,TRUE,44.955887,-93.191996,I-94: EB @ Cretin Ave,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C842
+c843,TRUE,C843,TRUE,44.952698,-93.182351,I-94: EB @ Prior Ave,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C843
+c844,TRUE,C844,TRUE,44.951627,-93.16853,I-94: EB @ Snelling Ave,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C844
+c845,TRUE,C845,TRUE,44.95167,-93.156499,I-94: EB @ Hamline Ave,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C845
+c846,TRUE,C846,TRUE,44.951647,-93.145432,I-94: EB @ Lexington Ave,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C846
+c3401,TRUE,C3401,TRUE,44.946422,-93.104774,I-35E: EB @ Kellog Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3401
+c848,TRUE,C848,TRUE,44.951187,-93.116489,I-94: EB @ Western Ave,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C848
+c849,TRUE,C849,TRUE,44.949953,-93.1031,I-94: EB @ ohn Ireland Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C849
+c8481,TRUE,C8481,TRUE,44.949953,-93.1031,I-94: EB @ ohn Ireland Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C8481
+c850,TRUE,C850,TRUE,44.950267,-93.100312,I-94: EB @ Wabasha St,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C850
+c851,TRUE,C851,TRUE,44.95361,-93.092826,I-94: EB @ Jackson St,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C851
+c852,TRUE,C852,TRUE,44.953665,-93.092459,I-94: EB @ I-35E,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C852
+c853,TRUE,C853,TRUE,44.951959,-93.086611,I-94: EB @ 7th St,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C853
+c854,TRUE,C854,TRUE,44.952807,-93.082149,I-94: EB @ US 52,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C854
+c855,TRUE,C855,TRUE,44.952224,-93.069851,I-94: EB @ Mounds Blvd,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C855
+c856,TRUE,C856,TRUE,44.952009,-93.049428,I-94: EB @ Johnson Pkwy,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C856
+c857,TRUE,C857,TRUE,44.952611,-93.039591,I-94: WB @ US 61,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C857
+c858,TRUE,C858,TRUE,44.951203,-93.025455,I-94: EB @ White Bear Ave,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C858
+c859,TRUE,C859,TRUE,44.950127,-93.004398,I-94: WB @ McKnight Rd,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C859
+c860,TRUE,C860,TRUE,44.948346,-92.985333,I-94: EB@ MN 120,near Oakdale,https://video.dot.state.mn.us/video/image/metro/C860
+c861,TRUE,C861,TRUE,44.948588,-92.958559,I-94: WB @ I-494 E Jct,near Oakdale,https://video.dot.state.mn.us/video/image/metro/C861
+c862,TRUE,C862,TRUE,44.948457,-92.934728,I-94: EB @ o Rd 13,near Woodbury,https://video.dot.state.mn.us/video/image/metro/C862
+c863,TRUE,C863,TRUE,44.94843,-92.902998,I-94: WB @ Co Rd 19,near Woodbury,https://video.dot.state.mn.us/video/image/metro/C863
+c864,TRUE,C864,TRUE,44.948449,-92.883653,I-94: WB @ Co Rd 17B,near Lake Elmo,https://video.dot.state.mn.us/video/image/metro/C864
+c865,TRUE,C865,TRUE,44.948499,-92.862268,I-94: WB @ Manning Ave.,near Lake Elmo,https://video.dot.state.mn.us/video/image/metro/C865
+c866,TRUE,C866,TRUE,44.948479,-92.843075,I-94: WB @ o Rd 71,near Afton,https://video.dot.state.mn.us/video/image/metro/C866
+c867,TRUE,C867,TRUE,44.94899,-92.820749,I-94: WB @ St. Croix RS,near Lakeland,https://video.dot.state.mn.us/video/image/metro/C867
+c868,TRUE,C868,TRUE,44.954499,-92.797025,I-94: WB @ Co Rd 21,in Lakeland,https://video.dot.state.mn.us/video/image/metro/C868
+c869,TRUE,C869,TRUE,44.961875,-92.77282,I-94: WB @ MN 95,in Lakeland,https://video.dot.state.mn.us/video/image/metro/C869
+c870,TRUE,C870,TRUE,44.962626,-92.75959,I-94: EB @ Hegen St,in Lakeland,https://video.dot.state.mn.us/video/image/metro/C870
+c871,TRUE,C871,TRUE,44.963936,-92.721003,I-94: WB @ Carmichael Rd,in Lakeland,https://video.dot.state.mn.us/video/image/metro/C871
+c903,TRUE,C903,TRUE,44.97102,-93.460283,I-394: EB at I-494,near Wayzata,https://video.dot.state.mn.us/video/image/metro/C903
+c904,TRUE,C904,TRUE,44.971243,-93.439846,I-394: WB at Plymouth Rd,near Minnetonka,https://video.dot.state.mn.us/video/image/metro/C904
+c905,TRUE,C905,TRUE,44.97085,-93.420845,I-394: EB at Co Rd 73,near Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C905
+c906,TRUE,C906,TRUE,44.973239,-93.400887,I-394: EB at U.S.169,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C906
+c907,TRUE,C907,TRUE,44.973831,-93.389187,I-394: EB at General Mills Blvd,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C907
+c908,TRUE,C908,TRUE,44.971243,-93.379101,I-394: EB at Winnetka Ave,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C908
+c909,TRUE,C909,TRUE,44.971243,-93.365202,I-394: EB at Hampshire Ave,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C909
+c910,TRUE,C910,TRUE,44.970352,-93.351322,I-394: EB at Xenia Ave,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C910
+c911,TRUE,C911,TRUE,44.970506,-93.342877,I-394: EB W of T.H.100,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C911
+c912,TRUE,C912,TRUE,44.970513,-93.340423,I-394: WB at T.H.100,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C912
+c913,TRUE,C913,TRUE,44.970002,-93.327734,I-394: EB at France Ave,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C913
+c914,TRUE,C914,TRUE,44.970123,-93.321891,I-394: WB at Wirth Pkwy,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C914
+c915,TRUE,C915,TRUE,44.969884,-93.30918,I-394: EB at Penn Ave,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C915
+c916,TRUE,C916,TRUE,44.969347,-93.301848,I-394: EB at Dunwoody Blvd,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C916
+c917,TRUE,C917,TRUE,44.974915,-93.288258,I-394: WB at I-94,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C917
+c918,TRUE,C918,TRUE,44.974916,-93.288255,I-394: EB at I-94,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C918
+c399,TRUE,C399,TRUE,44.936741,-92.960644,I-494: NB @ Tamarack Road,near Woodbury,https://video.dot.state.mn.us/video/image/metro/C399
+c400,TRUE,C400,TRUE,44.925329,-92.969467,I-494: NB @ Valley Creek Road,near Woodbury,https://video.dot.state.mn.us/video/image/metro/C400
+c401,TRUE,C401,TRUE,44.916267,-92.979491,I-494: EB @ Lake Road,near Woodbury,https://video.dot.state.mn.us/video/image/metro/C401
+c402,TRUE,C402,TRUE,44.902063,-92.994285,I-494: WB @ Carver Avenue,in Newport,https://video.dot.state.mn.us/video/image/metro/C402
+c403,TRUE,C403,TRUE,44.888596,-93.001552,I-494: WB @ Bailey Road,in Newport,https://video.dot.state.mn.us/video/image/metro/C403
+c404,TRUE,C404,TRUE,44.886237,-93.003783,I-494: EB @ US 61,in Newport,https://video.dot.state.mn.us/video/image/metro/C404
+c405,TRUE,C405,TRUE,44.884253,-93.00899,I-494: WB @ Maxwell Avenue,in Newport,https://video.dot.state.mn.us/video/image/metro/C405
+c406,TRUE,C406,TRUE,44.882023,-93.021728,I-494: WB @ Hardman Avenue,in South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C406
+c407,TRUE,C407,TRUE,44.874676,-93.035524,I-494: EB W of Concord Street,in South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C407
+c408,TRUE,C408,TRUE,44.874817,-93.052438,I-494: EB @ Blaine Avenue,in South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C408
+c409,TRUE,C409,TRUE,44.875049,-93.076963,I-494: WB @ MN 110,in Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C409
+c410,TRUE,C410,TRUE,44.862013,-93.093146,I-494: EB @ Pieper Road,in Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C410
+c411,TRUE,C411,TRUE,44.861113,-93.1057,I-494: EB @ Delaware Avenue,in Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C411
+c412,TRUE,C412,TRUE,44.862801,-93.129221,I-494: EB @ Dodd Road,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C412
+c413,TRUE,C413,TRUE,44.862968,-93.144331,I-494: EB @ NB I-35E,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C413
+c414,TRUE,C414,TRUE,44.861254,-93.166898,I-494: EB @ Pilot Knob Road,near Mendota,https://video.dot.state.mn.us/video/image/metro/C414
+c415,TRUE,C415,TRUE,44.862781,-93.210812,I-494: EB @ MN 5,near Mendota,https://video.dot.state.mn.us/video/image/metro/C415
+c416,TRUE,C416,TRUE,44.862209,-93.230216,I-494: WB E of 24th Avenue,near Richfield,https://video.dot.state.mn.us/video/image/metro/C416
+c417,TRUE,C417,TRUE,44.862536,-93.247862,I-494: WB @ MN 77,near Mendota,https://video.dot.state.mn.us/video/image/metro/C417
+c418,TRUE,C418,TRUE,44.862249,-93.258188,I-494: EB @ 12th Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C418
+c419,TRUE,C419,TRUE,44.862236,-93.26777,I-494: EB @ Portland Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C419
+c420,TRUE,C420,TRUE,44.861998,-93.288467,I-494: WB @ Lyndale Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C420
+c421,TRUE,C421,TRUE,44.861903,-93.299931,I-494: EB @ SB I-35W,in Richfield,https://video.dot.state.mn.us/video/image/metro/C421
+c422,TRUE,C422,TRUE,44.862061,-93.308833,I-494: WB @ Penn Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C422
+c423,TRUE,C423,TRUE,44.859114,-93.328456,I-494: EB @ France Avenue,near Bloomington,https://video.dot.state.mn.us/video/image/metro/C423
+c424,TRUE,C424,TRUE,44.858874,-93.349479,I-494: EB @ MN 100,near Bloomington,https://video.dot.state.mn.us/video/image/metro/C424
+c425,TRUE,C425,TRUE,44.859664,-93.362202,I-494: EB @ E Bush Lake Road,near Edina,https://video.dot.state.mn.us/video/image/metro/C425
+c426,TRUE,C426,TRUE,44.860262,-93.382931,I-494: WB @ W Bush Lake Road,near Edina,https://video.dot.state.mn.us/video/image/metro/C426
+c427,TRUE,C427,TRUE,44.859581,-93.394034,I-494: EB @ US 169,near Edina,https://video.dot.state.mn.us/video/image/metro/C427
+c428,TRUE,C428,TRUE,44.862722,-93.425103,I-494: EB @ Flying Cloud Drive,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C428
+c429,TRUE,C429,TRUE,44.868373,-93.432186,I-494: SB @ Valley View Road,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C429
+c430,TRUE,C430,TRUE,44.8766,-93.436091,I-494: SB N of Valley View Road,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C430
+c431,TRUE,C431,TRUE,44.905282,-93.4481,I-494: SB @ Baker Road,near Minnetonka,https://video.dot.state.mn.us/video/image/metro/C431
+c432,TRUE,C432,TRUE,44.914364,-93.449416,I-494: SB @ Excelsior Boulevard,in Minnetonka,https://video.dot.state.mn.us/video/image/metro/C432
+c433,TRUE,C433,TRUE,44.925298,-93.451417,I-494: NB @ MN 7,in Minnetonka,https://video.dot.state.mn.us/video/image/metro/C433
+c434,TRUE,C434,TRUE,44.936608,-93.456374,I-494: SB @ Minnetonka Boulevard,in Minnetonka,https://video.dot.state.mn.us/video/image/metro/C434
+c435,TRUE,C435,TRUE,44.949563,-93.45853,I-494: SB @ Stone Road,in Minnetonka,https://video.dot.state.mn.us/video/image/metro/C435
+c436,TRUE,C436,TRUE,44.983314,-93.459738,I-494: SB @ Carlson Pkwy,near Plymouth,https://video.dot.state.mn.us/video/image/metro/C436
+c437,TRUE,C437,TRUE,44.996558,-93.457688,I-494: NB @ Co Rd 6,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C437
+c438,TRUE,C438,TRUE,45.01299,-93.45716,I-494: SB @ MN 55,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C438
+c439,TRUE,C439,TRUE,45.028713,-93.452523,I-494: NB @ Rockford Road,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C439
+c440,TRUE,C440,TRUE,45.02539,-93.453136,I-494: SB @ 49th Avenue,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C440
+c441,TRUE,C441,TRUE,45.056822,-93.451353,I-494: NB N of 49th Avenue,near Plymouth,https://video.dot.state.mn.us/video/image/metro/C441
+c443,TRUE,C443,TRUE,45.065982,-93.44759,I-494: NB @ Bass Lake Road,near Maple Grove,https://video.dot.state.mn.us/video/image/metro/C443
+c444,TRUE,C444,TRUE,45.080678,-93.447115,I-494: SB @ Fish Lake Road,near Maple Grove,https://video.dot.state.mn.us/video/image/metro/C444
+c701,TRUE,C701,TRUE,45.069516,-93.288316,I-694: WB @ MN.252,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C701
+c702,TRUE,C702,TRUE,45.068668,-93.267998,I-694: EB @ Main Street,in Fridley,https://video.dot.state.mn.us/video/image/metro/C702
+c703,TRUE,C703,TRUE,45.066949,-93.243077,I-694: EB @ MN 65,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C703
+c704,TRUE,C704,TRUE,45.064383,-93.218602,I-694: EB @ Silver Lake Road,in New Brighton,https://video.dot.state.mn.us/video/image/metro/C704
+c705,TRUE,C705,TRUE,45.066615,-93.19308,I-694: WB @ 5th Avenue,in New Brighton,https://video.dot.state.mn.us/video/image/metro/C705
+c706,TRUE,C706,TRUE,45.067026,-93.183896,I-694: EB @ I-35W NB,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C706
+c707,TRUE,C707,TRUE,45.066229,-93.166645,I-694: @ MN10,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C707
+c708,TRUE,C708,TRUE,45.059314,-93.147331,I-694: EB @ Lexington Avenue,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C708
+c709,TRUE,C709,TRUE,45.055822,-93.131701,I-694: EB @ Victoria Street,near Shoreview,https://video.dot.state.mn.us/video/image/metro/C709
+c710,TRUE,C710,TRUE,45.051343,-93.116768,I-694: WB W of Rice Street,near Vadnais Heights,https://video.dot.state.mn.us/video/image/metro/C710
+c715,TRUE,C715,TRUE,45.037436,-93.043027,I-694: EB @ US 61,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C715
+c716,TRUE,C716,TRUE,45.037176,-93.01813,I-694: WB @ White Bear Avenue,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C716
+c717,TRUE,C717,TRUE,45.036168,-93.002247,I-694: WB @ McKnight Road,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C717
+c718,TRUE,C718,TRUE,45.033981,-92.984168,I-694: WB @ Century Avenue,in Pine Springs,https://video.dot.state.mn.us/video/image/metro/C718
+c719,TRUE,C719,TRUE,45.029598,-92.962157,I-694: WB @ MN 36,in Pine Springs,https://video.dot.state.mn.us/video/image/metro/C719
+c720,TRUE,C720,TRUE,45.018739,-92.959243,I-694: NB @ 50th Street,in Pine Springs,https://video.dot.state.mn.us/video/image/metro/C720
+c721,TRUE,C721,TRUE,45.006739,-92.957948,I-694: NB @ 40th Street,in Oakdale,https://video.dot.state.mn.us/video/image/metro/C721
+c722,TRUE,C722,TRUE,44.997999,-92.95937,I-694: NB @ MN 5,in Oakdale,https://video.dot.state.mn.us/video/image/metro/C722
+c723,TRUE,C723,TRUE,44.987243,-92.960706,I-694: SB @ Stillwater Boulevard,in Oakdale,https://video.dot.state.mn.us/video/image/metro/C723
+c724,TRUE,C724,TRUE,44.970381,-92.958829,I-694: NB @ 15th Street N,in Oakdale,https://video.dot.state.mn.us/video/image/metro/C724
+c725,TRUE,C725,TRUE,44.963107,-92.95846,I-694: NB @ 10th Street,in Oakdale,https://video.dot.state.mn.us/video/image/metro/C725
+c901,TRUE,C901,TRUE,44.975901,-93.501766,US 12: WB at Central Ave,in Wayzata,https://video.dot.state.mn.us/video/image/metro/C901
+c902,TRUE,C902,TRUE,44.970943,-93.48348,US 12: EB at Co Rd 15,in Wayzata,https://video.dot.state.mn.us/video/image/metro/C902
+c315,TRUE,C315,TRUE,44.785629,-93.414162,US 169: NB @ CR 21,near Savage,https://video.dot.state.mn.us/video/image/metro/C315
+c316,TRUE,C316,TRUE,44.785661,-93.402718,US 169: CR 101 EB E of U.S. 169,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C316
+c318,TRUE,C318,TRUE,44.807757,-93.397921,US 169: NB @ Old Shakopee Rd.,near Edina,https://video.dot.state.mn.us/video/image/metro/C318
+c320,TRUE,C320,TRUE,44.837041,-93.398282,US 169: NB @ Anderson Lakes Pkwy.,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C320
+c322,TRUE,C322,TRUE,44.85988,-93.394499,US 169: SB @ WB I-494,near Edina,https://video.dot.state.mn.us/video/image/metro/C322
+c323,TRUE,C323,TRUE,44.873097,-93.396582,US 169: SB @ Valley View Road,near Edina,https://video.dot.state.mn.us/video/image/metro/C323
+c324,TRUE,C324,TRUE,44.89879,-93.401366,US 169: SB @ Bren Road,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C324
+c325,TRUE,C325,TRUE,44.913591,-93.401104,US 169: SB @ 7th Street,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C325
+c326,TRUE,C326,TRUE,44.934404,-93.396739,US 169: NB @ MN 7,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C326
+c327,TRUE,C327,TRUE,44.945461,-93.400425,US 169: SB @ innetonka Boulevard,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C327
+c328,TRUE,C328,TRUE,44.954824,-93.40069,US 169: NB @ Cedar Lake Road,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C328
+c330,TRUE,C330,TRUE,44.992541,-93.400677,US 169: SB @ Plymouth Avenue,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C330
+c331,TRUE,C331,TRUE,45.007392,-93.400809,US 169: SB @ Medicine Lake Road,near New Hope,https://video.dot.state.mn.us/video/image/metro/C331
+c332,TRUE,C332,TRUE,45.022156,-93.400648,US 169: SB @ 36th Avenue,in New Hope,https://video.dot.state.mn.us/video/image/metro/C332
+c333,TRUE,C333,TRUE,45.033498,-93.400661,US 169: SB @ Rockford Road,in New Hope,https://video.dot.state.mn.us/video/image/metro/C333
+c334,TRUE,C334,TRUE,45.04403,-93.400705,US 169: SB @ 49th Avenue,in New Hope,https://video.dot.state.mn.us/video/image/metro/C334
+c335,TRUE,C335,TRUE,45.057803,-93.400748,US 169: SB @ Bass Lake Road,in New Hope,https://video.dot.state.mn.us/video/image/metro/C335
+c336,TRUE,C336,TRUE,45.069415,-93.401005,US 169: SB @ 63rd Avenue,near New Hope,https://video.dot.state.mn.us/video/image/metro/C336
+c337,TRUE,C337,TRUE,45.094704,-93.402239,US 169: SB @ 77th Avenue,in Osseo,https://video.dot.state.mn.us/video/image/metro/C337
+c338,TRUE,C338,TRUE,45.10575,-93.393368,US 169: SB @ County Rd 81,in Osseo,https://video.dot.state.mn.us/video/image/metro/C338
+c329,TRUE,C329,TRUE,44.98282,-93.400566,US 169: NB @ MN 55,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C329
+c100,TRUE,C100,TRUE,44.876593,-93.193496,MN 5: N-S @ Airport Road,in Mendota,https://video.dot.state.mn.us/video/image/metro/C100
+c1642,TRUE,C1642,TRUE,45.446613,-93.99648,US 10: WB @ MN 24,in Clear Lake,https://video.dot.state.mn.us/video/image/metro/C1642
+c660,TRUE,C660,TRUE,45.205576,-93.400302,US 10: EB @ Greenhaven Road,in Anoka,https://video.dot.state.mn.us/video/image/metro/C660
+c661,TRUE,C661,TRUE,45.204752,-93.389716,US 10: EB @ U.S.169,in Anoka,https://video.dot.state.mn.us/video/image/metro/C661
+c662,TRUE,C662,TRUE,45.204538,-93.372995,US 10: WB E of 7th Avenue,in Anoka,https://video.dot.state.mn.us/video/image/metro/C662
+c663,TRUE,C663,TRUE,45.204196,-93.357558,US 10: EB @ Round Lake Boulevard,in Anoka,https://video.dot.state.mn.us/video/image/metro/C663
+c664,TRUE,C664,TRUE,45.197807,-93.341017,US 10: EB @ Co Rd 14,near Coon Rapids,https://video.dot.state.mn.us/video/image/metro/C664
+c665,TRUE,C665,TRUE,45.187238,-93.327831,US 10: EB W of Hanson Blvd,in Coon Rapids,https://video.dot.state.mn.us/video/image/metro/C665
+c666,TRUE,C666,TRUE,45.181765,-93.315863,US 10: EB @ Hanson Boulevard,in Coon Rapids,https://video.dot.state.mn.us/video/image/metro/C666
+c667,TRUE,C667,TRUE,45.169199,-93.293641,US 10: WB W of Egret Blvd,in Coon Rapids,https://video.dot.state.mn.us/video/image/metro/C667
+c668,TRUE,C668,TRUE,45.151796,-93.274988,US 10: EB @ Foley Boulevard,near Coon Rapids,https://video.dot.state.mn.us/video/image/metro/C668
+c669,TRUE,C669,TRUE,45.142444,-93.270758,US 10: EB @ MN 47,near Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C669
+c670,TRUE,C670,TRUE,45.142952,-93.265621,US 10: EB @ University Avenue,near Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C670
+c671,TRUE,C671,TRUE,45.133658,-93.234675,US 10: EB @ MN 65,in Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C671
+c672,TRUE,C672,TRUE,45.128245,-93.217855,US 10: WB @ Airport Road,near Mounds View,https://video.dot.state.mn.us/video/image/metro/C672
+c673,TRUE,C673,TRUE,45.118098,-93.20392,US 10: EB E of Co Rd J,in Mounds View,https://video.dot.state.mn.us/video/image/metro/C673
+c1645,TRUE,C1645,TRUE,45.356571,-93.819892,US 10: WB @ Co Rd 11,near Becker,https://video.dot.state.mn.us/video/image/metro/C1645
+c1646,TRUE,C1646,TRUE,45.332521,-93.745704,US 10: WB @ MN 25,in Big Lake,https://video.dot.state.mn.us/video/image/metro/C1646
+c1650,TRUE,C1650,TRUE,45.301119,-93.562115,US 10: WB @ Main Street,near Elk River,https://video.dot.state.mn.us/video/image/metro/C1650
+c1651,TRUE,C1651,TRUE,45.303899,-93.567164,US 10: WB @ Jackson Street,in Elk River,https://video.dot.state.mn.us/video/image/metro/C1651
+c1505,TRUE,C1505,TRUE,45.560572,-94.205795,MN 15: MN 15 N of 3rd St,near Saint Cloud,https://video.dot.state.mn.us/video/image/metro/C1505
+c1506,TRUE,C1506,TRUE,45.558674,-94.157676,MN 23: Hwy 23 @ 4th Ave,in Saint Cloud,https://video.dot.state.mn.us/video/image/metro/C1506
+c1514,TRUE,C1514,TRUE,45.305937,-93.794041,MN 25: Co Rd 75,in Monticello,https://video.dot.state.mn.us/video/image/metro/C1514
+c001,TRUE,C001,TRUE,45.010026,-93.186,MN 36: WB @ Cleveland Avenue,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C001
+c002,TRUE,C002,TRUE,45.01005,-93.167028,MN 36: WB @ Snelling Avenue,in Roseville,https://video.dot.state.mn.us/video/image/metro/C002
+c003,TRUE,C003,TRUE,45.010363,-93.147511,MN 36: WB @ Lexington Avenue,in Roseville,https://video.dot.state.mn.us/video/image/metro/C003
+c004,TRUE,C004,TRUE,45.009436,-93.127179,MN 36: WB @ Dale Street,in Roseville,https://video.dot.state.mn.us/video/image/metro/C004
+c005,TRUE,C005,TRUE,45.007505,-93.106134,MN 36: EB @ Rice Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C005
+c006,TRUE,C006,TRUE,45.010565,-93.089403,MN 36: WB @ I-35E,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C006
+c007,TRUE,C007,TRUE,45.009547,-93.076532,MN 36: EB @ Edgerton Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C007
+c009,TRUE,C009,TRUE,45.011654,-93.052923,MN 36: WB @ U.S. 61,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C009
+c1470,TRUE,C1470,TRUE,45.04084,-93.262943,MN 47: @ 40th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1470
+c1471,TRUE,C1471,TRUE,45.048077,-93.263088,MN 47: @ 44th Avenue,near Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1471
+c1472,TRUE,C1472,TRUE,45.064597,-93.263128,MN 47: @ 53rd Avenue,near Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1472
+c550,TRUE,C550,TRUE,44.824404,-93.058169,US 52: @ MN 55,in Inver Grove Heights,https://video.dot.state.mn.us/video/image/metro/C550
+c551,TRUE,C551,TRUE,44.833577,-93.059803,US 52: @ 80th Street,in Inver Grove Heights,https://video.dot.state.mn.us/video/image/metro/C551
+c552,TRUE,C552,TRUE,44.848008,-93.059835,US 52: NB @ 70th Street,in Inver Grove Heights,https://video.dot.state.mn.us/video/image/metro/C552
+c553,TRUE,C553,TRUE,44.865355,-93.060055,US 52: NB @ Upper 55th Street,in Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C553
+c554,TRUE,C554,TRUE,44.874177,-93.060833,US 52: NB @ I-494,in South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C554
+c555,TRUE,C555,TRUE,44.887155,-93.065628,US 52: SB @ Southview Boulevard,in South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C555
+c556,TRUE,C556,TRUE,44.901378,-93.065718,US 52: NB @ Thompson Avenue,in West Saint Paul,https://video.dot.state.mn.us/video/image/metro/C556
+c557,TRUE,C557,TRUE,44.912155,-93.064408,US 52: NB @ Butler Avenue,in West Saint Paul,https://video.dot.state.mn.us/video/image/metro/C557
+c558,TRUE,C558,TRUE,44.917277,-93.063864,US 52: NB N of Butler Avenue,in West Saint Paul,https://video.dot.state.mn.us/video/image/metro/C558
+c559,TRUE,C559,TRUE,44.928093,-93.070392,US 52: SB @ Concord Street,in West Saint Paul,https://video.dot.state.mn.us/video/image/metro/C559
+c560,TRUE,C560,TRUE,44.933233,-93.072097,US 52: NB @ Eaton Street,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C560
+c561,TRUE,C561,TRUE,44.940171,-93.075821,US 52: NB @ Plato Boulevard,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C561
+c1530,TRUE,C1530,TRUE,45.045959,-93.542293,MN 55: EB @ Pinto Drive,near Medina,https://video.dot.state.mn.us/video/image/metro/C1530
+c1531,TRUE,C1531,TRUE,45.043359,-93.525511,MN 55: EB @ Sioux Trail,near Medina,https://video.dot.state.mn.us/video/image/metro/C1531
+c1532,TRUE,C1532,TRUE,45.032041,-93.507558,MN 55: EB @ Peony Lane,near Plymouth,https://video.dot.state.mn.us/video/image/metro/C1532
+c1534,TRUE,C1534,TRUE,45.018493,-93.48125,MN 55: EB @ Vicksburg Lane,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1534
+c105,TRUE,C105,TRUE,44.890935,-93.184178,MN 55: WB @ MN 5,in Mendota,https://video.dot.state.mn.us/video/image/metro/C105
+c1218,TRUE,C1218,TRUE,44.984568,-93.35414,MN 55: W of MN 100,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1218
+c1721,TRUE,C1721,TRUE,45.050176,-93.036024,US 61: NB @ CR E,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C1721
+c1714,TRUE,C1714,TRUE,45.021013,-93.051007,US 61: NB @ CR C,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C1714
+c1715,TRUE,C1715,TRUE,45.037301,-93.042194,US 61: @ I-694,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C1715
+c106,TRUE,C106,TRUE,44.898761,-93.2019,MN 62: @ MN 55,near Mendota,https://video.dot.state.mn.us/video/image/metro/C106
+c113,TRUE,C113,TRUE,44.890341,-93.2985,MN 62: EB E of Penn Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C113
+c107,TRUE,C107,TRUE,44.898323,-93.21545,MN 62: WB @ 43rd Avenue,near Mendota,https://video.dot.state.mn.us/video/image/metro/C107
+c108,TRUE,C108,TRUE,44.897375,-93.2313,MN 62: WB @ 28th Avenue,near Richfield,https://video.dot.state.mn.us/video/image/metro/C108
+c513,TRUE,C513,TRUE,44.895334,-93.248309,MN 62: EB @ TH 77,near Richfield,https://video.dot.state.mn.us/video/image/metro/C513
+c110,TRUE,C110,TRUE,44.890631,-93.267978,MN 62: EB @ Portland Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C110
+c115,TRUE,C115,TRUE,44.89076,-93.319042,MN 62: WB @ Xerxes Avenue,near Edina,https://video.dot.state.mn.us/video/image/metro/C115
+c116,TRUE,C116,TRUE,44.88693,-93.328705,MN 62: EB @ France Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C116
+c1116,TRUE,C1116,TRUE,44.88693,-93.328705,MN 62: EB @ France Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C1116
+c117,TRUE,C117,TRUE,44.889535,-93.349796,MN 62: WB @ MN 100,in Edina,https://video.dot.state.mn.us/video/image/metro/C117
+c118,TRUE,C118,TRUE,44.887291,-93.369153,MN 62: EB @ racy Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C118
+c119,TRUE,C119,TRUE,44.889501,-93.387187,MN 62: EB @ Gleason Road,in Edina,https://video.dot.state.mn.us/video/image/metro/C119
+c120,TRUE,C120,TRUE,44.890453,-93.399122,MN 62: EB @ U.S.169,in Edina,https://video.dot.state.mn.us/video/image/metro/C120
+c121,TRUE,C121,TRUE,44.892644,-93.415099,MN 62: WB @ Shady Oak Road,near Hopkins,https://video.dot.state.mn.us/video/image/metro/C121
+c122,TRUE,C122,TRUE,44.891896,-93.436175,MN 62: EB E of Clearwater Drive,near Hopkins,https://video.dot.state.mn.us/video/image/metro/C122
+c123,TRUE,C123,TRUE,44.89124,-93.443257,MN 62: EB @ I-494,near Hopkins,https://video.dot.state.mn.us/video/image/metro/C123
+c1480,TRUE,C1480,TRUE,45.059103,-93.247436,MN 65: SB @ 50th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1480
+c1478,TRUE,C1478,TRUE,45.053481,-93.24744,MN 65: NB @ 47th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1478
+c1482,TRUE,C1482,TRUE,45.064605,-93.247437,MN 65: SB @ 53rd Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1482
+c503,TRUE,C503,TRUE,44.759971,-93.217598,MN 77: SB @ Co Rd 38,in Apple Valley,https://video.dot.state.mn.us/video/image/metro/C503
+c504,TRUE,C504,TRUE,44.766003,-93.217432,MN 77: SB @ 127th Street,in Apple Valley,https://video.dot.state.mn.us/video/image/metro/C504
+c505,TRUE,C505,TRUE,44.779057,-93.217154,MN 77: SB @ I-35E,near Apple Valley,https://video.dot.state.mn.us/video/image/metro/C505
+c506,TRUE,C506,TRUE,44.790391,-93.22123,MN 77: SB @ Cliff Road,near Apple Valley,https://video.dot.state.mn.us/video/image/metro/C506
+c507,TRUE,C507,TRUE,44.805246,-93.220627,MN 77: SB @ Diffley Road,near Eagan,https://video.dot.state.mn.us/video/image/metro/C507
+c508,TRUE,C508,TRUE,44.815418,-93.221139,MN 77: SB @ MN 13,near Eagan,https://video.dot.state.mn.us/video/image/metro/C508
+c509,TRUE,C509,TRUE,44.824139,-93.226665,MN 77: SB @ Minnesota River,near Eagan,https://video.dot.state.mn.us/video/image/metro/C509
+c510,TRUE,C510,TRUE,44.839857,-93.243225,MN 77: SB @ Old Shakopee Road,near Richfield,https://video.dot.state.mn.us/video/image/metro/C510
+c511,TRUE,C511,TRUE,44.854975,-93.247016,MN 77: SB @ 84th Street,near Richfield,https://video.dot.state.mn.us/video/image/metro/C511
+c512,TRUE,C512,TRUE,44.883424,-93.246788,MN 77: NB @ 66th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C512
+c209,TRUE,C209,TRUE,44.864305,-93.350002,MN 100: NB @ 77th Street,near Edina,https://video.dot.state.mn.us/video/image/metro/C209
+c210,TRUE,C210,TRUE,44.882611,-93.350267,MN 100: SB @ 66th Street,in Edina,https://video.dot.state.mn.us/video/image/metro/C210
+c212,TRUE,C212,TRUE,44.896475,-93.349871,MN 100: SB @ Benton Avenue,in Edina,https://video.dot.state.mn.us/video/image/metro/C212
+c213,TRUE,C213,TRUE,44.912379,-93.350648,MN 100: SB @ 50th Street,in Edina,https://video.dot.state.mn.us/video/image/metro/C213
+c214,TRUE,C214,TRUE,44.928883,-93.349842,MN 100: SB @ Excelsior Blvd,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C214
+c216,TRUE,C216,TRUE,44.95514,-93.347539,MN 100: SB @ 27th Street,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C216
+c217,TRUE,C217,TRUE,44.977599,-93.344429,MN 100: SB @ Glenwood Avenue,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C217
+c218,TRUE,C218,TRUE,44.98549,-93.349088,MN 100: NB @ MN 55,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C218
+c219,TRUE,C219,TRUE,44.99893,-93.349239,MN 100: SB @ Duluth Street,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C219
+c220,TRUE,C220,TRUE,45.007195,-93.349163,MN 100: NB N of Duluth Street,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C220
+c221,TRUE,C221,TRUE,45.021872,-93.348344,MN 100: NB @ 36th Avenue,in Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C221
+c222,TRUE,C222,TRUE,45.031622,-93.346887,MN 100: SB @ 42nd Avenue,in Crystal,https://video.dot.state.mn.us/video/image/metro/C222
+c223,TRUE,C223,TRUE,45.036639,-93.342514,MN 100: SB @ Co Rd 81,in Crystal,https://video.dot.state.mn.us/video/image/metro/C223
+c224,TRUE,C224,TRUE,45.042287,-93.330306,MN 100: NB @ France Avenue,in Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C224
+c225,TRUE,C225,TRUE,45.048676,-93.324063,MN 100: SB N of France Avenue,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C225
+c203,TRUE,C203,TRUE,45.229279,-93.552294,MN 101: NB @ Co Rd 36,near Rogers,https://video.dot.state.mn.us/video/image/metro/C203
+c205,TRUE,C205,TRUE,45.252633,-93.555082,MN 101: NB @ Co Rd 38,near Otsego,https://video.dot.state.mn.us/video/image/metro/C205
+c104,TRUE,C104,TRUE,44.88233,-93.164604,MN 110: WB @ MN 55,in Mendota,https://video.dot.state.mn.us/video/image/metro/C104
+c383,TRUE,C383,TRUE,44.815445,-93.602023,US 212: EB @ MN 41,in Chaska,https://video.dot.state.mn.us/video/image/metro/C383
+c384,TRUE,C384,TRUE,44.820904,-93.575696,US 212: @ Audubon Road,in Chaska,https://video.dot.state.mn.us/video/image/metro/C384
+c385,TRUE,C385,TRUE,44.828435,-93.559172,US 212: EB @ Pioneer Trail,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C385
+c386,TRUE,C386,TRUE,44.834711,-93.552236,US 212: EB @ Powers Boulevard,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C386
+c387,TRUE,C387,TRUE,44.844283,-93.538494,US 212: WB @ MN 101,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C387
+c388,TRUE,C388,TRUE,44.846834,-93.522137,US 212: EB E of MN 101,near Chanhassen,https://video.dot.state.mn.us/video/image/metro/C388
+c389,TRUE,C389,TRUE,44.849196,-93.504339,US 212: EB @ SB Dell Road,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C389
+c390,TRUE,C390,TRUE,44.851421,-93.484907,US 212: EB @ SB Eden Prairie Road,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C390
+c391,TRUE,C391,TRUE,44.860457,-93.475602,US 212: WB W of Wallace Road,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C391
+c392,TRUE,C392,TRUE,44.861815,-93.459553,US 212: EB @ NB Mitchell Rd,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C392
+c393,TRUE,C393,TRUE,44.862194,-93.442873,US 212: EB @ Prairie Center Drive,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C393
+c394,TRUE,C394,TRUE,44.864698,-93.429462,US 212: EB @ I-494,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C394
+c395,TRUE,C395,TRUE,44.866272,-93.420177,US 212: WB @ Valley View Road,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C395
+c396,TRUE,C396,TRUE,44.880844,-93.413147,US 212: WB @ Shady Oak Road,near Edina,https://video.dot.state.mn.us/video/image/metro/C396
+c280,TRUE,C280,TRUE,44.965654,-93.201828,MN 280: SB @ University Avenue,near Lauderdale,https://video.dot.state.mn.us/video/image/metro/C280
+c281,TRUE,C281,TRUE,44.979344,-93.203074,MN 280: SB @ Energy Park Drive,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C281
+c282,TRUE,C282,TRUE,44.991952,-93.205189,MN 280: SB @ Hennepin Avenue,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C282
+c283,TRUE,C283,TRUE,44.999593,-93.206019,MN 280: SB @ Broadway Street,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C283
+c284,TRUE,C284,TRUE,45.007654,-93.203791,MN 280: NB @ MN 36,in Lauderdale,https://video.dot.state.mn.us/video/image/metro/C284
+c35-094,TRUE,C35-094,TRUE,46.736715,-92.189584,I-35: NB @ Cody Street,in Proctor,https://video.dot.state.mn.us/video/image/metro/C35-094
+c35-100,TRUE,C35-100,TRUE,46.735958,-92.170603,I-35: NB @ Central Avenue,near Proctor,https://video.dot.state.mn.us/video/image/metro/C35-100
+c35-121,TRUE,C35-121,TRUE,46.74849,-92.146545,I-35: NB @ 40th Avenue W,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-121
+c35-123,TRUE,C35-123,TRUE,46.753668,-92.136538,I-35: NB @ Oredocks,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-123
+c35-125,TRUE,C35-125,TRUE,46.75718,-92.131349,I-35: NB @ 29th Avenue W,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-125
+c35-136,TRUE,C35-136,TRUE,46.764295,-92.124001,I-35: SB @ Can of Worms,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-136
+c535-145,TRUE,C535-145,TRUE,46.75577,-92.10563,I-535: I-535 NB @ Garfield Avenue,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-145
+c35-174,TRUE,C35-174,TRUE,46.772236,-92.114758,I-35: SB @ 14th Avenue W,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-174
+c35-182,TRUE,C35-182,TRUE,46.786492,-92.096744,I-35: SB @ Lake Ave,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-182
+d6-c005,TRUE,D6-C005,TRUE,44.061568,-92.49817,US 52: @ 37th Street N.W.,near Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C005
+d6-c006,TRUE,D6-C006,TRUE,44.043439,-92.487887,US 52: @ 19th Street N.W.,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C006
+d6-c007,TRUE,D6-C007,TRUE,44.030905,-92.4884,US 52: @ Civic Center Dr.,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C007
+d6-c009,TRUE,D6-C009,TRUE,44.006909,-92.482074,US 52: @ 6th Street SW,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C009
+d6-c010,TRUE,D6-C010,TRUE,44.005817,-92.482223,US 52: @ US 14 E,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C010
+d6-c011,TRUE,D6-C011,TRUE,43.99472,-92.484438,US 52: S of Mayowood Road,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C011
+d6-c013,TRUE,D6-C013,TRUE,43.976559,-92.461733,US 52: @ US 63 S.,near Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C013
+d6-c002,TRUE,D6-C002,TRUE,44.1084,-92.515521,US 52: @ 75th Street N.W.,near Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C002
+d6-c004,TRUE,D6-C004,TRUE,44.065416,-92.500346,US 52: @ 41 Street N.W.,near Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C004
+d6-c012,TRUE,D6-C012,TRUE,43.981938,-92.473568,US 52: @ Rockcut SW,near Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C012
+d6-c16,TRUE,D6-C16,TRUE,44.006992,-92.463571,Streets: Broadway at Crossroads,null,https://video.dot.state.mn.us/video/image/metro/D6-C16
+c056,TRUE,C056,TRUE,45.228835,-93.028066,I-35: SB N of I-35W,near Columbus,https://video.dot.state.mn.us/video/image/metro/C056
+c057,TRUE,C057,TRUE,45.247329,-93.025984,I-35: SB @ MN 97,near Columbus,https://video.dot.state.mn.us/video/image/metro/C057
+c058,TRUE,C058,TRUE,45.25519,-93.015956,I-35: NB N of MN 97,near Columbus,https://video.dot.state.mn.us/video/image/metro/C058
+c059,TRUE,C059,TRUE,45.280048,-93.003144,I-35: NB @ Co Rd 2,near Forest Lake,https://video.dot.state.mn.us/video/image/metro/C059
+c060,TRUE,C060,TRUE,45.2912,-93.002765,I-35: NB @ U.S. 8,near Forest Lake,https://video.dot.state.mn.us/video/image/metro/C060
+c061,TRUE,C061,TRUE,45.3065,-93.002816,I-35: NB N of U.S. 8,near Wyoming,https://video.dot.state.mn.us/video/image/metro/C061
+c062,TRUE,C062,TRUE,45.32451,-93.003282,I-35: NB S of Co Rd 22,in Wyoming,https://video.dot.state.mn.us/video/image/metro/C062
+c063,TRUE,C063,TRUE,45.33621,-93.004583,I-35: SB @ Co Rd 22,in Wyoming,https://video.dot.state.mn.us/video/image/metro/C063
+c1303,TRUE,C1303,TRUE,44.833543,-93.191255,MN 13: EB @ Yankee Doodle Road,in Eagan,https://video.dot.state.mn.us/video/image/metro/C1303
+c1304,TRUE,C1304,TRUE,44.827711,-93.197735,MN 13: EB @ Blackhawk Road,in Eagan,https://video.dot.state.mn.us/video/image/metro/C1304
+c1305,TRUE,C1305,TRUE,44.820362,-93.207776,MN 13: EB @ Silver Bell Road,near Eagan,https://video.dot.state.mn.us/video/image/metro/C1305
+c1306,TRUE,C1306,TRUE,44.802586,-93.230797,MN 13: EB @ Diffley Road,near Eagan,https://video.dot.state.mn.us/video/image/metro/C1306
+c1307,TRUE,C1307,TRUE,44.802586,-93.230797,MN 13: EB @ River Hills Drive,near Eagan,https://video.dot.state.mn.us/video/image/metro/C1307
+c1308,TRUE,C1308,TRUE,44.790378,-93.242521,MN 13: EB @ Cliff Road,near Burnsville,https://video.dot.state.mn.us/video/image/metro/C1308
+c1309,TRUE,C1309,TRUE,44.787141,-93.24827,MN 13: EB @ County Rd 11,near Burnsville,https://video.dot.state.mn.us/video/image/metro/C1309
+c1310,TRUE,C1310,TRUE,44.783881,-93.256631,MN 13: EB @ Parkwood Drive,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C1310
+c1311,TRUE,C1311,TRUE,44.781706,-93.267614,MN 13: WB @ Portland Ave,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C1311
+c1313,TRUE,C1313,TRUE,44.772779,-93.304907,MN 13: EB @ County Rd 5,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C1313
+c1314,TRUE,C1314,TRUE,44.775128,-93.315819,MN 13: WB @ Washburn Avenue S,near Burnsville,https://video.dot.state.mn.us/video/image/metro/C1314
+c1315,TRUE,C1315,TRUE,44.778982,-93.336506,MN 13: WB @ Lynn Avenue,near Savage,https://video.dot.state.mn.us/video/image/metro/C1315
+c1317,TRUE,C1317,TRUE,44.779279,-93.273724,MN 13: EB @ MN 101,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C1317
+c1318,TRUE,C1318,TRUE,45.572684,-93.2081,MN 95: MN 95 WB @ MN 65,in Cambridge,https://video.dot.state.mn.us/video/image/metro/C1318
+c226,TRUE,C226,TRUE,45.058941,-93.308407,MN 100: NB @ 57th Avenue,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C226
+c313,TRUE,C313,TRUE,44.782951,-93.450019,US 169: NB E of CR 83,near Shakopee,https://video.dot.state.mn.us/video/image/metro/C313
+c314,TRUE,C314,TRUE,44.783209,-93.422759,US 169: NB S of CR 21,near Savage,https://video.dot.state.mn.us/video/image/metro/C314
+c826,TRUE,C826,TRUE,44.967792,-93.288016,I-94: Tunnel East #1,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C826
+c827,TRUE,C827,TRUE,44.966974,-93.288112,I-94: Tunnel East #2,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C827
+c828,TRUE,C828,TRUE,44.965398,-93.287853,I-94: Tunnel East #3,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C828
+c829,TRUE,C829,TRUE,44.964847,-93.287263,I-94: Tunnel West #1,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C829
+c830,TRUE,C830,TRUE,44.967772,-93.288018,I-94: Tunnel West #2,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C830
+c831,TRUE,C831,TRUE,44.969561,-93.287747,I-94: Tunnel West #3,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C831
+c714,TRUE,C714,TRUE,45.037493,-93.057701,I-694: @ Labore Road,near Vadnais Heights,https://video.dot.state.mn.us/video/image/metro/C714
+c535-146,TRUE,C535-146,TRUE,46.756073,-92.106058,I-535: I-535 SB @ Garfield Avenue,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-146
+c35-132,TRUE,C35-132,TRUE,46.76284,-92.125265,I-35: NB @ 22nd Avenue W,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-132
+c35-131,TRUE,C35-131,TRUE,46.76241,-92.125673,I-35: SB @ 22nd Avenue W,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-131
+c535-159,TRUE,C535-159,TRUE,46.749422,-92.100944,I-535: I-535 NB @ Blatnik Bridge,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-159
+c35-084,TRUE,C35-084,TRUE,46.730869,-92.202673,I-35: SB @ MN 2,in Proctor,https://video.dot.state.mn.us/video/image/metro/C35-084
+c61-053,TRUE,C61-053,TRUE,47.066531,-91.596241,MN 61: MN 61@ So. Silver Cliff Tunnel,1 mile east of the Two Harbors area,https://video.dot.state.mn.us/video/image/metro/C61-053
+c61-052,TRUE,C61-052,TRUE,47.06791,-91.593864,MN 61: MN 61 @ Middle of Silver Cliff Tunnel,1 mile east of the Two Harbors area,https://video.dot.state.mn.us/video/image/metro/C61-052
+c61-051,TRUE,C61-051,TRUE,47.068669,-91.593007,MN 61: MN 61 @ NB Silver Cliff Tunnel,1 mile east of the Two Harbors area,https://video.dot.state.mn.us/video/image/metro/C61-051
+c35-185,TRUE,C35-185,TRUE,46.789973,-92.092866,I-35: NB @ Lake Pl - W Tunnel,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-185
+c35-098,TRUE,C35-098,TRUE,46.737636,-92.17846,I-35: NB @ 63rd Avenue W,near Proctor,https://video.dot.state.mn.us/video/image/metro/C35-098
+c194-211,TRUE,C194-211,TRUE,46.789781,-92.106465,MN 194: MN 194 WB @ 2nd Avenue W,in Duluth,https://video.dot.state.mn.us/video/image/metro/C194-211
+c35-177,TRUE,C35-177,TRUE,46.779408,-92.104658,I-35: NB @ 9th Avenue W,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-177
+c35-179,TRUE,C35-179,TRUE,46.781861,-92.101844,I-35: SB @ Allworth Bldg,in Duluth,https://video.dot.state.mn.us/video/image/metro/C35-179
+c35-194,TRUE,C35-194,TRUE,46.79744,-92.08219,I-35: NB @ Leif Ericson Tunnel,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-194
+c35-195,TRUE,C35-195,TRUE,46.79774,-92.081322,I-35: SB @ Leif Ericson Tunnel,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-195
+c35-191,TRUE,C35-191,TRUE,46.79595,-92.085517,I-35: SB @ E of LE Tunnel,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-191
+c35-188,TRUE,C35-188,TRUE,46.79322,-92.090499,I-35: SB @ Between Tunnels,near Duluth,https://video.dot.state.mn.us/video/image/metro/C35-188
+c114,TRUE,C114,TRUE,44.890674,-93.30838,MN 62: WB @ Penn Avenue,in Richfield,https://video.dot.state.mn.us/video/image/metro/C114
+c1272,TRUE,C1272,TRUE,44.902066,-93.550966,MN 7: EB @ Christmas Lake Road,in Greenwood,https://video.dot.state.mn.us/video/image/metro/C1272
+c1271,TRUE,C1271,TRUE,44.898072,-93.56762,MN 7: EB @ Oak Street,in Excelsior,https://video.dot.state.mn.us/video/image/metro/C1271
+c1270,TRUE,C1270,TRUE,44.891885,-93.57957,MN 7: EB @ MN 41,in Excelsior,https://video.dot.state.mn.us/video/image/metro/C1270
+c1278,TRUE,C1278,TRUE,44.932789,-93.4212,MN 7: WB @ 17th Avenue,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C1278
+c1277,TRUE,C1277,TRUE,44.930041,-93.42978,MN 7: EB @ Shady Oak Road,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C1277
+c1274,TRUE,C1274,TRUE,44.913394,-93.503956,MN 7: EB @ MN 101,in Deephaven,https://video.dot.state.mn.us/video/image/metro/C1274
+c1273,TRUE,C1273,TRUE,44.907373,-93.53428,MN 7: EB @ Old Market Road,in Greenwood,https://video.dot.state.mn.us/video/image/metro/C1273
+c1276,TRUE,C1276,TRUE,44.921868,-93.46808,MN 7: WB @ Williston Road,in Minnetonka,https://video.dot.state.mn.us/video/image/metro/C1276
+c1275,TRUE,C1275,TRUE,44.919577,-93.48248,MN 7: EB @ Woodland Road,in Minnetonka,https://video.dot.state.mn.us/video/image/metro/C1275
+c1529,TRUE,C1529,TRUE,45.051488,-93.56366,MN 55: EB @ Arrowhead Drive,in Medina,https://video.dot.state.mn.us/video/image/metro/C1529
+c1542,TRUE,C1542,TRUE,44.983083,-93.37711,MN 55: EB @ Rhode Island Avenue,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1542
+c1544,TRUE,C1544,TRUE,44.984209,-93.34252,MN 55: WB @ Schaper Road,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1544
+c1545,TRUE,C1545,TRUE,44.984085,-93.33145,MN 55: WB @ Meadow Lane,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1545
+c1533,TRUE,C1533,TRUE,45.021517,-93.492234,MN 55: EB @ Rockford Road,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1533
+c1537,TRUE,C1537,TRUE,45.008155,-93.45088,MN 55: WB @ Xenium Lane,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1537
+c1535,TRUE,C1535,TRUE,45.011954,-93.46118,MN 55: EB @ Fernbrook Lane,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1535
+c1279,TRUE,C1279,TRUE,44.934578,-93.3946,MN 7: EB @ US 169,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C1279
+c1280,TRUE,C1280,TRUE,44.935294,-93.387384,MN 7: EB @ Blake Road,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C1280
+c1281,TRUE,C1281,TRUE,44.937855,-93.36928,MN 7: WB @ Louisiana Avenue,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C1281
+c055,TRUE,C055,TRUE,45.21895,-93.027759,I-35E: SB @ I-35W,near Forest Lake,https://video.dot.state.mn.us/video/image/metro/C055
+c599,TRUE,C599,TRUE,44.64503,-93.295939,I-35: @ 210th Street,near Lakeville,https://video.dot.state.mn.us/video/image/metro/C599
+c600,TRUE,C600,TRUE,44.65545,-93.294128,I-35: NB @ 205th Street,near Lakeville,https://video.dot.state.mn.us/video/image/metro/C600
+c601,TRUE,C601,TRUE,44.66698,-93.293914,I-35: NB @ 195th Street,near Lakeville,https://video.dot.state.mn.us/video/image/metro/C601
+c1538,TRUE,C1538,TRUE,44.999149,-93.441711,MN 55: EB @ Co Rd 6,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1538
+c1539,TRUE,C1539,TRUE,44.987767,-93.419301,MN 55: EB @ South Shore Drive,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1539
+c111,TRUE,C111,TRUE,44.890513,-93.2755,MN 62: EB @ I-35W,in Richfield,https://video.dot.state.mn.us/video/image/metro/C111
+c768,TRUE,C768,TRUE,45.447068,-94.118494,I-94: EB E of Opportuniity Drive MP 174,near Saint Augusta,https://video.dot.state.mn.us/video/image/metro/C768
+c770,TRUE,C770,TRUE,45.430391,-94.096402,I-94: EB W of MN 24,near Clearwater,https://video.dot.state.mn.us/video/image/metro/C770
+c776,TRUE,C776,TRUE,45.385152,-94.010275,I-94: EB W of Co Rd 8,near Clearwater,https://video.dot.state.mn.us/video/image/metro/C776
+c778,TRUE,C778,TRUE,45.362816,-93.951525,I-94: EB E of Co Rd 8,near Becker,https://video.dot.state.mn.us/video/image/metro/C778
+c781,TRUE,C781,TRUE,45.350609,-93.904086,I-94: WB E of Co Rd 8,near Becker,https://video.dot.state.mn.us/video/image/metro/C781
+c782,TRUE,C782,TRUE,45.340968,-93.88028,I-94: EB W of MN 25,near Becker,https://video.dot.state.mn.us/video/image/metro/C782
+c783,TRUE,C783,TRUE,45.325832,-93.848731,I-94: WB W of MN 25,near Monticello,https://video.dot.state.mn.us/video/image/metro/C783
+c785,TRUE,C785,TRUE,45.305435,-93.818521,I-94: EB W of MN 25,in Monticello,https://video.dot.state.mn.us/video/image/metro/C785
+c787,TRUE,C787,TRUE,45.291582,-93.77577,I-94: EB E of MN 25,in Monticello,https://video.dot.state.mn.us/video/image/metro/C787
+c790,TRUE,C790,TRUE,45.286518,-93.754148,I-94: WB E of Co Rd 18,near Monticello,https://video.dot.state.mn.us/video/image/metro/C790
+c791,TRUE,C791,TRUE,45.27403,-93.733949,I-94: WB E of Co Rd 18,near Monticello,https://video.dot.state.mn.us/video/image/metro/C791
+c792,TRUE,C792,TRUE,45.265865,-93.71892,I-94: WB W of MnRoad,near Albertville,https://video.dot.state.mn.us/video/image/metro/C792
+c793,TRUE,C793,TRUE,45.255704,-93.70024,I-94: WB @ MnRoad,near Albertville,https://video.dot.state.mn.us/video/image/metro/C793
+c797,TRUE,C797,TRUE,45.229082,-93.625554,I-94: WB E of Co Rd 37,in Albertville,https://video.dot.state.mn.us/video/image/metro/C797
+c798,TRUE,C798,TRUE,45.223723,-93.60542,I-94: WB W of MN 241,near Rogers,https://video.dot.state.mn.us/video/image/metro/C798
+c800,TRUE,C800,TRUE,45.20991,-93.582742,I-94: WB E of MN 241,in Rogers,https://video.dot.state.mn.us/video/image/metro/C800
+c1483,TRUE,C1483,TRUE,45.071879,-93.247152,MN 65: SB @ Medtronic Pkwy,in Fridley,https://video.dot.state.mn.us/video/image/metro/C1483
+c688,TRUE,C688,TRUE,45.129963,-93.39072,MN 610: WB @ US 169,in Osseo,https://video.dot.state.mn.us/video/image/metro/C688
+c1312,TRUE,C1312,TRUE,44.77699,-93.27792,MN 13: EB @ Nicollet Avenue,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C1312
+c1316,TRUE,C1316,TRUE,44.778953,-93.343762,MN 13: WB @ Quentin Avenue,in Savage,https://video.dot.state.mn.us/video/image/metro/C1316
+c1504,TRUE,C1504,TRUE,45.549926,-94.205165,MN 15: MN 15 NB @ 2nd Street,in Saint Cloud,https://video.dot.state.mn.us/video/image/metro/C1504
+c020,TRUE,C020,TRUE,44.848118,-93.152768,I-35E: SB @ Lone Oak Road,near Eagan,https://video.dot.state.mn.us/video/image/metro/C020
+c021,TRUE,C021,TRUE,44.86307,-93.145152,I-35E: SB @ I-494,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C021
+c659,TRUE,C659,TRUE,45.213297,-93.413147,US 10: WB @ Thurston Avenue,in Anoka,https://video.dot.state.mn.us/video/image/metro/C659
+c658,TRUE,C658,TRUE,45.221073,-93.432629,US 10: EB @ Sunfish Lake Boulevard,near Anoka,https://video.dot.state.mn.us/video/image/metro/C658
+c657,TRUE,C657,TRUE,45.228258,-93.454759,US 10: EB @ Co Rd 56,near Ramsey,https://video.dot.state.mn.us/video/image/metro/C657
+c654,TRUE,C654,TRUE,45.281271,-93.549776,US 10: EB @ 171st Avenue,near Elk River,https://video.dot.state.mn.us/video/image/metro/C654
+c653,TRUE,C653,TRUE,45.291522,-93.554712,US 10: WB @ MN 101,near Elk River,https://video.dot.state.mn.us/video/image/metro/C653
+c1486,TRUE,C1486,TRUE,45.101032,-93.243553,MN 65: SB @ 73rd Avenue,in Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C1486
+c1475,TRUE,C1475,TRUE,45.042654,-93.247264,MN 65: SB @ 41st Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1475
+c1477,TRUE,C1477,TRUE,45.049858,-93.247356,MN 65: NB @ 45th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1477
+c1201,TRUE,C1201,TRUE,44.948343,-92.985722,MN 120: SB S of I-94,2 miles south of the Oakdale area,https://video.dot.state.mn.us/video/image/metro/C1201
+c5005,TRUE,C5005,TRUE,44.861577,-93.6717,MN 5: EB @ Victoria Drive,in Victoria,https://video.dot.state.mn.us/video/image/metro/C5005
+c5017,TRUE,C5017,TRUE,44.861479,-93.479721,MN 5: EB @ Fuller Road,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C5017
+c711,TRUE,C711,TRUE,45.042239,-93.101838,I-694: EB @ Rice Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C711
+c712,TRUE,C712,TRUE,45.035432,-93.089256,I-694: EB @ I-35E,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C712
+c1476,TRUE,C1476,TRUE,45.048176,-93.247314,MN 65: NB @ 44th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1476
+c1479,TRUE,C1479,TRUE,45.057273,-93.247438,MN 65: SB @ 49th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1479
+c1474,TRUE,C1474,TRUE,45.040841,-93.24725,MN 65: NB @ 40th Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1474
+c6091,TRUE,C6091,TRUE,44.791394,-93.288742,I-35W: NB @ Black Dog Road,in Burnsville,https://video.dot.state.mn.us/video/image/metro/C6091
+c6231,TRUE,C6231,TRUE,44.953097,-93.272201,I-35W: N-S @ 28th Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6231
+c617,TRUE,C617,TRUE,44.90343,-93.274758,I-35W: SB @ Diamond Lake Road,in Richfield,https://video.dot.state.mn.us/video/image/metro/C617
+c5007,TRUE,C5007,TRUE,44.863284,-93.59652,MN 5: WB @ MN 41 NB,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5007
+c5008,TRUE,C5008,TRUE,44.863419,-93.59,MN 5: EB @ Century Boulevard,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5008
+c5009,TRUE,C5009,TRUE,44.862362,-93.580386,MN 5: EB @ Galpin Boulevard,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5009
+c5010,TRUE,C5010,TRUE,44.863443,-93.56243,MN 5: WB @ Audubon Road,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5010
+c5011,TRUE,C5011,TRUE,44.862309,-93.547922,MN 5: WB @ Powers Boulevard,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C5011
+c5013,TRUE,C5013,TRUE,44.858829,-93.53148,MN 5: EB @ Great Plains Boulevard,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5013
+d6-c120,TRUE,D6-C120,TRUE,44.215346,-93.270549,I-35: @ MP 51,near Medford,https://video.dot.state.mn.us/video/image/metro/D6-C120
+d6-c121,TRUE,D6-C121,TRUE,44.201217,-93.256516,I-35: @ MP 50,near Medford,https://video.dot.state.mn.us/video/image/metro/D6-C121
+d6-c122,TRUE,D6-C122,TRUE,44.186112,-93.255864,I-35: @ MP 49,in Medford,https://video.dot.state.mn.us/video/image/metro/D6-C122
+d6-c123,TRUE,D6-C123,TRUE,44.173571,-93.258858,I-35: @ Co Rd 12,in Medford,https://video.dot.state.mn.us/video/image/metro/D6-C123
+d6-c124,TRUE,D6-C124,TRUE,44.150154,-93.257146,I-35: @ MP 46.5,in Medford,https://video.dot.state.mn.us/video/image/metro/D6-C124
+d6-c125,TRUE,D6-C125,TRUE,44.138474,-93.249245,I-35: @ Co Rd 9,near Medford,https://video.dot.state.mn.us/video/image/metro/D6-C125
+d6-c127,TRUE,D6-C127,TRUE,44.110164,-93.245954,I-35: @ Co Rd 34,in Owatonna,https://video.dot.state.mn.us/video/image/metro/D6-C127
+d6-c128,TRUE,D6-C128,TRUE,44.090611,-93.244438,I-35: S of Hoffman Dr,in Owatonna,https://video.dot.state.mn.us/video/image/metro/D6-C128
+d6-c129,TRUE,D6-C129,TRUE,44.082624,-93.247294,I-35: @ Bridge St,in Owatonna,https://video.dot.state.mn.us/video/image/metro/D6-C129
+d6-c130,TRUE,D6-C130,TRUE,44.071066,-93.251922,I-35: @ Lemond Rd,in Owatonna,https://video.dot.state.mn.us/video/image/metro/D6-C130
+d6-c094,TRUE,D6-C094,TRUE,44.511672,-93.287644,I-35: SB @ MP 74.3,in Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C094
+d6-c132,TRUE,D6-C132,TRUE,44.040931,-93.248527,I-35: @ UP Railroad,near Owatonna,https://video.dot.state.mn.us/video/image/metro/D6-C132
+d6-c133,TRUE,D6-C133,TRUE,44.026934,-93.24682,I-35: @ MP 37.9,1 mile south of the Owatonna area,https://video.dot.state.mn.us/video/image/metro/D6-C133
+d6-c017,TRUE,D6-C017,TRUE,44.144402,-92.528261,US 52: @ Hwy 12W-112,in Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C017
+d6-c001,TRUE,D6-C001,TRUE,44.168715,-92.549099,US 52: @ Hwy 12E,in Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C001
+c1503,TRUE,C1503,TRUE,45.399068,-93.234236,MN 65: NB @ Hwy 24,near Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1503
+c339,TRUE,C339,TRUE,45.119205,-93.389649,US 169: NB @ 93rd Ave,in Osseo,https://video.dot.state.mn.us/video/image/metro/C339
+c3613,TRUE,C3613,TRUE,45.019871,-92.984642,MN 36: WB @ Hwy 120,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3613
+c3614,TRUE,C3614,TRUE,45.026987,-92.971867,MN 36: WB @ Hadley Ave. N,in Pine Springs,https://video.dot.state.mn.us/video/image/metro/C3614
+c131a,TRUE,C131a,TRUE,44.059904,-93.251394,I-35: SB @ US 14,near Owatonna,https://video.dot.state.mn.us/video/image/d7/C131a
+d6-c015,TRUE,D6-C015,TRUE,44.036746,-92.51775,US 14: US 14 WB @ CR 22,near Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C015
+c6130,TRUE,C6130,TRUE,44.850307,-93.298052,I-35W: N-S @ 86th Street,in Bloomington,http://video.dot.state.mn.us/video/image/metro/C6130
+c6090,TRUE,C6090,TRUE,44.796292,-93.289073,I-35W: N of Cliff Road,near Burnsville,http://video.dot.state.mn.us/video/image/metro/C6090
+c10-02,TRUE,C10-02,TRUE,46.874999,-96.757629,US 10: WB @ 14th Street,in Moorhead,https://video.dot.state.mn.us/video/image/metro/C10-02
+c10-03,TRUE,C10-03,TRUE,46.875508,-96.746777,US 10: WB @ 1st Avenue,in Moorhead,https://video.dot.state.mn.us/video/image/metro/C10-03
+c8321,TRUE,C8321,TRUE,44.964669,-93.283417,I-94: E-W @ Groveland Ave.,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8321
+c8353,TRUE,C8353,TRUE,44.965841,-93.253187,I-94: EB @ Hwy 55,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8353
+c1660,TRUE,C1660,TRUE,44.742445,-92.852483,US 61: @ 4th Street,in Hastings,https://video.dot.state.mn.us/video/image/metro/C1660
+c75-01,TRUE,C75-01,TRUE,46.818485,-96.767783,US 75: NB @ 40th Avenue,near Moorhead,https://video.dot.state.mn.us/video/image/metro/C75-01
+c75-02,TRUE,C75-02,TRUE,46.846049,-96.76795,US 75: SB @ I-94,in Moorhead,https://video.dot.state.mn.us/video/image/metro/C75-02
+c75-04,TRUE,C75-04,TRUE,46.85101,-96.767987,US 75: SB @ 24th Avenue,in Moorhead,https://video.dot.state.mn.us/video/image/metro/C75-04
+c75-06,TRUE,C75-06,TRUE,46.861895,-96.768043,US 75: SB @ 12th Avenue,in Moorhead,https://video.dot.state.mn.us/video/image/metro/C75-06
+c75-03,TRUE,C75-03,TRUE,46.848427,-96.767958,US 75: NB @ I-94,in Moorhead,https://video.dot.state.mn.us/video/image/metro/C75-03
+c10-04,TRUE,C10-04,TRUE,46.87645,-96.725703,US 10: WB @ 34th Avenue,near Dilworth,https://video.dot.state.mn.us/video/image/metro/C10-04
+c1511,TRUE,C1511,TRUE,45.583061,-94.201073,MN 15: MN 15 @ CR 120,near Sauk Rapids,https://video.dot.state.mn.us/video/image/metro/C1511
+c1507,TRUE,C1507,TRUE,45.371267,-93.23636,MN 65: MN 65 @ CR 74,in East Bethel,https://video.dot.state.mn.us/video/image/metro/C1507
+c1652,TRUE,C1652,TRUE,45.303509,-93.554634,US 169: SB @ Main Street,near Elk River,https://video.dot.state.mn.us/video/image/metro/C1652
+c1711,TRUE,C1711,TRUE,44.994432,-93.065945,US 61: SB @ Frost Avenue,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C1711
+c1712,TRUE,C1712,TRUE,44.999228,-93.065171,US 61: NB @ Roselawn Avenue,near Little Canada,https://video.dot.state.mn.us/video/image/metro/C1712
+c1713,TRUE,C1713,TRUE,45.008622,-93.056945,US 61: NB @ CR B,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C1713
+c1719,TRUE,C1719,TRUE,45.0419,-93.039335,US 61: NB @ Buerkle Road,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C1719
+c1720,TRUE,C1720,TRUE,45.045395,-93.037791,US 61: NB @ Willow Lake Road,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C1720
+c1722,TRUE,C1722,TRUE,45.058526,-93.028105,US 61: SB @ Cedar Avenue,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C1722
+c1724,TRUE,C1724,TRUE,45.07343,-93.019805,US 61: SB @ White Bear Avenue,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1724
+c1729,TRUE,C1729,TRUE,45.093448,-93.006096,US 61: NB @ Co Rd 96,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1729
+c3620,TRUE,C3620,TRUE,45.035576,-92.883015,MN 36: EB @ Lake Elmo Avenue,near Stillwater,https://video.dot.state.mn.us/video/image/metro/C3620
+c3626,TRUE,C3626,TRUE,45.035859,-92.821984,MN 36: @ Oakgreen Avenue,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3626
+c3629,TRUE,C3629,TRUE,45.035198,-92.795208,MN 36: @ Hwy 95,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3629
+c4115,TRUE,C4115,TRUE,44.842402,-93.59775,MN 41: @ Lyman Blvd,in Chaska,https://video.dot.state.mn.us/video/image/metro/C4115
+c4116,TRUE,C4116,TRUE,44.891736,-93.580721,MN 41: SB @ 82nd Street,in Excelsior,https://video.dot.state.mn.us/video/image/metro/C4116
+c4946,TRUE,C4946,TRUE,44.833899,-93.116484,MN 149: SB @ Yankee Doodle Road,near Eagan,https://video.dot.state.mn.us/video/image/metro/C4946
+c4945,TRUE,C4945,TRUE,44.827701,-93.112189,MN 149: NB @ Opperman Drive,near Inver Grove Heights,http://video.dot.state.mn.us/video/image/metro/C4945
+c4944,TRUE,C4944,TRUE,44.819658,-93.105362,MN 149: NB @ Wescott Road,near Inver Grove Heights,https://video.dot.state.mn.us/video/image/metro/C4944
+c5050,TRUE,C5050,TRUE,45.032703,-92.85065,MN 5: SB @ 58th Street,9 miles east of Oakdale,https://video.dot.state.mn.us/video/image/metro/C5050
+c5150,TRUE,C5150,TRUE,44.981274,-93.166704,MN 51: @ Midway Parkway,in Falcon Heights,https://video.dot.state.mn.us/video/image/metro/C5150
+c5152,TRUE,C5152,TRUE,44.992086,-93.166072,MN 51: @ Larpenteur Avenue,in Roseville,https://video.dot.state.mn.us/video/image/metro/C5152
+c5154,TRUE,C5154,TRUE,45.003062,-93.166159,MN 51: S of Co Rd B,in Roseville,https://video.dot.state.mn.us/video/image/metro/C5154
+c5155,TRUE,C5155,TRUE,45.006345,-93.166136,MN 51: SB @ Co Rd B,in Roseville,https://video.dot.state.mn.us/video/image/metro/C5155
+c5157,TRUE,C5157,TRUE,45.028009,-93.166975,MN 51: @ Co Rd C2,in Roseville,https://video.dot.state.mn.us/video/image/metro/C5157
+c5158,TRUE,C5158,TRUE,45.031437,-93.166552,MN 51: @ Lydia Avenue,in Roseville,https://video.dot.state.mn.us/video/image/metro/C5158
+c6101,TRUE,C6101,TRUE,44.827429,-93.291721,I-35W: S of 98th Street,in Bloomington,https://video.dot.state.mn.us/video/image/metro/C6101
+c6161,TRUE,C6161,TRUE,44.891703,-93.275375,I-35W: N-S @ 58th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C6161
+c618,TRUE,C618,TRUE,44.912542,-93.274659,I-35W: @ 50th Street,near Richfield,https://video.dot.state.mn.us/video/image/metro/C618
+c6181,TRUE,C6181,TRUE,44.91826,-93.27456,I-35W: @ 46th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6181
+c620,TRUE,C620,TRUE,44.91826,-93.27456,I-35W: @ 46th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C620
+c6211,TRUE,C6211,TRUE,44.935545,-93.274536,I-35W: N-S @ 38th Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6211
+c6221,TRUE,C6221,TRUE,44.951754,-93.27333,I-35W: NB @ 33rd Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6221
+c1487,TRUE,C1487,TRUE,45.108302,-93.243572,MN 65: NB @ Osborne Road,in Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C1487
+c1488,TRUE,C1488,TRUE,45.1153,-93.241368,MN 65: SB @ 81st Avenue NE,in Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C1488
+c1490,TRUE,C1490,TRUE,45.124894,-93.235096,MN 65: NB @ 85th Avenue NE,in Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C1490
+c1485,TRUE,C1485,TRUE,45.086608,-93.243207,MN 65: NB @ Mississippi Street,in Fridley,https://video.dot.state.mn.us/video/image/metro/C1485
+c1498,TRUE,C1498,TRUE,45.237201,-93.234535,MN 65: N-S @ 147th Avenue,in Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1498
+c1499,TRUE,C1499,TRUE,45.266459,-93.234432,MN 65: NB @ Constance Blvd,in Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1499
+c1495,TRUE,C1495,TRUE,45.183198,-93.234584,MN 65: SB @ 117th Avenue,in Blaine,https://video.dot.state.mn.us/video/image/metro/C1495
+c1497,TRUE,C1497,TRUE,45.21917,-93.234384,MN 65: NB @ Bunker Lake Blvd,near Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1497
+c1494,TRUE,C1494,TRUE,45.167639,-93.234878,MN 65: SB @ 109th Avenue,in Blaine,https://video.dot.state.mn.us/video/image/metro/C1494
+c1491,TRUE,C1491,TRUE,45.140335,-93.233816,MN 65: N-S @ 93rd Lane,in Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1491
+c1492,TRUE,C1492,TRUE,45.14963,-93.236422,MN 65: SB @ 99th Avenue,near Blaine,https://video.dot.state.mn.us/video/image/metro/C1492
+c1502,TRUE,C1502,TRUE,45.356359,-93.236424,MN 65: N-S @ 213th Avenue,in East Bethel,https://video.dot.state.mn.us/video/image/metro/C1502
+c1501,TRUE,C1501,TRUE,45.319808,-93.235281,MN 65: N-S @ Viking Blvd,near East Bethel,https://video.dot.state.mn.us/video/image/metro/C1501
+c1500,TRUE,C1500,TRUE,45.288188,-93.234172,MN 65: NB @ Crosstown Blvd,near Ham Lake,https://video.dot.state.mn.us/video/image/metro/C1500
+c1481,TRUE,C1481,TRUE,45.062396,-93.247424,MN 65: SB @ 52nd Avenue,in Columbia Heights,https://video.dot.state.mn.us/video/image/metro/C1481
+c3623,TRUE,C3623,TRUE,45.035939,-92.84826,MN 36: WB @ Stillwater Blvd,in Stillwater,https://video.dot.state.mn.us/video/image/metro/C3623
+c3621,TRUE,C3621,TRUE,45.036341,-92.870969,MN 36: WB W of Manning,near Stillwater,https://video.dot.state.mn.us/video/image/metro/C3621
+c3619,TRUE,C3619,TRUE,45.035541,-92.894002,MN 36: WB E of Keats Avenue,near Lake Elmo,https://video.dot.state.mn.us/video/image/metro/C3619
+c3616,TRUE,C3616,TRUE,45.035406,-92.927114,MN 36: WB E of Demtrvl Trail,in Pine Springs,https://video.dot.state.mn.us/video/image/metro/C3616
+c3617,TRUE,C3617,TRUE,45.035474,-92.913262,MN 36: WB W of Keats Avenue,near Pine Springs,https://video.dot.state.mn.us/video/image/metro/C3617
+c3615,TRUE,C3615,TRUE,45.035386,-92.950562,MN 36: WB @ Hilton Trail,in Pine Springs,https://video.dot.state.mn.us/video/image/metro/C3615
+c5006,TRUE,C5006,TRUE,44.86726,-93.62522,MN 5: WB @ Bavaria Road,in Victoria,https://video.dot.state.mn.us/video/image/metro/C5006
+c5015,TRUE,C5015,TRUE,44.861818,-93.51189,MN 5: WB @ Dell Road,near Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5015
+c5014,TRUE,C5014,TRUE,44.861929,-93.522147,MN 5: WB @ MN 101 NB,near Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5014
+c5012,TRUE,C5012,TRUE,44.857808,-93.536719,MN 5: EB @ Market Blvd,in Chanhassen,https://video.dot.state.mn.us/video/image/metro/C5012
+c5016,TRUE,C5016,TRUE,44.862084,-93.484779,MN 5: EB @ Eden Prarie Road,in Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C5016
+c775,TRUE,C775,TRUE,45.384512,-94.009599,I-94: EB W of Co Rd 8,near Clearwater,https://video.dot.state.mn.us/video/image/metro/C775
+c773,TRUE,C773,TRUE,45.401771,-94.038389,I-94: EB E of MN 24,in Clearwater,https://video.dot.state.mn.us/video/image/metro/C773
+c767,TRUE,C767,TRUE,45.465422,-94.131307,I-94: EB @ Opportunity Drive,near Saint Augusta,https://video.dot.state.mn.us/video/image/metro/C767
+c771,TRUE,C771,TRUE,45.422834,-94.082734,I-94: EB W of MN 24,near Clearwater,https://video.dot.state.mn.us/video/image/metro/C771
+c780,TRUE,C780,TRUE,45.355456,-93.929676,I-94: EB E of Co Rd 8,near Becker,https://video.dot.state.mn.us/video/image/metro/C780
+c1202,TRUE,C1202,TRUE,44.94921,-92.98599,MN 120: NB N of I-94,2 miles south of the Oakdale area,https://video.dot.state.mn.us/video/image/metro/C1202
+c1203,TRUE,C1203,TRUE,44.952343,-92.984929,MN 120: SB @ Innovation Blvd,2 miles south of the Oakdale area,https://video.dot.state.mn.us/video/image/metro/C1203
+c713,TRUE,C713,TRUE,45.036024,-93.079106,I-694: WB @ Edgerton Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C713
+c675,TRUE,C675,TRUE,45.078898,-93.174689,US 10: @ CR 96,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C675
+c687,TRUE,C687,TRUE,45.130309,-93.408844,MN 610: EB @ Revere Lane,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C687
+c686,TRUE,C686,TRUE,45.130149,-93.433419,MN 610: EB @ Hemlock Lane,in Osseo,https://video.dot.state.mn.us/video/image/metro/C686
+c6141,TRUE,C6141,TRUE,44.875406,-93.298232,I-35W: N of 76th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C6141
+c613,TRUE,C613,TRUE,44.863972,-93.29857,I-35W: NB S of 86th Street,in Richfield,https://video.dot.state.mn.us/video/image/metro/C613
+c8431,TRUE,C8431,TRUE,44.951813,-93.173857,I-94: W of Snelling Avenue,near Saint Paul,https://video.dot.state.mn.us/video/image/metro/C8431
+c8350,TRUE,C8350,TRUE,44.965449,-93.266379,I-94: E of Portland Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8350
+c8351,TRUE,C8351,TRUE,44.965453,-93.264692,I-94: @ Park Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8351
+c8352,TRUE,C8352,TRUE,44.965442,-93.258841,I-94: EB @ 11th Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8352
+c8331,TRUE,C8331,TRUE,44.966579,-93.275626,I-94: WB @ 1st Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8331
+c7071,TRUE,C7071,TRUE,45.061372,-93.157244,I-694: @ Snelling Avenue,in Arden Hills,https://video.dot.state.mn.us/video/image/metro/C7071
+c919,TRUE,C919,TRUE,44.97838,-93.281221,I-394: WB @ Glenwood Ave,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C919
+c920,TRUE,C920,TRUE,44.98087,-93.276501,I-394: EB @ 7th Street,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C920
+c8471,TRUE,C8471,TRUE,44.951657,-93.125557,I-94: WB @ Dale Street,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C8471
+c1662,TRUE,C1662,TRUE,44.74686,-92.852893,US 61: NB @ Mississippi River,in Hastings,https://video.dot.state.mn.us/video/image/metro/C1662
+c1663,TRUE,C1663,TRUE,44.754624,-92.85311,US 61: NB N of Mississippi River,in Hastings,https://video.dot.state.mn.us/video/image/metro/C1663
+c1682,TRUE,C1682,TRUE,44.901707,-93.010217,US 61: NB @ Carver Avenue,in South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C1682
+c1685,TRUE,C1685,TRUE,44.939056,-93.032245,US 61: NB S of Warner Road,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C1685
+c1684,TRUE,C1684,TRUE,44.928355,-93.022494,US 61: NB @ Lower Afton Road,near South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C1684
+c1716,TRUE,C1716,TRUE,45.029471,-93.045976,US 61: SB @ CR D,near Little Canada,https://video.dot.state.mn.us/video/image/metro/C1716
+c1723,TRUE,C1723,TRUE,45.065036,-93.024593,US 61: NB @ CR F,in Gem Lake,https://video.dot.state.mn.us/video/image/metro/C1723
+c1726,TRUE,C1726,TRUE,45.08376,-93.011019,US 61: NB @ 2nd Street,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1726
+c1728,TRUE,C1728,TRUE,45.088317,-93.007893,US 61: NB @ th Street,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1728
+c1730,TRUE,C1730,TRUE,45.104771,-92.999811,US 61: @ Buffalo Street,in Dellwood,https://video.dot.state.mn.us/video/image/metro/C1730
+c1686,TRUE,C1686,TRUE,44.947374,-93.04038,US 61: SB @ Warner Road,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C1686
+c1683,TRUE,C1683,TRUE,44.916263,-93.015081,US 61: NB @ Highwood Avenue,near South Saint Paul,https://video.dot.state.mn.us/video/image/metro/C1683
+c1681,TRUE,C1681,TRUE,44.891411,-93.006525,US 61: NB @ Bailey Road,in Newport,https://video.dot.state.mn.us/video/image/metro/C1681
+c1664,TRUE,C1664,TRUE,44.762792,-92.854663,US 61: NB S of Hwy 10,near Hastings,https://video.dot.state.mn.us/video/image/metro/C1664
+c1665,TRUE,C1665,TRUE,44.766477,-92.859536,US 61: SB @ Hwy 10,near Hastings,https://video.dot.state.mn.us/video/image/metro/C1665
+c1667,TRUE,C1667,TRUE,44.783764,-92.874006,US 61: NB N of Hwy 95,near Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1667
+c1672,TRUE,C1672,TRUE,44.805444,-92.91323,US 61: NB @ Innovation Road,in Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1672
+c1661,TRUE,C1661,TRUE,44.744528,-92.852755,US 61: NB @ 2nd St,in Hastings,https://video.dot.state.mn.us/video/image/metro/C1661
+c1673,TRUE,C1673,TRUE,44.815442,-92.934444,US 61: NB @ Jamaica Avenue,in Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1673
+c1677,TRUE,C1677,TRUE,44.863883,-92.997954,US 61: NB S of Glen Road,in Newport,https://video.dot.state.mn.us/video/image/metro/C1677
+c1676,TRUE,C1676,TRUE,44.844676,-92.979575,US 61: NB S of 70th Street,in Saint Paul Park,https://video.dot.state.mn.us/video/image/metro/C1676
+c1670,TRUE,C1670,TRUE,44.799188,-92.900655,US 61: NB S of Innovation Rd,in Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1670
+c1668,TRUE,C1668,TRUE,44.78823,-92.881129,US 61: NB @ Kingsborough Tr.,near Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1668
+c1669,TRUE,C1669,TRUE,44.794669,-92.890426,US 61: NB N of Kingsborough Tr.,near Cottage Grove,https://video.dot.state.mn.us/video/image/metro/C1669
+vid-000330002-00-00,TRUE,Vid-000330002-00-00,TRUE,44.4783,-93.291808,I-35: Little Chicago,3 miles south of the Elko New Market area,https://mn.carsprogram.org/mncam/Vid-000330002-00-00.jpg
+C10-01,TRUE,C10-01,TRUE,46.873804,-96.768229,US 10: Main St SB @ 8th St,null,https://video.dot.state.mn.us/video/image/metro/C10-01
+C3622,TRUE,C3622,TRUE,45.036281,-92.863244,MN 36: WB @ Manning Avenue,near Stillwater,https://video.dot.state.mn.us/video/image/metro/C3622
+C3609,TRUE,C3609,TRUE,45.011587,-93.02273,MN 36: EB @ White Bear Ave.,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3609
+C3612,TRUE,C3612,TRUE,45.015701,-92.991918,MN 36: WB @ Margaret Street,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3612
+C3611,TRUE,C3611,TRUE,45.012133,-93.002393,MN 36: EB E of McKnight,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3611
+C3608,TRUE,C3608,TRUE,45.011604,-93.044069,MN 36: EB @ English Street,near Maplewood,https://video.dot.state.mn.us/video/image/metro/C3608
+C3610,TRUE,C3610,TRUE,45.012057,-93.005815,MN 36: EB W of McKnight Rd,in North Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3610
+C3625,TRUE,C3625,TRUE,45.035999,-92.833177,MN 36: EB @ Norell Avenue,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3625
+D6-C105,TRUE,D6-C105,TRUE,44.37775,-93.293283,I-35: SB @ MP 63.3,2 miles north of the Faribault area,https://video.dot.state.mn.us/video/image/metro/D6-C105
+D6-C106,TRUE,D6-C106,TRUE,44.379868,-93.29286,I-35: NB @ MP 63.2,2 miles north of the Faribault area,https://video.dot.state.mn.us/video/image/metro/D6-C106
+D6-C107,TRUE,D6-C107,TRUE,44.370793,-93.293058,I-35: NB @ MP 62.6,1 mile north of the Faribault area,https://video.dot.state.mn.us/video/image/metro/D6-C107
+D6-C108,TRUE,D6-C108,TRUE,44.357186,-93.292719,I-35: NB @ MP 62,in Burnsville,https://video.dot.state.mn.us/video/image/metro/D6-C108
+D6-C031,TRUE,D6-C031,TRUE,44.007266,-92.448038,US 14: EB @ 11th Ave SE,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C031
+D6-C104,TRUE,D6-C104,TRUE,44.390552,-93.292351,I-35: NB @ MP 64,near Lakeville,https://video.dot.state.mn.us/video/image/metro/D6-C104
+D6-C102,TRUE,D6-C102,TRUE,44.413825,-93.292443,I-35: @ MP 65.7,4 miles north of the Faribault area,https://video.dot.state.mn.us/video/image/metro/D6-C102
+D6-C117,TRUE,D6-C117,TRUE,44.254152,-93.286693,I-35: SB @ MP 54,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C117
+D6-C030,TRUE,D6-C030,TRUE,44.007537,-92.46315,US 14: EB @ US 63,in Rochester,https://video.dot.state.mn.us/video/image/metro/D6-C030
+D6-C109,TRUE,D6-C109,TRUE,44.348241,-93.292983,I-35: SB @ MP 61.1,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C109
+C4949,TRUE,C4949,TRUE,44.845436,-93.124582,MN 149: SB S Junction of Hwy 55,near Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C4949
+C4950,TRUE,C4950,TRUE,44.851414,-93.130286,MN 149: SB N Junction of Hwy 55,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C4950
+C4951,TRUE,C4951,TRUE,44.855127,-93.1299,MN 149: SB @ Lone Oak Pkwy.,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C4951
+C4952,TRUE,C4952,TRUE,44.857678,-93.128138,MN 149: @ Northwest Pkwy.,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C4952
+D6-C110,TRUE,D6-C110,TRUE,44.33251,-93.293084,I-35: NB @ MP 60,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C110
+D6-C111,TRUE,D6-C111,TRUE,44.320777,-93.299213,I-35: NB @ MP 59.2,in Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C111
+D6-C112,TRUE,D6-C112,TRUE,44.317294,-93.306878,I-35: SB @ MP 58.7,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C112
+D6-C113,TRUE,D6-C113,TRUE,44.304297,-93.309774,I-35: SB @ MP 57.9,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C113
+D6-C114,TRUE,D6-C114,TRUE,44.291027,-93.312281,I-35: SB @ MP 56.9,in Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C114
+D6-C115,TRUE,D6-C115,TRUE,44.283006,-93.307793,I-35: SB S of MP 56.4,in Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C115
+D6-C116,TRUE,D6-C116,TRUE,44.280029,-93.30494,I-35: NB @ MP 55.6,in Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C116
+D6-C118,TRUE,D6-C118,TRUE,44.240561,-93.280703,I-35: NB @ MP 53,near Faribault,https://video.dot.state.mn.us/video/image/metro/D6-C118
+D6-C119,TRUE,D6-C119,TRUE,44.225594,-93.277051,I-35: SB @ MP 52,near Medford,https://video.dot.state.mn.us/video/image/metro/D6-C119
+D6-C101,TRUE,D6-C101,TRUE,44.428779,-93.291934,I-35: NB @ MP 66.7,3 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C101
+D6-C103,TRUE,D6-C103,TRUE,44.39984,-93.29242,I-35: NB @ MP 64.7,3 miles north of the Faribault area,https://video.dot.state.mn.us/video/image/metro/D6-C103
+C1800,TRUE,C1800,TRUE,44.829455,-93.167726,I-35E: NB @ Pilot Knob Road,in Eagan,https://video.dot.state.mn.us/video/image/metro/C1800
+C1678,TRUE,C1678,TRUE,44.871535,-92.999743,US 61: NB @ Glen Road,in Newport,https://video.dot.state.mn.us/video/image/metro/C1678
+C215,TRUE,C215,TRUE,44.954964,-93.347587,MN 100: NB @ MN 7,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C215
+C3251,TRUE,C3251,TRUE,44.923903,-93.401473,US 169: SB @ Excelsior Blvd.,in Hopkins,https://video.dot.state.mn.us/video/image/metro/C3251
+C3501,TRUE,C3501,TRUE,44.96146,-93.090011,I-35E: @ Pennsylvania Street,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C3501
+C3624,TRUE,C3624,TRUE,45.035233,-92.848151,MN 36: Hwy 5 SB @ MN 36,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C3624
+C4954,TRUE,C4954,TRUE,44.864679,-93.129683,MN 149: NB N of I 494,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C4954
+C5701,TRUE,C5701,TRUE,44.812458,-93.21859,MN 77: S of MN 13,near Eagan,https://video.dot.state.mn.us/video/image/metro/C5701
+C5111,TRUE,C5111,TRUE,44.853638,-93.248086,MN 77: SB S of Killebrew Drive,near Richfield,https://video.dot.state.mn.us/video/image/metro/C5111
+C6261,TRUE,C6261,TRUE,44.969887,-93.252816,I-35W: SB @ 7th Street,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C6261
+C342,TRUE,C342,TRUE,45.159392,-93.391442,US 169: @ 114th Avenue,in Champlin,https://video.dot.state.mn.us/video/image/metro/C342
+C343,TRUE,C343,TRUE,45.16673,-93.39201,US 169: @ 117th Avenue,in Champlin,https://video.dot.state.mn.us/video/image/metro/C343
+C344,TRUE,C344,TRUE,45.172933,-93.392306,US 169: @ 120th Avenue,in Champlin,https://video.dot.state.mn.us/video/image/metro/C344
+C346,TRUE,C346,TRUE,45.185341,-93.392153,US 169: @ West River Road,in Champlin,https://video.dot.state.mn.us/video/image/metro/C346
+C347,TRUE,C347,TRUE,45.18894,-93.396515,US 169: @ Dayton Road,in Champlin,https://video.dot.state.mn.us/video/image/metro/C347
+C1493,TRUE,C1493,TRUE,45.161036,-93.234933,MN 65: NB @ 105th Avenue,in Blaine,https://video.dot.state.mn.us/video/image/metro/C1493
+C103,TRUE,C103,TRUE,44.865875,-93.154083,MN 55: WB @ Mendota Heights Road,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C103
+C101,TRUE,C101,TRUE,44.839349,-93.100372,MN 55: EB @ Argenta Trail,near Inver Grove Heights,https://video.dot.state.mn.us/video/image/metro/C101
+C102,TRUE,C102,TRUE,44.857815,-93.143333,MN 55: EB @ Lexington Avenue,in Mendota Heights,https://video.dot.state.mn.us/video/image/metro/C102
+C693,TRUE,C693,TRUE,45.12405,-93.302854,MN 610: @ MN 252,near Brooklyn Park,https://video.dot.state.mn.us/video/image/metro/C693
+C1299,TRUE,C1299,TRUE,44.873735,-93.163305,MN 55: NB @ MN 13,in Mendota,https://video.dot.state.mn.us/video/image/metro/C1299
+C1300,TRUE,C1300,TRUE,44.872229,-93.16785,MN 13: @ Pilot Knpb Road,in Mendota,https://video.dot.state.mn.us/video/image/metro/C1300
+C1301,TRUE,C1301,TRUE,44.86613,-93.171996,MN 13: @ Mendota Hts Road,in Mendota,https://video.dot.state.mn.us/video/image/metro/C1301
+C5151,TRUE,C5151,TRUE,44.988349,-93.166891,MN 51: NB @ Hoyt Avenue,in Falcon Heights,https://video.dot.state.mn.us/video/image/metro/C5151
+C5156,TRUE,C5156,TRUE,45.021126,-93.167045,MN 51: NB @ Co Rd C,in Lilydale,https://video.dot.state.mn.us/video/image/metro/C5156
+C1263,TRUE,C1263,TRUE,44.971233,-93.166978,MN 51: SB @ Energy Park Dr,in Falcon Heights,https://video.dot.state.mn.us/video/image/metro/C1263
+C5153,TRUE,C5153,TRUE,44.999104,-93.166488,MN 51: NB @ Roselawn Avenue,in Falcon Heights,https://video.dot.state.mn.us/video/image/metro/C5153
+C1675,TRUE,C1675,TRUE,44.833309,-92.964971,US 61: NB @ 80th Street,in Saint Paul Park,https://video.dot.state.mn.us/video/image/metro/C1675
+C2151,TRUE,C2151,TRUE,44.949239,-93.347823,MN 100: SB @ Minnetonka Blvd.,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C2151
+C1727,TRUE,C1727,TRUE,45.08534,-93.009656,US 61: SB US 61 @ 4th Street,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1727
+C562,TRUE,C562,TRUE,44.952673,-93.082464,US 52: NB US 52 @ I-94 WB,in Saint Paul,https://video.dot.state.mn.us/video/image/metro/C562
+C008,TRUE,C008,TRUE,45.010274,-93.065778,MN 36: EB @ Arcade Street,in Little Canada,https://video.dot.state.mn.us/video/image/metro/C008
+C3050,TRUE,C3050,TRUE,44.876224,-93.08078,MN 3: S of Hwy 110,in Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C3050
+C3051,TRUE,C3051,TRUE,44.879388,-93.080349,MN 3: SB N of Hwy 110,near Sunfish Lake,https://video.dot.state.mn.us/video/image/metro/C3051
+C9041,TRUE,C9041,TRUE,44.969749,-93.444023,I-394: EB @ Plymouth Road,near Wayzata,https://video.dot.state.mn.us/video/image/metro/C9041
+C9051,TRUE,C9051,TRUE,44.973436,-93.410309,I-394: WB W of Shelard Pkwy.,near Golden Valley,https://video.dot.state.mn.us/video/image/metro/C9051
+C1666,TRUE,C1666,TRUE,44.777808,-92.863998,US 61: NB @ Hwy 95,near Hastings,https://video.dot.state.mn.us/video/image/metro/C1666
+C535-168,TRUE,C535-168,TRUE,46.734459,-92.097069,I-535: @ Blatnik Approach I,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-168
+C535-160,TRUE,C535-160,TRUE,46.733368,-92.096918,I-535: @ Blatnik Approach,near Duluth,https://video.dot.state.mn.us/video/image/metro/C535-160
+C1541,TRUE,C1541,TRUE,44.984412,-93.390722,MN 55: WB @ Boone Avenue,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C1541
+C1725,TRUE,C1725,TRUE,45.07913,-93.015787,US 61: SB @ Co Rd 96,in White Bear Lake,https://video.dot.state.mn.us/video/image/metro/C1725
+C1230,TRUE,C1230,TRUE,45.016497,-92.98477,MN 120: SB at 7th Avenue,in Birchwood Village,https://video.dot.state.mn.us/video/image/metro/C1230
+C1731,TRUE,C1731,TRUE,45.123522,-93.003147,US 61: NB @ CR J,near Dellwood,https://video.dot.state.mn.us/video/image/metro/C1731
+C535-157,TRUE,C535-157,TRUE,46.752018,-92.102578,I-535: I-535 SB @ Blatnik South Pier,near Duluth,http://video.dot.state.mn.us/video/image/metro/C535-157
+C9505,TRUE,C9505,TRUE,45.035544,-92.79219,MN 95: NB N of Hwy 36,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C9505
+C9503,TRUE,C9503,TRUE,45.029723,-92.786081,MN 95: NB @ Hwy 21,in Bayport,https://video.dot.state.mn.us/video/image/metro/C9503
+C9504,TRUE,C9504,TRUE,45.034773,-92.79123,MN 95: NB S of Hwy 36,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C9504
+C2-215,TRUE,C2-215,TRUE,46.72782,-92.134019,US 2: US 2 at Bong Bridge,1 mile south of Duluth,https://video.dot.state.mn.us/video/image/metro/C2-215
+C2-105,TRUE,C2-105,TRUE,46.733975,-92.148877,US 2: WB at Bong Bridge,near Duluth,https://video.dot.state.mn.us/video/image/metro/C2-105
+C2-216,TRUE,C2-216,TRUE,46.720908,-92.118612,US 2: US 2 at Roundabout,1 mile south of Duluth,https://video.dot.state.mn.us/video/image/metro/C2-216
+D6-C091,TRUE,D6-C091,TRUE,44.57345,-93.299142,I-35: SB @ MP 76.80,in Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C091
+D6-C092,TRUE,D6-C092,TRUE,44.562046,-93.299052,I-35: SB @ MP 76.10,in Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C092
+D6-C093,TRUE,D6-C093,TRUE,44.550978,-93.298289,I-35: NB @ MP 75.3,near Lakeville,https://video.dot.state.mn.us/video/image/metro/D6-C093
+D6-C096,TRUE,D6-C096,TRUE,44.511672,-93.287644,I-35: SB @ MP 73.20,near Elko New Market,https://video.dot.state.mn.us/video/image/metro/D6-C096
+D6-C097,TRUE,D6-C097,TRUE,44.506226,-93.289665,I-35: SB @ MP 71.90,in Burnsville,https://video.dot.state.mn.us/video/image/metro/D6-C097
+D6-C098,TRUE,D6-C098,TRUE,44.486196,-93.291354,I-35: NB @ MP 70.70,in Burnsville,https://video.dot.state.mn.us/video/image/metro/D6-C098
+D6-C099,TRUE,D6-C099,TRUE,44.47012,-93.291489,I-35: NB @ MP 69.6,3 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C099
+D6-C0100,TRUE,D6-C0100,TRUE,44.448064,-93.291578,I-35: NB @ MP 68.10,5 miles south of the Elko New Market area,https://video.dot.state.mn.us/video/image/metro/D6-C0100
+C9071,TRUE,C9071,TRUE,44.973099,-93.383207,I-394: WB W of Winnerka Ave.,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C9071
+C9081,TRUE,C9081,TRUE,44.970891,-93.370915,I-394: @ Louisiana Ave.,in Golden Valley,https://video.dot.state.mn.us/video/image/metro/C9081
+C341,TRUE,C341,TRUE,45.151721,-93.391675,US 169: @ 109th Ave,in Champlin,https://video.dot.state.mn.us/video/image/metro/C341
+C1438,TRUE,C1438,TRUE,45.010871,-93.457169,I-494: SB @ Hwy 55,in Plymouth,https://video.dot.state.mn.us/video/image/metro/C1438
+C9404,TRUE,C9404,TRUE,46.845475,-96.670313,I-94: EB W of Hwy 336,near Dilworth,https://video.dot.state.mn.us/video/image/metro/C9404
+C9410,TRUE,C9410,TRUE,46.689327,-96.448707,I-94: EB W of Hwy 9,near Barnesville,https://video.dot.state.mn.us/video/image/metro/C9410
+C9414,TRUE,C9414,TRUE,46.646327,-96.381504,I-94: WB E of Hwy 34,in Barnesville,https://video.dot.state.mn.us/video/image/metro/C9414
+C9422,TRUE,C9422,TRUE,46.500891,-96.291808,I-94: EB W of CR 11,near Rothsay,https://video.dot.state.mn.us/video/image/metro/C9422
+C9426,TRUE,C9426,TRUE,46.467946,-96.261085,I-94: WB E of CR 24,in Rothsay, https://video.dot.state.mn.us/video/image/metro/C9426
+C9438,TRUE,C9438,TRUE,46.217217,-96.034225,I-94: EB W of U.S. 59,1 mile east of the Fergus Falls area,https://video.dot.state.mn.us/video/image/metro/C9438
+C9450,TRUE,C9450,TRUE,46.007652,-95.745861,I-94: EB,near Evansville,https://video.dot.state.mn.us/video/image/metro/C9450
+C9454,TRUE,C9454,TRUE,45.992032,-95.717515,I-94: WB E  of Hwy 79,in Evansville,https://video.dot.state.mn.us/video/image/metro/C9454
+C9466,TRUE,C9466,TRUE,45.87324,-95.464067,I-94: EB W of Hwy 27,1 mile west of the Alexandria area,https://video.dot.state.mn.us/video/image/metro/C9466
+C995,TRUE,C995,TRUE,45.081525,-94.244323,US 12: (Dassel/Cokato),2 miles east of the Odessa area,https://video.dot.state.mn.us/video/image/metro/C995
+C317,TRUE,C317,TRUE,44.789521,-93.405394,US 169: NB @ HWY. 101,near Savage,https://video.dot.state.mn.us/video/image/metro/C317
+C319,TRUE,C319,TRUE,44.819001,-93.398114,US 169: NB @ Pioneer Trail,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C319
+C1322,TRUE,C1322,TRUE,44.749498,-93.379665,MN 13: NB @ Connelly Pkwy.,in Savage,https://video.dot.state.mn.us/video/image/metro/C1322
+C1323,TRUE,C1323,TRUE,44.746353,-93.379245,MN 13: SB @ Egan Drive,in Savage,https://video.dot.state.mn.us/video/image/metro/C1323
+C1324,TRUE,C1324,TRUE,44.742161,-93.380018,MN 13: @ South Park Drive,in Savage,https://video.dot.state.mn.us/video/image/metro/C1324
+C131,TRUE,C131,TRUE,44.058756,-93.250117,I-35: NB @ U.S. 14,near Owatonna,https://video.dot.state.mn.us/video/image/d7/C131
+D6-C6026,TRUE,D6-C6026,TRUE,44.174772,-92.564994,US 52: SB S of Hwy 12E,in Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C6026
+D6-C001a,TRUE,D6-C001a,TRUE,44.136732,-92.525599,US 52: SB S of 100th ST NW,in Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C001a
+D6-C002a,TRUE,D6-C002a,TRUE,44.093597,-92.513098,US 52: @ 65th St NW,near Oronoco,https://video.dot.state.mn.us/video/image/metro/D6-C002a
+C109,TRUE,C109,TRUE,44.896198,-93.243669,MN 62: WB @ Bloomington Ave.,near Richfield,https://video.dot.state.mn.us/video/image/metro/C109
+C321,TRUE,C321,TRUE,44.844791,-93.398444,US 169: NB @ Anderson Lakes S Bridge,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C321
+C656,TRUE,C656,TRUE,45.234398,-93.471719,US 10: EB @ Armstrong Blvd.,near Ramsey,https://video.dot.state.mn.us/video/image/metro/C656
+C2141,TRUE,C2141,TRUE,44.939121,-93.348504,MN 100: NB @  36th Street EB,in Saint Louis Park,https://video.dot.state.mn.us/video/image/metro/C2141
+C3211,TRUE,C3211,TRUE,44.856757,-93.393034,US 169: NB S of I-494,5 miles south of the Hill City area,https://video.dot.state.mn.us/video/image/metro/C3211
+C4071,TRUE,C4071,TRUE,44.873636,-93.042431,I-494: @ 7th Avenue,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C4071
+C4271,TRUE,C4271,TRUE,44.85989,-93.398927,I-494: WB @ Washington Ave.,near Eden Prairie,https://video.dot.state.mn.us/video/image/metro/C4271
+C312,TRUE,C312,TRUE,44.781911,-93.467783,US 169: NB @ Canterbury Road,in Shakopee,https://video.dot.state.mn.us/video/image/metro/C312
+C7011,TRUE,C7011,TRUE,45.070017,-93.285506,I-694: WB @ Hwy 252,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C7011
+C8181,TRUE,C8181,TRUE,45.070376,-93.307982,I-94: EB @ Shingle Creek Pkwy,in Brooklyn Center,https://video.dot.state.mn.us/video/image/metro/C8181
+C9181,TRUE,C9181,TRUE,44.975384,-93.281158,I-394: EB @ Linden Avenue,in Minneapolis,https://video.dot.state.mn.us/video/image/metro/C9181
+C8261,TRUE,C8261,TRUE,44.980563,-93.286629,I-94: S of Hwy. 55,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8261
+C8251,TRUE,C8251,TRUE,44.991548,-93.285989,I-94: WB @ Plymouth Avenue,near Minneapolis,https://video.dot.state.mn.us/video/image/metro/C8251
+C8220,TRUE,C8220,TRUE,45.02478,-93.28402,I-94: WB @ Dowling Avenue,near Robbinsdale,https://video.dot.state.mn.us/video/image/metro/C8220
+C682,TRUE,C682,TRUE,45.138637,-93.489127,MN 610: WB E of I-94,near Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C682
+C683,TRUE,C683,TRUE,45.138336,-93.471933,MN 610: WB @ Maple Grove Pkwy,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C683
+C684,TRUE,C684,TRUE,45.138494,-93.460219,MN 610: WB E of Fernbrok Ln,in Maple Grove,https://video.dot.state.mn.us/video/image/metro/C684
+C685,TRUE,C685,TRUE,45.131945,-93.441687,MN 610: WB @ Elm Creek Blvd,near Spring Lake Park,https://video.dot.state.mn.us/video/image/metro/C685
+C3636,TRUE,C3636,TRUE,45.045866,-92.782117,MN 36: WB @ State Highway 35,near Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3636
+C3637,TRUE,C3637,TRUE,45.045564,-92.778685,MN 36: EB @ State Highway 35,near Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3637
+C3630,TRUE,C3630,TRUE,45.038763,-92.790444,MN 36: WB @ Hwy. 95,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3630
+C442,TRUE,C442,TRUE,45.058174,-93.45191,I-494: SB S of Bass Lake Rd.,near Plymouth,https://video.dot.state.mn.us/video/image/metro/C442
+C7035,TRUE,C7035,TRUE,44.910801,-93.52576,MN 7: WB @ Vine Hill Road,in Deephaven,https://video.dot.state.mn.us/video/image/metro/C7035
+C3627,TRUE,C3627,TRUE,45.035752,-92.807054,MN 36: EB @ Osgood Avenue,in Oak Park Heights,https://video.dot.state.mn.us/video/image/metro/C3627
+C30019,TRUE,C30019,TRUE,47.51554,-92.52616,US 53: N end of Virginia Bridge,in Virginia,https://video.dot.state.mn.us/video/image/metro/C30019
+C30018,TRUE,C30018,TRUE,47.516046,-92.521875,US 53: S end of Virginia Bridge,7 miles north of the Hermantown area,https://video.dot.state.mn.us/video/image/metro/C30018
+C30008,TRUE,C30008,TRUE,43.884641,-92.488404,US 63: SB @ I-90 EB,in Stewartville,https://video.dot.state.mn.us/video/image/metro/C30008
+C30009,TRUE,C30009,TRUE,43.891209,-92.486823,US 63: SB @ Hwy 30,near Stewartville,https://video.dot.state.mn.us/video/image/metro/C30009
+C30010,TRUE,C30010,TRUE,43.904771,-92.481594,US 63: SB S of 80th St.,near Stewartville,https://video.dot.state.mn.us/video/image/metro/C30010
+C30011,TRUE,C30011,TRUE,43.916892,-92.477772,US 63: SB @ C.S.A.H 16 EB,near Stewartville,https://video.dot.state.mn.us/video/image/metro/C30011
+C30013,TRUE,C30013,TRUE,43.939546,-92.4652,US 63: NB @ Quarve Rd. SE,2 miles south of the Rochester area,https://video.dot.state.mn.us/video/image/metro/C30013
+C30014,TRUE,C30014,TRUE,43.952889,-92.468802,US 63: SB @ 48th St. EB,1 mile south of the Rochester area,https://video.dot.state.mn.us/video/image/metro/C30014
+C30015,TRUE,C30015,TRUE,43.9636,-92.463062,US 63: NB @ 40th St. EB,near Rochester,https://video.dot.state.mn.us/video/image/metro/C30015

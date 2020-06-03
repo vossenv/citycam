@@ -36,15 +36,15 @@ public class FullTextSearch<T> {
     }
 
     public List<T> search(String query) throws SearchFailedException {
-        return search(new SearchParameters.Create().query(query).get());
+        return search(SearchParameters.fromQuery(query));
     }
 
     public List<T> search(String query, int page, int size) throws SearchFailedException {
-        return search(new SearchParameters.Create().query(query).pageable(PageRequest.of(page, size)).get());
+        return search(SearchParameters.fromQuery(query).withPageable(PageRequest.of(page, size)));
     }
 
     public int count(String query) throws SearchFailedException {
-        return count(new SearchParameters.Create().query(query).get());
+        return count(SearchParameters.fromQuery(query));
     }
 
     public List<T> search(SearchParameters sp) throws SearchFailedException {

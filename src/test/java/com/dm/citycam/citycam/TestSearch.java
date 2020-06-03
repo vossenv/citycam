@@ -3,7 +3,9 @@ package com.dm.citycam.citycam;
 
 import com.dm.citycam.citycam.data.entity.CamSource;
 import com.dm.citycam.citycam.data.service.CamSourceService;
+import com.dm.citycam.citycam.exception.SearchFailedException;
 import com.dm.citycam.citycam.search.FullTextSearch;
+import com.dm.citycam.citycam.search.SearchFilter;
 import com.dm.citycam.citycam.search.SearchParameters;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,9 +14,9 @@ import org.springframework.test.context.TestPropertySource;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
+import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @TestPropertySource(locations = "classpath:application-test-full.properties")
@@ -33,48 +35,47 @@ class TestSearch {
         fullTextSearch.setEntityType(CamSource.class);
     }
 
-//    @Test
-//    void testNormalQueries() {
-//        Arrays.stream(queries).forEach(s ->
-//                assertDoesNotThrow(() -> fullTextSearch.search(s))
-//        );
-//    }
+    @Test
+    void testNormalQueries() {
+        Arrays.stream(queries).forEach(s ->
+                assertDoesNotThrow(() -> fullTextSearch.search(s))
+        );
+    }
 
-//    @Test
-//    void testSearchExceptions() {
-//        Arrays.stream(failqueries).forEach(s ->
-//                assertThrows(SearchFailedException.class, () -> {System.out.println(s); fullTextSearch.search(s);}));
-//    }
+    @Test
+    void testSearchExceptions() {
+        Arrays.stream(failqueries).forEach(s ->
+                assertThrows(SearchFailedException.class, () ->
+                {
+                    System.out.println(s);
+                    fullTextSearch.search(s);
+                }));
+    }
 
-//    @Test
-//    void testFilter() throws Exception {
-//        assertEquals(fullTextSearch.count(""), 17);
-//        assertEquals(fullTextSearch.count(new SearchParameters.Builder().enabledOnly().build()),16);
-//        assertEquals(fullTextSearch.count("phonybalogna@yourdomain.com"), 1);
-//        assertEquals(fullTextSearch.count(
-//                new SearchParameters.Builder().withQuery("phonybalogna@yourdomain.com").enabledOnly().build()), 0);
-//    }
-//
-//    @Test
-//    void indexNewItem() throws Exception {
-//        CamSource c = new CamSource();
-//        c.setAuthor("Carag");
-//        c.setAnswer("What is the question");
-//        c.setQuestion("What is the answer");
-//        c = challengeService.save(c);
-//        assertEquals(fullTextSearch.search(c.getCamSourceId().toString()).size(), 1);
-//        challengeService.deleteById(c.getCamSourceId());
-//    }
-//
-//    @Test
-//    void indexDeletedItem() throws Exception {
-//        CamSource c = camSourceService.findAll().get(0);
-//        SearchParameters params = new SearchParameters(c.getId(),20);
-//        assertEquals(fullTextSearch.search(params).size(), 1);
-//        camSourceService.deleteById(c.getId());
-//        assertEquals(fullTextSearch.search(params).size(), 0);
-//
-//    }
+    @Test
+    void testFilter() throws Exception {
+        assertEquals(fullTextSearch.count(SearchParameters.fromQuery("*").withFilter(SearchFilter.DISABLED_ONLY)), 2);
+        assertEquals(fullTextSearch.count(SearchParameters.fromQuery("disabled").withFilter(SearchFilter.DISABLED_ONLY)), 2);
+        assertEquals(fullTextSearch.count("disabled"), 0);
+    }
+
+    @Test
+    void indexNewItem() throws Exception {
+        CamSource c = new CamSource();
+        c.setId("123456789");
+        c = camSourceService.save(c);
+        assertEquals(fullTextSearch.search(SearchParameters.fromQuery(c.getId())).size(), 1);
+        camSourceService.deleteById(c.getId());
+    }
+
+    @Test
+    void indexDeletedItem() throws Exception {
+        CamSource c = camSourceService.findAll().get(0);
+        SearchParameters params = SearchParameters.fromQuery(c.getId()).withPrecision(20);
+        assertEquals(fullTextSearch.search(params).size(), 1);
+        camSourceService.deleteById(c.getId());
+        assertEquals(fullTextSearch.search(params).size(), 0);
+    }
 
     @Test
     void testResultCount() throws Exception {
@@ -84,17 +85,21 @@ class TestSearch {
 
     @Test
     void testPagedSearch() throws Exception {
+        int pageSize = 100;
+        int count = fullTextSearch.count("*");
+        int expectPages = (int) Math.ceil((double) count / (double) pageSize);
+
         int total = 0;
-        for (int i = 0; i < 15; i++) {
-            int pageSize = fullTextSearch.search("",i,100).size();
-            if (pageSize == 0) {
-                assertEquals(9, i);
+        for (int i = 0; i <= expectPages; i++) {
+            int resultsSize = fullTextSearch.search("*", i, pageSize).size();
+            if (resultsSize == 0) {
+                assertEquals(expectPages, i);
                 break;
             }
-            total += pageSize;
-            if (i < 8) assertEquals(100, pageSize);
+            total += resultsSize;
+            if (i < expectPages - 1) assertEquals(pageSize, resultsSize);
         }
-        assertEquals(total, 827);
+        assertEquals(total, count);
     }
 
     private static final String[] queries = {
