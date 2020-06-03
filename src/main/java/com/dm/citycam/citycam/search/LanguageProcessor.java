@@ -9,11 +9,14 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import static java.util.Arrays.stream;
 
 public class LanguageProcessor {
 
+    private static final String URL_ESCAPE_SEARCH = "((?<=(https|ldaps))|(?<=(http|ldap))|(?<=(ftp|tcp))):";
+    private static final String URL_ENC_SEARCH = "(http|ldap|tcp|ftp)s?(:\\/\\/).*?(?=\\s)";
     private static final String KEYWORD_SEARCH = "\\S+\\s*:\\s*\".*?\"|\\S+\\s*:\\s*\\S*";
     private static final String QUOTE_SEARCH = "(?<=\\(|^|\\s)((?<!\\\\)\").+?((?<!\\\\)\")(?=$|\\s|\\))";
     private static final String ESCAPED_CHARS = "\\ + - ! { } [ ] ^ ? /";
@@ -37,23 +40,28 @@ public class LanguageProcessor {
         query = query.replaceAll(SKIP_BOOL, "").trim();
         if (query.isEmpty()) return "*";
 
+        query = newFindEncode(URL_ENC_SEARCH, query, false);
         query = newFindEncode(QUOTE_SEARCH, query, false);
         query = newFindEncode(KEYWORD_SEARCH, query, true);
         return decodeQuery(query);
     }
 
-    private String decodeQuery(String query) {
+    private String decodeQuery(String query) throws ParseException {
 
         query = query.replaceAll("\\)", " )");
         StringBuilder sb = new StringBuilder();
         stream(query.split("\\s+")).map(this::addTermSuffix).forEach(sb::append);
         query = decodeString(sb.toString().replaceAll(" \\)", ")"));
+        query = newFindEncode(URL_ENC_SEARCH, query, false);
 
         for (String c : ESCAPED_CHARS.split(" ")) {
             query = query.replace(c, "\\" + c);
         }
 
-        return query.trim().replaceAll("\\\\\"", "\\\"");
+        query = stream(query.split("\\s+"))
+                .map(this::decodeString).collect(Collectors.joining(" "));
+        query = query.trim().replaceAll("\\\\\"", "\\\"");
+        return query.replaceAll(URL_ESCAPE_SEARCH, "\\\\:");
     }
 
     private String addTermSuffix(String term) {

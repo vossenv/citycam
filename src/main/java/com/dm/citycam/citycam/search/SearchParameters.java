@@ -17,6 +17,7 @@ public class SearchParameters {
     private Pageable pageable = PageRequest.of(0, 100);
     private SearchFilter filter = SearchFilter.ENABLED_ONLY;
     private int precision = 3;
+    private double relavence = 0;
 
     public SearchParameters(String query) {
         this.query = query;
@@ -53,6 +54,11 @@ public class SearchParameters {
 
     public SearchParameters withPageNumber(int number) {
         this.pageable = PageRequest.of(number, this.pageable.getPageSize());
+        return this;
+    }
+
+    public SearchParameters withRelavence(double relavence) {
+        this.relavence = relavence;
         return this;
     }
 }

@@ -1,12 +1,16 @@
 package com.dm.citycam.citycam.data.entity;
 
+import com.dm.citycam.citycam.search.fieldbridge.RelURLFieldBridge;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.lucene.analysis.core.KeywordAnalyzer;
+import org.hibernate.search.annotations.Analyzer;
 import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.FieldBridge;
 import org.hibernate.search.annotations.Indexed;
 import org.hibernate.search.bridge.builtin.DoubleBridge;
+import org.hibernate.search.bridge.builtin.UrlBridge;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -31,6 +35,8 @@ public class CamSource extends EntityBase<String> {
     private String id;
 
     @Field
+    //@FieldBridge(impl = RelURLFieldBridge.class)
+    //@Analyzer(impl = KeywordAnalyzer.class)
     @Column(name = "url", columnDefinition = "VARCHAR(500)")
     private String url;
 

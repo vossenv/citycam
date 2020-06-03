@@ -51,7 +51,7 @@ public class CamSourceController {
                 r.getQuery(),
                 r.getPageable(),
                 r.getFilter(),
-                r.getPrecision()));
+                r.getPrecision(), 0.0));
 
         r.updateResults(sr.getResultTotalCount(), sr.getSearchTime());
         return ResponseEntity.ok()

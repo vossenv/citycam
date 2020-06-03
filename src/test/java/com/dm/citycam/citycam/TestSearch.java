@@ -84,6 +84,18 @@ class TestSearch {
     }
 
     @Test
+    void testURL() throws Exception {
+
+        CamSource s = camSourceService.findById("C621");
+        SearchParameters p = SearchParameters.fromQuery("https://video.dot.state.mn.us/video/image/metro/C621")
+                .withFilter(SearchFilter.INCLUDE_DISABLED).withPrecision(100);
+        Object j = fullTextSearch.search(p);
+        Object q = fullTextSearch.search("video/image/metro/C621");
+
+        System.out.println();
+    }
+
+    @Test
     void testPagedSearch() throws Exception {
         int pageSize = 100;
         int count = fullTextSearch.count("*");

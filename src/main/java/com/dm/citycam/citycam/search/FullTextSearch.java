@@ -30,6 +30,7 @@ public class FullTextSearch<T> {
     private final FullTextEntityManager fullTextEm;
     private MultiFieldQueryParser queryParser;
 
+
     @Inject
     public FullTextSearch(EntityManagerFactory emf) {
         this.fullTextEm = Search.getFullTextEntityManager(emf.createEntityManager());
@@ -68,7 +69,10 @@ public class FullTextSearch<T> {
 
             Query r = queryParser.parse(query);
             FullTextQuery jpaQuery = fullTextEm.createFullTextQuery(r, entityType);
-            return jpaQuery.setMaxResults(p.getPageSize()).setFirstResult(p.getPageNumber() * p.getPageSize());
+
+            FullTextQuery q = jpaQuery.setMaxResults(p.getPageSize()).setFirstResult(p.getPageNumber() * p.getPageSize());
+            q.setProjection(FullTextQuery.SCORE, FullTextQuery.THIS);
+            return q;
 
         } catch (ParseException e) {
             throw new SearchFailedException(e.getStackTrace(),
@@ -81,7 +85,6 @@ public class FullTextSearch<T> {
         queryParser = new MultiFieldQueryParser(getEntityFields(entityType), fullTextEm.getSearchFactory().getAnalyzer(entityType));
         queryParser.setAllowLeadingWildcard(true);
         this.entityType = entityType;
-
     }
 
     private String[] getEntityFields(Class<?> c) {
