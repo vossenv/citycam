@@ -15,11 +15,11 @@ import static java.util.Arrays.stream;
 
 public class LanguageProcessor {
 
-    private static final String URL_ESCAPE_SEARCH = "((?<=(https|ldaps))|(?<=(http|ldap))|(?<=(ftp|tcp))):";
+    //private static final String URL_ESCAPE_SEARCH = "((?<=(https|ldaps))|(?<=(http|ldap))|(?<=(ftp|tcp))):";
     private static final String URL_ENC_SEARCH = "(http|ldap|tcp|ftp)s?(:\\/\\/).*?(?=\\s)";
     private static final String KEYWORD_SEARCH = "\\S+\\s*:\\s*\".*?\"|\\S+\\s*:\\s*\\S*";
     private static final String QUOTE_SEARCH = "(?<=\\(|^|\\s)((?<!\\\\)\").+?((?<!\\\\)\")(?=$|\\s|\\))";
-    private static final String ESCAPED_CHARS = "\\ + - ! { } [ ] ^ ? /";
+    private static final String ESCAPED_CHARS = "\\ + - ! { } [ ] ^ ?";
 
     private static final String END_BOOL = "(\\s*(AND|OR|NOT)\\s*)";
     private static final String SKIP_BOOL = String.format("^%s*|%<s*$", END_BOOL);
@@ -52,16 +52,19 @@ public class LanguageProcessor {
         StringBuilder sb = new StringBuilder();
         stream(query.split("\\s+")).map(this::addTermSuffix).forEach(sb::append);
         query = decodeString(sb.toString().replaceAll(" \\)", ")"));
-        query = newFindEncode(URL_ENC_SEARCH, query, false);
+        //query = newFindEncode(URL_ENC_SEARCH, query, false);
 
         for (String c : ESCAPED_CHARS.split(" ")) {
             query = query.replace(c, "\\" + c);
+            //query = query.replace(c, " ");
         }
 
         query = stream(query.split("\\s+"))
                 .map(this::decodeString).collect(Collectors.joining(" "));
         query = query.trim().replaceAll("\\\\\"", "\\\"");
-        return query.replaceAll(URL_ESCAPE_SEARCH, "\\\\:");
+        return query.replaceAll("/+"," ");
+
+        //return query.replaceAll(URL_ESCAPE_SEARCH, "\\\\:");
     }
 
     private String addTermSuffix(String term) {

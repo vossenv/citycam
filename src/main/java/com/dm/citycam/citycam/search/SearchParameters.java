@@ -16,8 +16,8 @@ public class SearchParameters {
     private String query = "";
     private Pageable pageable = PageRequest.of(0, 100);
     private SearchFilter filter = SearchFilter.ENABLED_ONLY;
-    private int precision = 3;
-    private double relavence = 0;
+    private int precision = 6;
+    private double relevance = 0.2;
 
     public SearchParameters(String query) {
         this.query = query;
@@ -57,8 +57,8 @@ public class SearchParameters {
         return this;
     }
 
-    public SearchParameters withRelavence(double relavence) {
-        this.relavence = relavence;
+    public SearchParameters withRelevance(double relevance) {
+        this.relevance = relevance;
         return this;
     }
 }

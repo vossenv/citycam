@@ -3,7 +3,7 @@ package com.dm.citycam.citycam.data.service;
 import com.dm.citycam.citycam.exception.SearchFailedException;
 import com.dm.citycam.citycam.search.FullTextSearch;
 import com.dm.citycam.citycam.search.SearchParameters;
-import com.dm.citycam.citycam.search.SearchResult;
+import com.dm.citycam.citycam.search.SearchResultCollection;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.dao.InvalidDataAccessApiUsageException;
@@ -51,15 +51,9 @@ public abstract class GenService<T, ID> {
 
 //    }
 
-    public SearchResult<T> search(SearchParameters searchParameters) throws SearchFailedException {
+    public SearchResultCollection<T> search(SearchParameters searchParameters) throws SearchFailedException {
         try {
-            long startTime = System.nanoTime();
-            return new SearchResult<T>(
-                    fullTextSearch.count(searchParameters),
-                    fullTextSearch.search(searchParameters),
-                    (System.nanoTime() - startTime) * 1.0e-9
-            );
-
+            return fullTextSearch.search(searchParameters);
         } catch (Exception e) {
             throw (e instanceof SearchFailedException) ? (SearchFailedException) e
                     : new SearchFailedException(ExceptionUtils.getRootCauseMessage(e));
@@ -91,6 +85,7 @@ public abstract class GenService<T, ID> {
         }
     }
 
+    @SuppressWarnings("OptionalGetWithoutIsPresent")
     public T findById(ID id) {
         try {
             return repository.findById(id).get();
@@ -106,10 +101,6 @@ public abstract class GenService<T, ID> {
     }
 
     public T patch(Map<String, Object> fields, ID id, boolean force) throws IllegalAccessException {
-
-        if (force && fields.isEmpty()) {
-            throw new IllegalArgumentException("Cannot patch, no data provided!");
-        }
 
         T entity = findById(id);
 

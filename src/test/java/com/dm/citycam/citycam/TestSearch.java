@@ -7,8 +7,10 @@ import com.dm.citycam.citycam.exception.SearchFailedException;
 import com.dm.citycam.citycam.search.FullTextSearch;
 import com.dm.citycam.citycam.search.SearchFilter;
 import com.dm.citycam.citycam.search.SearchParameters;
+import com.dm.citycam.citycam.search.SearchResult;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.TestPropertySource;
 
@@ -25,20 +27,20 @@ class TestSearch {
 
 
     @Inject
-    FullTextSearch<CamSource> fullTextSearch;
+    FullTextSearch<CamSource> fts;
 
     @Inject
-    CamSourceService camSourceService;
+    CamSourceService cs;
 
     @PostConstruct
     private void setType() {
-        fullTextSearch.setEntityType(CamSource.class);
+        fts.setEntityType(CamSource.class);
     }
 
     @Test
     void testNormalQueries() {
         Arrays.stream(queries).forEach(s ->
-                assertDoesNotThrow(() -> fullTextSearch.search(s))
+                assertDoesNotThrow(() -> fts.search(s))
         );
     }
 
@@ -48,49 +50,53 @@ class TestSearch {
                 assertThrows(SearchFailedException.class, () ->
                 {
                     System.out.println(s);
-                    fullTextSearch.search(s);
+                    fts.search(s);
                 }));
     }
 
     @Test
     void testFilter() throws Exception {
-        assertEquals(fullTextSearch.count(SearchParameters.fromQuery("*").withFilter(SearchFilter.DISABLED_ONLY)), 2);
-        assertEquals(fullTextSearch.count(SearchParameters.fromQuery("disabled").withFilter(SearchFilter.DISABLED_ONLY)), 2);
-        assertEquals(fullTextSearch.count("disabled"), 0);
+        assertEquals(fts.count(SearchParameters.fromQuery("*").withFilter(SearchFilter.DISABLED_ONLY)), 2);
+        assertEquals(fts.count(SearchParameters.fromQuery("disabled").withFilter(SearchFilter.DISABLED_ONLY)), 2);
+        assertEquals(fts.count("disabled"), 0);
     }
 
     @Test
     void indexNewItem() throws Exception {
         CamSource c = new CamSource();
         c.setId("123456789");
-        c = camSourceService.save(c);
-        assertEquals(fullTextSearch.search(SearchParameters.fromQuery(c.getId())).size(), 1);
-        camSourceService.deleteById(c.getId());
+        c = cs.save(c);
+        assertEquals(fts.count(SearchParameters.fromQuery(c.getId())), 1);
+        cs.deleteById(c.getId());
     }
 
     @Test
     void indexDeletedItem() throws Exception {
-        CamSource c = camSourceService.findAll().get(0);
-        SearchParameters params = SearchParameters.fromQuery(c.getId()).withPrecision(20);
-        assertEquals(fullTextSearch.search(params).size(), 1);
-        camSourceService.deleteById(c.getId());
-        assertEquals(fullTextSearch.search(params).size(), 0);
+        CamSource c = cs.findAll().get(0);
+        SearchParameters sp = SearchParameters.fromQuery(c.getId()).withPrecision(20);
+        assertEquals(fts.count(sp), 1);
+        cs.deleteById(c.getId());
+        assertEquals(fts.count(sp), 0);
     }
 
     @Test
     void testResultCount() throws Exception {
-        int count = fullTextSearch.count("");
-        assertEquals(count, 827);
+        assertEquals(fts.count(), 827);
     }
 
     @Test
     void testURL() throws Exception {
+//        CamSource s = cs.findById("c621");
+//        SearchResult<CamSource> k = fts.search(
+//                "https://video.dot.state.mn.us/video/image/metro/C621")
+//                .getResultList().get(0);
+//
+//        CamSource x = k.getEntity();
+//        assertEquals(s, k.getEntity());
 
-        CamSource s = camSourceService.findById("C621");
-        SearchParameters p = SearchParameters.fromQuery("https://video.dot.state.mn.us/video/image/metro/C621")
-                .withFilter(SearchFilter.INCLUDE_DISABLED).withPrecision(100);
-        Object j = fullTextSearch.search(p);
-        Object q = fullTextSearch.search("video/image/metro/C621");
+//        Object q1 = fts.search("https://video.dot.state.mn.us/video/image/metro/C621");
+//        Object q = fts.search("video/image/metro/C621");
+        Object q = fts.search("\"I-35W: SB @ 42nd\"");
 
         System.out.println();
     }
@@ -98,12 +104,12 @@ class TestSearch {
     @Test
     void testPagedSearch() throws Exception {
         int pageSize = 100;
-        int count = fullTextSearch.count("*");
+        int count = fts.count("*");
         int expectPages = (int) Math.ceil((double) count / (double) pageSize);
 
         int total = 0;
         for (int i = 0; i <= expectPages; i++) {
-            int resultsSize = fullTextSearch.search("*", i, pageSize).size();
+            int resultsSize = fts.count(new SearchParameters().withPageable(PageRequest.of(i, pageSize)));
             if (resultsSize == 0) {
                 assertEquals(expectPages, i);
                 break;

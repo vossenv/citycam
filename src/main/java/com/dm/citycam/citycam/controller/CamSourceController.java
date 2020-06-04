@@ -9,7 +9,7 @@ import com.dm.citycam.citycam.data.service.CamSourceService;
 import com.dm.citycam.citycam.exception.InvalidParameterException;
 import com.dm.citycam.citycam.exception.SearchFailedException;
 import com.dm.citycam.citycam.search.SearchParameters;
-import com.dm.citycam.citycam.search.SearchResult;
+import com.dm.citycam.citycam.search.SearchResultCollection;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -47,16 +47,17 @@ public class CamSourceController {
     public Object search(HttpServletRequest request) throws InvalidParameterException, SearchFailedException {
 
         RequestInfo r = new RequestInfo(request);
-        SearchResult<CamSource> sr = cs.search(new SearchParameters(
+        SearchResultCollection<CamSource> sr = cs.search(new SearchParameters(
                 r.getQuery(),
                 r.getPageable(),
                 r.getFilter(),
                 r.getPrecision(), 0.0));
 
-        r.updateResults(sr.getResultTotalCount(), sr.getSearchTime());
-        return ResponseEntity.ok()
-                .headers(r.getHeaders())
-                .body(assembler.toCollectionModel(sr.getResultList(), r));
+        r.updateResults(sr.getTotalCount(), sr.getSearchTime());
+//        return ResponseEntity.ok()
+//                .headers(r.getHeaders())
+//                .body(assembler.toCollectionModel(sr.getResultList(), r));
+        return null;
     }
 
     @GetMapping("/{id}")
